@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/schemas/mcp.json",
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "description": "Acceso seguro al filesystem del proyecto. Permite a Claude leer y escribir archivos sin pedir confirmación constantemente."
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "description": "Documentación actualizada de librerías. Útil para Next.js 15, Tailwind v4, next-intl, Keystatic y shadcn cuando los docs cambian."
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shadcn@latest",
+        "mcp"
+      ],
+      "description": "Registry de componentes shadcn/ui actualizada. Permite añadir componentes con la última versión sin guesstimating."
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ],
+      "description": "Navegador automatizado. Útil para verificar que la home se ve bien en móvil (375px) y desktop (1280px) sin tener que abrir manualmente el navegador."
+    },
+    "git": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cyanheads/git-mcp-server"
+      ],
+      "description": "Operaciones de git seguras. Status, diff, commits, branches sin tener que ejecutar bash explícitamente."
+    }
+  }
+}

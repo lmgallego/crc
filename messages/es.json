@@ -1,0 +1,15 @@
+{
+  "common": {
+    "siteName": "Cycling Research Center",
+    "siteShortName": "CRC",
+    "tagline": "Ciencia aplicada al ciclismo"
+  },
+  "nav": {
+    "filosofia": "Filosofía",
+    "servicios": "Servicios",
+    "equipo": "Equipo",
+    "publicaciones": "Publicaciones",
+    "blog": "Blog",
+    "contacto": "Contacto"
+  }
+}
