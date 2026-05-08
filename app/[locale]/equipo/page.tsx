@@ -51,11 +51,16 @@ function Groups() {
     <>
       {groups.map(([role, members]) => (
         <section key={role} className="border-t border-border">
-          <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-14">
-            <h2 className="data-label mb-6">{t(`roles.${roleI18nKey(role)}`)}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+          <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-12">
+            <h2 className="data-label mb-5">{t(`roles.${roleI18nKey(role)}`)}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {members.map((m) => (
-                <TeamCard key={m.slug} member={m} locale={locale} />
+                <TeamCard
+                  key={m.slug}
+                  member={m}
+                  locale={locale}
+                  showRole={false}
+                />
               ))}
             </div>
           </div>

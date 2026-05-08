@@ -10,10 +10,12 @@ export function TeamCard({
   member,
   locale,
   variant = 'horizontal',
+  showRole = true,
 }: {
   member: TeamMember;
   locale: Locale;
   variant?: 'default' | 'horizontal';
+  showRole?: boolean;
 }) {
   const t = useTranslations('team');
   const dorsal = String(member.number).padStart(3, '0');
@@ -34,9 +36,15 @@ export function TeamCard({
         <PortraitTall dorsal={dorsal} />
       )}
       <div className={cn('flex-1 min-w-0', variant === 'default' && 'p-4')}>
-        <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-accent-dark">
-          {role}
-        </div>
+        {showRole ? (
+          <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-accent-dark">
+            {role}
+          </div>
+        ) : (
+          <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-muted">
+            {member.specialty[locale]}
+          </div>
+        )}
         <div className="font-serif text-lg leading-[1.1] tracking-[-0.02em] mt-1">
           {member.name} {member.surname}
           <span className="font-mono text-[10px] uppercase ml-1.5 text-muted">
