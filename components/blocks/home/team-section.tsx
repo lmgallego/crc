@@ -79,7 +79,12 @@ function FeaturedFounder({ locale }: { locale: Locale }) {
 
           <div className="flex flex-wrap gap-2 mt-3">
             <Button asChild variant="accent" size="sm">
-              <Link href={`/equipo/${FOUNDER.slug}`}>
+              <Link
+                href={{
+                  pathname: '/equipo/[slug]',
+                  params: { slug: FOUNDER.slug },
+                }}
+              >
                 {t('ctaPrimary')} →
               </Link>
             </Button>

@@ -1,4 +1,7 @@
+import type { ComponentProps } from "react";
 import { Link } from "@/i18n/navigation";
+
+type Href = ComponentProps<typeof Link>["href"];
 
 export function SectionHeader({
   number,
@@ -11,7 +14,7 @@ export function SectionHeader({
   eyebrow: string;
   title: string;
   cta?: string;
-  ctaHref?: string;
+  ctaHref?: Href;
 }) {
   return (
     <header className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-8 mb-8 md:mb-12">

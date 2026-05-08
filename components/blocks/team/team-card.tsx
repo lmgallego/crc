@@ -15,7 +15,7 @@ export function TeamCard({
 }) {
   return (
     <Link
-      href={`/equipo/${member.slug}`}
+      href={{ pathname: '/equipo/[slug]', params: { slug: member.slug } }}
       className={cn(
         'group flex gap-4 items-start bg-card border border-border rounded-md p-3.5 hover:border-foreground/30 transition-colors',
         variant === 'default' && 'flex-row',

@@ -147,5 +147,79 @@
       "ctaPrimary": "Hablemos",
       "ctaSecondary": "info@crc.org"
     }
+  },
+  "philosophy": {
+    "hero": {
+      "eyebrow": "Manifiesto · Cycling Research Center",
+      "title": "De Ciclismo 1.0 a <highlight>Ciclismo 3.0</highlight>.",
+      "subtitle": "Tres paradigmas que definen cómo entendemos el ciclismo hoy y hacia dónde vamos.",
+      "anchorPrinciples": "Principios"
+    },
+    "intro": "El deporte está en constante evolución. Las demandas del rendimiento, la ciencia y la tecnología avanzan a un ritmo sin precedentes, y con ellas la necesidad de contar con metodologías que estén a la altura. Por eso hemos construido nuestro trabajo sobre tres paradigmas que definen cómo entendemos el ciclismo hoy y hacia dónde vamos.",
+    "p1": {
+      "eyebrow": "Paradigma · 01",
+      "subtitle": "Lo que dejamos atrás",
+      "title": "Jerarquía, intuición y secretismo.",
+      "body": "El Ciclismo 1.0 se basaba en la jerarquía, la intuición y el secretismo. El entrenamiento dependía del criterio tácito del entrenador —generalmente un médico—, sin colaboración científica estructurada. Esa opacidad permitió que prácticas que cruzaban límites éticos, médicos y profesionales prosperaran en la sombra. Los escándalos de dopaje de los años 90 y 2000 no fueron solo una crisis moral: fueron una <em>crisis de conocimiento</em>.",
+      "callout": {
+        "eyebrow": "Lo que 2.0 y 3.0 rechazan",
+        "l1": "No preguntes, hazlo.",
+        "l2": "Yo sé, tú obedeces.",
+        "l3": "Siempre se ha hecho así.",
+        "caption": "Frases que el Ciclismo 2.0 y 3.0 rechazan de pleno."
+      },
+      "closing": "Ese modelo está superado."
+    },
+    "p2": {
+      "eyebrow": "Paradigma · 02",
+      "subtitle": "El ciclista, protagonista",
+      "title": "Datos. Equipo multidisciplinar. Educación.",
+      "body1": "El Ciclismo 2.0, conceptualizado por Zabala y Atkinson (2012), supuso una revolución tanto científica como ética. El atleta dejó de ser un sujeto pasivo para convertirse en el actor principal de su propio proceso. Las decisiones de rendimiento pasaron a basarse en datos reproducibles —potencia, variabilidad de la frecuencia cardíaca (HRV), umbrales de lactato, biomecánica…— interpretados por un equipo multidisciplinar.",
+      "body2": "Este modelo se apoya en el trabajo colaborativo entre ciclista, entrenador, fisioterapeuta, médico, nutricionista o psicólogo. No como la suma de partes, sino como un sistema integrado donde la información fluye en todas direcciones y el conocimiento es compartido por el bien del deportista y de todo el equipo.",
+      "callout": {
+        "eyebrow": "Pilar fundamental",
+        "text": "<strong>Educación</strong>: el atleta comprende sus propios datos, participa en la planificación y crece en autonomía. El principio pedagógico tiene el mismo rango que cualquier otro principio del entrenamiento."
+      },
+      "aside": "Journal of Science and Cycling — paradigma fundacional"
+    },
+    "p3": {
+      "eyebrow": "Paradigma · 03 · Nosotros",
+      "subtitle": "La era aumentada por IA",
+      "title": "El 3.0 no reemplaza al 2.0. <highlight>Lo amplifica.</highlight>",
+      "body1": "Estamos ante el comienzo de una era aumentada por inteligencia artificial (IA), intensiva en datos y dependiente de marcos de gobernanza responsables.",
+      "body2": "La IA introduce analítica predictiva, aprendizaje automático y modelos de gemelo digital en las ciencias del deporte. Bien implementada, puede integrar datos de múltiples sensores, mejorar la seguridad mediante algoritmos de alerta temprana, apoyar la lucha antidopaje con inteligencia de datos, y expandir la educación del atleta a través de interfaces de aprendizaje adaptativo.",
+      "pillar1": "Modelos transparentes",
+      "pillar2": "Flujos de datos auditables",
+      "pillar3": "Derecho humano a la decisión",
+      "warning": {
+        "eyebrow": "Advertencia",
+        "text": "Sin gobernanza ética sólida, la IA podría revertir los avances del 2.0. La opacidad algorítmica, la mercantilización de los datos y el acceso desigual generan nuevas vulnerabilidades."
+      },
+      "closing": "Por eso el 3.0 debe ser ética por diseño."
+    },
+    "principles": {
+      "eyebrow": "10 Principios",
+      "title": "Los principios del Ciclismo 3.0",
+      "p1": "La voluntad de mejorar de forma continua y fundamentada.",
+      "p2": "La curiosidad, el aprendizaje y la enseñanza como actitud permanente.",
+      "p3": "El trabajo en equipo colaborativo y multidisciplinar.",
+      "p4": "La comunicación multidireccional entre todos los actores.",
+      "p5": "La participación activa del ciclista en su plan de entrenamiento.",
+      "p6": "El conocimiento y uso crítico de las últimas tecnologías y avances científicos.",
+      "p7": "La comprensión de qué se está haciendo y por qué.",
+      "p8": "<strong>La Inteligencia Artificial es nuestro aliado, no nuestro sustituto.</strong> Hacemos un uso crítico, responsable y ético de la IA que nos ayuda a elevar nuestra calidad profesional y a ser más eficientes.",
+      "p9": "El trabajo sistemático, controlado y regular.",
+      "p10": "El juego limpio: deporte sin dopaje, con ética por diseño."
+    },
+    "quote": {
+      "text": "«El éxito del Ciclismo 3.0 no depende de la velocidad con que adoptamos nuevos algoritmos, sino de la <highlight>sabiduría con que los integramos</highlight> en una cultura de conocimiento compartido, respeto y responsabilidad.»",
+      "attribution": "— Mikel Zabala, 2025 · Journal of Science and Cycling"
+    },
+    "bridge": {
+      "eyebrow": "→ Siguiente",
+      "title": "¿Quién es <highlight>Ciclista 3.0</highlight>?",
+      "body": "El heredero del Atleta 2.0: protagonista indiscutible del proceso, ayudado por la IA pero con el derecho humano a la decisión.",
+      "cta": "Leer más"
+    }
   }
 }

@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import { usePathname, useRouter } from '@/i18n/navigation';
 
 export function LocaleSwitcher() {
-  const params = useParams<{ locale?: string }>();
+  const params = useParams();
   const locale = params.locale === 'en' ? 'en' : 'es';
   const pathname = usePathname();
   const router = useRouter();
@@ -14,7 +14,12 @@ export function LocaleSwitcher() {
   const switchTo = (next: 'es' | 'en') => {
     if (next === locale) return;
     startTransition(() => {
-      router.replace(pathname, { locale: next });
+      router.replace(
+        // Cast: usePathname's return type widens to all routes including
+        // dynamic ones, so we pass through pathname+params unchanged.
+        { pathname, params } as Parameters<typeof router.replace>[0],
+        { locale: next },
+      );
     });
   };
 

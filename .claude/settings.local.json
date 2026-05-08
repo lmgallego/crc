@@ -11,7 +11,14 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(pnpm lint *)",
-      "Bash(pnpm build *)"
+      "Bash(pnpm build *)",
+      "Bash(curl -s -o /dev/null -w \"ES /filosofia: %{http_code}\\\\n\" http://localhost:3000/filosofia)",
+      "Bash(curl -s -o /dev/null -w \"EN /philosophy: %{http_code}\\\\n\" http://localhost:3000/en/philosophy)",
+      "Bash(curl -s -o /dev/null -w \"EN /filosofia: %{http_code}\\\\n\" http://localhost:3000/en/filosofia)",
+      "Bash(curl -s -o /dev/null -w \"ES /: %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"ES /filosofia: %{http_code}\\\\n\" http://localhost:3002/filosofia)",
+      "Bash(curl -s -o /dev/null -w \"EN /philosophy: %{http_code}\\\\n\" http://localhost:3002/en/philosophy)",
+      "Bash(curl -s -o /dev/null -w \"ES /: %{http_code}\\\\n\" http://localhost:3002/)"
     ]
   }
 }

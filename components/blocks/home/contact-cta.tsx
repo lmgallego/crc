@@ -28,7 +28,7 @@ export function ContactCTA() {
             <p className="section-number mb-3">— {t('eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.025em]">
               {t.rich('title', {
-                em: (chunks) => <em>{chunks}</em>,
+                em: (chunks) => <em className="italic">{chunks}</em>,
                 br: () => <br />,
               })}
             </h2>

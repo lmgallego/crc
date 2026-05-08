@@ -147,5 +147,79 @@
       "ctaPrimary": "Let's talk",
       "ctaSecondary": "info@crc.org"
     }
+  },
+  "philosophy": {
+    "hero": {
+      "eyebrow": "Manifesto · Cycling Research Center",
+      "title": "From Cycling 1.0 to <highlight>Cycling 3.0</highlight>.",
+      "subtitle": "Three paradigms that define how we understand cycling today and where we're heading.",
+      "anchorPrinciples": "Principles"
+    },
+    "intro": "Sport is constantly evolving. The demands of performance, science and technology advance at an unprecedented pace, and with them the need for methodologies that match. That's why we've built our work on three paradigms that define how we understand cycling today and where we're heading.",
+    "p1": {
+      "eyebrow": "Paradigm · 01",
+      "subtitle": "What we leave behind",
+      "title": "Hierarchy, intuition and secrecy.",
+      "body": "Cycling 1.0 was based on hierarchy, intuition and secrecy. Training depended on the coach's tacit judgement —usually a doctor—, with no structured scientific collaboration. That opacity allowed practices that crossed ethical, medical and professional limits to thrive in the shadows. The doping scandals of the 90s and 2000s were not only a moral crisis: they were a <em>knowledge crisis</em>.",
+      "callout": {
+        "eyebrow": "What 2.0 and 3.0 reject",
+        "l1": "Don't ask, just do it.",
+        "l2": "I know, you obey.",
+        "l3": "That's how it's always been done.",
+        "caption": "Phrases that Cycling 2.0 and 3.0 firmly reject."
+      },
+      "closing": "That model is over."
+    },
+    "p2": {
+      "eyebrow": "Paradigm · 02",
+      "subtitle": "The cyclist takes the lead",
+      "title": "Data. Multidisciplinary team. Education.",
+      "body1": "Cycling 2.0, conceptualised by Zabala and Atkinson (2012), was both a scientific and ethical revolution. The athlete stopped being a passive subject and became the main actor in their own process. Performance decisions started to be based on reproducible data —power, heart rate variability (HRV), lactate thresholds, biomechanics…— interpreted by a multidisciplinary team.",
+      "body2": "This model relies on collaborative work between cyclist, coach, physiotherapist, doctor, nutritionist and psychologist. Not as a sum of parts, but as an integrated system where information flows in all directions and knowledge is shared for the good of the athlete and the whole team.",
+      "callout": {
+        "eyebrow": "Fundamental pillar",
+        "text": "<strong>Education</strong>: the athlete understands their own data, participates in planning and grows in autonomy. The pedagogical principle holds the same rank as any other training principle."
+      },
+      "aside": "Journal of Science and Cycling — founding paradigm"
+    },
+    "p3": {
+      "eyebrow": "Paradigm · 03 · Us",
+      "subtitle": "The era amplified by AI",
+      "title": "3.0 doesn't replace 2.0. <highlight>It amplifies it.</highlight>",
+      "body1": "We are at the beginning of an era amplified by artificial intelligence (AI), data-intensive and dependent on responsible governance frameworks.",
+      "body2": "AI introduces predictive analytics, machine learning and digital twin models into sports sciences. Well implemented, it can integrate data from multiple sensors, improve safety through early warning algorithms, support anti-doping through data intelligence, and expand athlete education through adaptive learning interfaces.",
+      "pillar1": "Transparent models",
+      "pillar2": "Auditable data flows",
+      "pillar3": "Human right to decide",
+      "warning": {
+        "eyebrow": "Warning",
+        "text": "Without solid ethical governance, AI could reverse the advances of 2.0. Algorithmic opacity, data commodification and unequal access generate new vulnerabilities."
+      },
+      "closing": "That's why 3.0 must be ethics by design."
+    },
+    "principles": {
+      "eyebrow": "10 Principles",
+      "title": "The principles of Cycling 3.0",
+      "p1": "The will to improve continuously and rigorously.",
+      "p2": "Curiosity, learning and teaching as a permanent attitude.",
+      "p3": "Collaborative, multidisciplinary teamwork.",
+      "p4": "Multidirectional communication between all actors.",
+      "p5": "The cyclist's active participation in their training plan.",
+      "p6": "Critical knowledge and use of the latest technologies and scientific advances.",
+      "p7": "Understanding what is being done and why.",
+      "p8": "<strong>Artificial Intelligence is our ally, not our replacement.</strong> We make critical, responsible and ethical use of AI that helps us raise our professional quality and be more efficient.",
+      "p9": "Systematic, controlled and regular work.",
+      "p10": "Fair play: sport without doping, with ethics by design."
+    },
+    "quote": {
+      "text": "\"The success of Cycling 3.0 doesn't depend on how fast we adopt new algorithms, but on the <highlight>wisdom with which we integrate them</highlight> into a culture of shared knowledge, respect and responsibility.\"",
+      "attribution": "— Mikel Zabala, 2025 · Journal of Science and Cycling"
+    },
+    "bridge": {
+      "eyebrow": "→ Next",
+      "title": "Who is <highlight>Cyclist 3.0</highlight>?",
+      "body": "The heir to Athlete 2.0: undisputed protagonist of the process, helped by AI but with the human right to decide.",
+      "cta": "Read more"
+    }
   }
 }

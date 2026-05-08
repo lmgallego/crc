@@ -56,7 +56,7 @@ export function BlogLatest() {
           {POSTS.map((post) => (
             <li key={post.slug} className="border-b border-border">
               <Link
-                href={`/blog/${post.slug}`}
+                href={{ pathname: '/blog/[slug]', params: { slug: post.slug } }}
                 className="group block py-5 md:py-6"
               >
                 {/* Mobile */}
