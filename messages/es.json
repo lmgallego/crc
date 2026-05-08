@@ -116,6 +116,36 @@
         "meta": "Doctorado · Máster · UCI",
         "cta": "Ver programas"
       }
+    },
+    "team": {
+      "eyebrow": "Equipo",
+      "title": "10 investigadores. Una misión.",
+      "cta": "Ver todos →",
+      "founder": {
+        "eyebrow": "— Fundador & Director del CRC",
+        "quote": "Catedrático en la Universidad de Granada. Co-autor del paradigma <em>Athlete 2.0</em> (2012) y autor del <em>Cycling 3.0</em> (2025). Director de Rendimiento del Movistar Team durante una década.",
+        "ctaPrimary": "Ver perfil completo",
+        "ctaSecondary": "Sus publicaciones"
+      },
+      "closingQuote": "«Provenimos de la competición real, con más de 25 años de experiencia al más alto nivel y éxitos cosechados, siempre cerca de los mejores ciclistas. <em>¿Eres tú el siguiente?</em>»"
+    },
+    "publications": {
+      "eyebrow": "Publicaciones",
+      "title": "<strong>100+</strong> artículos científicos publicados por el equipo.",
+      "body": "Investigación en revistas de impacto en biomecánica, fisiología, nutrición, psicología y antidopaje aplicados al ciclismo.",
+      "cta": "Ver publicaciones"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Últimos artículos",
+      "cta": "Ver blog →"
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Hemos entrenado a campeones mundiales y olímpicos.<br></br><em>¿Eres tú el siguiente?</em>",
+      "body": "Coaching, training camps, investigación o formación. Cuéntanos tu proyecto y te responderemos en menos de 48 horas.",
+      "ctaPrimary": "Hablemos",
+      "ctaSecondary": "info@crc.org"
     }
   }
 }

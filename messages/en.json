@@ -116,6 +116,36 @@
         "meta": "PhD · Master · UCI",
         "cta": "See programmes"
       }
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "10 researchers. One mission.",
+      "cta": "See all →",
+      "founder": {
+        "eyebrow": "— CRC Founder & Director",
+        "quote": "Full Professor at the University of Granada. Co-author of the <em>Athlete 2.0</em> paradigm (2012, with Greg Atkinson) and author of <em>Cycling 3.0</em> (2025). Movistar Team's Performance Director for a decade.",
+        "ctaPrimary": "See full profile",
+        "ctaSecondary": "His publications"
+      },
+      "closingQuote": "\"We come from real competition, with over 25 years of experience at the highest level and proven success, always close to the best cyclists. <em>Are you the next one?</em>\""
+    },
+    "publications": {
+      "eyebrow": "Publications",
+      "title": "<strong>100+</strong> scientific articles published by the team.",
+      "body": "Research in high-impact journals on biomechanics, physiology, nutrition, psychology and anti-doping applied to cycling.",
+      "cta": "See publications"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Latest articles",
+      "cta": "See blog →"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "We've trained world and Olympic champions.<br></br><em>Are you the next one?</em>",
+      "body": "Coaching, training camps, research or education. Tell us about your project and we'll get back to you in less than 48 hours.",
+      "ctaPrimary": "Let's talk",
+      "ctaSecondary": "info@crc.org"
     }
   }
 }
