@@ -10,7 +10,9 @@
     "equipo": "Equipo",
     "publicaciones": "Publicaciones",
     "blog": "Blog",
-    "contacto": "Contacto"
+    "contacto": "Contacto",
+    "menuTitle": "Menú principal",
+    "menuDescription": "Navegación del sitio Cycling Research Center"
   },
   "footer": {
     "tagline": "Ciencia aplicada al ciclismo. Bajo el paradigma Ciclismo 3.0: datos con ética por diseño.",
@@ -151,7 +153,7 @@
   "philosophy": {
     "hero": {
       "eyebrow": "Manifiesto · Cycling Research Center",
-      "title": "De Ciclismo 1.0 a <highlight>Ciclismo 3.0</highlight>.",
+      "title": "De Ciclismo 1.0 a <highlight>Ciclismo 3.0.</highlight>",
       "subtitle": "Tres paradigmas que definen cómo entendemos el ciclismo hoy y hacia dónde vamos.",
       "anchorPrinciples": "Principios"
     },

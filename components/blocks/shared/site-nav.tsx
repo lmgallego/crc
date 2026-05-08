@@ -4,7 +4,13 @@ import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+  SheetDescription,
+} from '@/components/ui/sheet';
 import { LogoCRC } from './logo-crc';
 import { LocaleSwitcher } from './locale-switcher';
 
@@ -72,7 +78,10 @@ export function SiteNav() {
               <Menu className="size-5" />
             </SheetTrigger>
             <SheetContent side="right" className="w-72">
-              <SheetTitle className="sr-only">Menú</SheetTitle>
+              <SheetTitle className="sr-only">{t('menuTitle')}</SheetTitle>
+              <SheetDescription className="sr-only">
+                {t('menuDescription')}
+              </SheetDescription>
               <nav className="flex flex-col gap-0 mt-8">
                 {NAV_ITEMS.map((item) => (
                   <Link
