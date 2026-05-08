@@ -1,5 +1,4 @@
-import { useTranslations } from 'next-intl';
-import { useParams } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
 import { SectionHeader } from '@/components/blocks/shared/section-header';
 import { TeamCard } from '@/components/blocks/team/team-card';
 import { Button } from '@/components/ui/button';
@@ -10,8 +9,7 @@ type Locale = 'es' | 'en';
 
 export function TeamSection() {
   const t = useTranslations('home.team');
-  const params = useParams<{ locale?: string }>();
-  const locale: Locale = params.locale === 'en' ? 'en' : 'es';
+  const locale: Locale = useLocale() === 'en' ? 'en' : 'es';
 
   return (
     <section className="border-t border-border">

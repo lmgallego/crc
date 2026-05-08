@@ -1,5 +1,4 @@
-import { useTranslations } from 'next-intl';
-import { useParams } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
 import { SectionHeader } from '@/components/blocks/shared/section-header';
 import { Link } from '@/i18n/navigation';
 
@@ -40,8 +39,7 @@ const POSTS = [
 
 export function BlogLatest() {
   const t = useTranslations('home.blog');
-  const params = useParams<{ locale?: string }>();
-  const locale: Locale = params.locale === 'en' ? 'en' : 'es';
+  const locale: Locale = useLocale() === 'en' ? 'en' : 'es';
 
   return (
     <section className="border-t border-border">
