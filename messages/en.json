@@ -21,5 +21,101 @@
   "services": {
     "research": "Research",
     "education": "Education"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Cycling Research Center · Science applied to cycling",
+      "title": "We research how <highlight>every watt</highlight> is won.",
+      "subtitle": "A sports science research group specialised in cycling. Coaching, research, training camps and education under the <em>Cycling 3.0</em> paradigm.",
+      "ctaPrimary": "Discover the method",
+      "ctaSecondary": "Contact us",
+      "stats": {
+        "experience": "Years of experience",
+        "publications": "Scientific publications",
+        "worldChampions": "World champions",
+        "olympicMedals": "Olympic medals"
+      }
+    },
+    "philosophy": {
+      "eyebrow": "Philosophy",
+      "title": "The CRC paradigm",
+      "cta": "Read manifesto →",
+      "paradigms": {
+        "1.0": {
+          "eyebrow": "Paradigm",
+          "title": "What we leave behind.",
+          "body": "Hierarchy, intuition and secrecy. Tacit decisions, with no scientific collaboration."
+        },
+        "2.0": {
+          "eyebrow": "Paradigm",
+          "title": "The cyclist takes the lead.",
+          "body": "Data, multidisciplinary team and education."
+        },
+        "3.0": {
+          "eyebrow": "Paradigm · Us",
+          "title": "The era amplified by <em>AI</em>.",
+          "body": "Analytics with ethical governance and human right to decide."
+        }
+      },
+      "timeline": {
+        "t1": {
+          "label": "1990s — 2000s",
+          "description": "Doping scandals and structural crisis of the Cycling 1.0 model."
+        },
+        "t2": {
+          "label": "2012 · 2.0 is born",
+          "description": "Zabala & Atkinson formalise Athlete 2.0 in Journal of Science and Cycling."
+        },
+        "t3": {
+          "label": "~2020",
+          "description": "Generative AI and predictive models burst into sport."
+        },
+        "t4": {
+          "label": "2025 · 3.0 is born",
+          "description": "Zabala publishes From Cycling 1.0 and 2.0 to Cycling 3.0."
+        },
+        "t5": {
+          "label": "Today",
+          "description": "We apply the 3.0 paradigm to elite performance."
+        }
+      },
+      "quote": {
+        "text": "\"3.0 doesn't replace 2.0. <highlight>It amplifies it.</highlight>\"",
+        "attribution": "— Zabala, 2025 · Journal of Science and Cycling"
+      }
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "What we do.",
+      "cta": "See all →",
+      "research": {
+        "code": "Research",
+        "title": "Scientific research applied to cycling.",
+        "body": "We study what moves cycling and publish what we discover. Physiology, biomechanics, anti-doping, psychology and artificial intelligence.",
+        "badge": "100+ PAPERS",
+        "cta": "See research"
+      },
+      "coaching": {
+        "code": "Coaching",
+        "title": "Coaching grounded in Cycling 3.0.",
+        "body": "Individual programmes and pro teams. We've trained world and Olympic champions.",
+        "meta": "25+ years · WT",
+        "cta": "Request coaching"
+      },
+      "training-camps": {
+        "code": "Training Camps",
+        "title": "Camps across the Mediterranean.",
+        "body": "Designed for groups and pro teams with full scientific support.",
+        "meta": "Almería · Granada · Alicante",
+        "cta": "Design your camp"
+      },
+      "formacion": {
+        "code": "Education",
+        "title": "Scientific education for coaches.",
+        "body": "Federation courses, mentoring and university programmes.",
+        "meta": "PhD · Master · UCI",
+        "cta": "See programmes"
+      }
+    }
   }
 }
