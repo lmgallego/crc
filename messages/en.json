@@ -11,5 +11,15 @@
     "publicaciones": "Publications",
     "blog": "Blog",
     "contacto": "Contact"
+  },
+  "footer": {
+    "tagline": "Science applied to cycling. Under the Cycling 3.0 paradigm: data with ethics by design.",
+    "sectionsTitle": "Sections",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact"
+  },
+  "services": {
+    "research": "Research",
+    "education": "Education"
   }
 }

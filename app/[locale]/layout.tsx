@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Instrument_Serif, Geist, JetBrains_Mono } from 'next/font/google';
 import { routing } from '@/i18n/routing';
+import { SiteNav } from '@/components/blocks/shared/site-nav';
+import { SiteFooter } from '@/components/blocks/shared/site-footer';
 import '../globals.css';
 
 const instrumentSerif = Instrument_Serif({
@@ -42,8 +44,12 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${instrumentSerif.variable} ${geist.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="antialiased bg-background text-foreground">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      <body className="antialiased bg-background text-foreground min-h-screen flex flex-col">
+        <NextIntlClientProvider>
+          <SiteNav />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
