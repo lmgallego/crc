@@ -10,11 +10,23 @@ export const routing = defineRouting({
       es: '/filosofia',
       en: '/philosophy',
     },
-    '/servicios': '/servicios',
-    '/servicios/coaching': '/servicios/coaching',
-    '/servicios/investigacion': '/servicios/investigacion',
-    '/servicios/training-camps': '/servicios/training-camps',
-    '/servicios/formacion': '/servicios/formacion',
+    '/servicios': { es: '/servicios', en: '/services' },
+    '/servicios/coaching': {
+      es: '/servicios/coaching',
+      en: '/services/coaching',
+    },
+    '/servicios/investigacion': {
+      es: '/servicios/investigacion',
+      en: '/services/research',
+    },
+    '/servicios/training-camps': {
+      es: '/servicios/training-camps',
+      en: '/services/training-camps',
+    },
+    '/servicios/formacion': {
+      es: '/servicios/formacion',
+      en: '/services/education',
+    },
     '/equipo': {
       es: '/equipo',
       en: '/team',

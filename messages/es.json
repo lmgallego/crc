@@ -150,6 +150,31 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "services": {
+    "hub": {
+      "eyebrow": "Servicios",
+      "title": "¿En qué podemos ayudarte?",
+      "subtitle": "Cuatro servicios. Una metodología basada en el paradigma Ciclismo 3.0.",
+      "breadcrumb": "Servicios"
+    },
+    "sections": {
+      "whatWeDo": "Qué hacemos",
+      "whatWeDoTitle": "Qué hacemos",
+      "whoFor": "A quién va dirigido",
+      "whoForTitle": "A quién va dirigido",
+      "objectives": "Objetivos",
+      "areas": "Áreas",
+      "areasTitle": "Áreas de investigación",
+      "modalities": "Modalidades",
+      "modalitiesTitle": "Modalidades cubiertas",
+      "included": "Qué incluye",
+      "includedTitle": "Qué incluye un Training Camp",
+      "locations": "Ubicaciones",
+      "locationsTitle": "Dónde lo hacemos",
+      "programs": "Programas",
+      "programsTitle": "Programas de formación"
+    }
+  },
   "team": {
     "eyebrow": "Equipo",
     "title": "11 personas, una misión.",
