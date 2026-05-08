@@ -15,8 +15,14 @@ export const routing = defineRouting({
     '/servicios/investigacion': '/servicios/investigacion',
     '/servicios/training-camps': '/servicios/training-camps',
     '/servicios/formacion': '/servicios/formacion',
-    '/equipo': '/equipo',
-    '/equipo/[slug]': '/equipo/[slug]',
+    '/equipo': {
+      es: '/equipo',
+      en: '/team',
+    },
+    '/equipo/[slug]': {
+      es: '/equipo/[slug]',
+      en: '/team/[slug]',
+    },
     '/publicaciones': '/publicaciones',
     '/blog': '/blog',
     '/blog/[slug]': '/blog/[slug]',

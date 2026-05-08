@@ -150,6 +150,22 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "team": {
+    "eyebrow": "Team",
+    "title": "10 people, one mission.",
+    "subtitle": "Researchers with doctoral training in sports sciences applied to cycling. Split between the University of Granada and Universidad Miguel Hernández de Elche.",
+    "roles": {
+      "director": "Direction",
+      "deputyDirector": "Deputy direction",
+      "seniorResearcher": "Senior Researchers",
+      "researcher": "Researchers",
+      "phdCandidate": "PhD candidates",
+      "junior": "Junior · AI & cycling"
+    },
+    "card": {
+      "viewProfile": "View profile"
+    }
+  },
   "philosophy": {
     "hero": {
       "eyebrow": "Manifesto · Cycling Research Center",

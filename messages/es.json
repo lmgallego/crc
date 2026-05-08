@@ -150,6 +150,22 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "team": {
+    "eyebrow": "Equipo",
+    "title": "10 personas, una misión.",
+    "subtitle": "Investigadores con formación doctoral en ciencias del deporte aplicadas al ciclismo. Repartidos entre la Universidad de Granada y la Universidad Miguel Hernández de Elche.",
+    "roles": {
+      "director": "Dirección",
+      "deputyDirector": "Dirección adjunta",
+      "seniorResearcher": "Senior Researchers",
+      "researcher": "Investigadores",
+      "phdCandidate": "PhD candidates",
+      "junior": "Junior · IA & ciclismo"
+    },
+    "card": {
+      "viewProfile": "Ver perfil"
+    }
+  },
   "philosophy": {
     "hero": {
       "eyebrow": "Manifiesto · Cycling Research Center",

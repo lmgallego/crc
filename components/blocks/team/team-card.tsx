@@ -1,5 +1,7 @@
 import type { TeamMember } from '@/lib/data/team';
+import { roleI18nKey } from '@/lib/data/team';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 
 type Locale = 'es' | 'en';
@@ -7,27 +9,36 @@ type Locale = 'es' | 'en';
 export function TeamCard({
   member,
   locale,
-  variant = 'default',
+  variant = 'horizontal',
 }: {
   member: TeamMember;
   locale: Locale;
   variant?: 'default' | 'horizontal';
 }) {
+  const t = useTranslations('team');
+  const dorsal = String(member.number).padStart(3, '0');
+  const role = t(`roles.${roleI18nKey(member.role)}`);
+
   return (
     <Link
       href={{ pathname: '/equipo/[slug]', params: { slug: member.slug } }}
       className={cn(
-        'group flex gap-4 items-start bg-card border border-border rounded-md p-3.5 hover:border-foreground/30 transition-colors',
-        variant === 'default' && 'flex-row',
+        'group bg-card border border-border rounded-md hover:border-foreground/30 transition-colors',
+        variant === 'horizontal' && 'flex gap-4 items-start p-3.5',
+        variant === 'default' && 'flex flex-col p-0 overflow-hidden',
       )}
     >
-      <Portrait number={member.number} />
-      <div className="flex-1 min-w-0">
+      {variant === 'horizontal' ? (
+        <PortraitSmall dorsal={dorsal} />
+      ) : (
+        <PortraitTall dorsal={dorsal} />
+      )}
+      <div className={cn('flex-1 min-w-0', variant === 'default' && 'p-4')}>
         <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-accent-dark">
-          {member.role[locale]}
+          {role}
         </div>
         <div className="font-serif text-lg leading-[1.1] tracking-[-0.02em] mt-1">
-          {member.firstName} {member.lastName}
+          {member.name} {member.surname}
           <span className="font-mono text-[10px] uppercase ml-1.5 text-muted">
             {member.degree}
           </span>
@@ -40,7 +51,7 @@ export function TeamCard({
   );
 }
 
-function Portrait({ number }: { number: string }) {
+function PortraitSmall({ dorsal }: { dorsal: string }) {
   return (
     <div
       className="relative shrink-0 rounded-sm overflow-hidden"
@@ -53,7 +64,24 @@ function Portrait({ number }: { number: string }) {
       aria-hidden
     >
       <span className="absolute top-1 left-1.5 font-mono text-[8px] tracking-widest text-foreground/55">
-        {number}
+        {dorsal}
+      </span>
+    </div>
+  );
+}
+
+function PortraitTall({ dorsal }: { dorsal: string }) {
+  return (
+    <div
+      className="relative w-full aspect-[4/5]"
+      style={{
+        background:
+          'linear-gradient(160deg, rgba(232,210,74,0.15) 0%, rgba(106,106,96,0.25) 100%)',
+      }}
+      aria-hidden
+    >
+      <span className="absolute top-2 left-2.5 font-mono text-[10px] tracking-widest text-foreground/55">
+        {dorsal}
       </span>
     </div>
   );
