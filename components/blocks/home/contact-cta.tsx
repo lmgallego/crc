@@ -3,8 +3,9 @@ import { Button } from '@/components/ui/button';
 import { CRCMonogram } from '@/components/blocks/shared/crc-monogram';
 import { Link } from '@/i18n/navigation';
 
-export function ContactCTA() {
+export function ContactCTA({ personalized }: { personalized?: string } = {}) {
   const t = useTranslations('home.contact');
+  const tProfile = useTranslations('team.profile');
 
   return (
     <section className="bg-accent relative overflow-hidden">
@@ -27,13 +28,15 @@ export function ContactCTA() {
           <div>
             <p className="section-number mb-3">— {t('eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.025em]">
-              {t.rich('title', {
-                em: (chunks) => <em className="italic">{chunks}</em>,
-                br: () => <br />,
-              })}
+              {personalized
+                ? tProfile('personalCTATitle', { name: personalized })
+                : t.rich('title', {
+                    em: (chunks) => <em className="italic">{chunks}</em>,
+                    br: () => <br />,
+                  })}
             </h2>
             <p className="mt-4 text-sm md:text-[15px] text-accent-foreground/80 max-w-lg leading-relaxed">
-              {t('body')}
+              {personalized ? tProfile('personalCTABody') : t('body')}
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               <Button asChild>

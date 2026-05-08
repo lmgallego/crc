@@ -164,6 +164,21 @@
     },
     "card": {
       "viewProfile": "Ver perfil"
+    },
+    "profile": {
+      "biographyTitle": "Biografía",
+      "biographyEyebrow": "01 — Biografía",
+      "careerTitle": "Trayectoria académica",
+      "careerEyebrow": "02 — Trayectoria",
+      "publicationsTitle": "Publicaciones destacadas",
+      "publicationsEyebrow": "03 — Publicaciones",
+      "publicationsPlaceholder": "100+ publicaciones científicas del equipo. Aún estamos preparando el listado individual.",
+      "viewAllPubs": "Ver todas las publicaciones →",
+      "otherMembers": "Otros miembros del equipo",
+      "downloadCV": "Descargar CV completo",
+      "personalCTATitle": "¿Quieres colaborar con {name}?",
+      "personalCTABody": "Contacta con el equipo del CRC para proponer colaboraciones científicas, formación o asesoramiento.",
+      "breadcrumbTeam": "Equipo"
     }
   },
   "philosophy": {
