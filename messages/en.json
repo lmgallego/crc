@@ -150,6 +150,47 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "publications": {
+    "eyebrow": "Publications",
+    "title": "100+ articles. 25 years of research.",
+    "subtitle": "Filter by year, author, journal or topic.",
+    "stats": {
+      "total": "Publications",
+      "indexed": "Listed here",
+      "q1Papers": "Q1",
+      "mostActiveYear": "Most active year"
+    },
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Title or author",
+      "year": "Year",
+      "anyYear": "Any year",
+      "topic": "Topic",
+      "author": "CRC author",
+      "clear": "Clear filters",
+      "openFilters": "Filters",
+      "closeFilters": "Close",
+      "filtersTitle": "Filters",
+      "filtersDescription": "Filter publications by year, topic or author"
+    },
+    "topics": {
+      "physiology": "Physiology",
+      "biomechanics": "Biomechanics",
+      "nutrition": "Nutrition",
+      "training": "Training",
+      "doping": "Anti-doping",
+      "psychology": "Psychology",
+      "ai": "AI",
+      "methodology": "Methodology"
+    },
+    "empty": {
+      "title": "Full list coming soon",
+      "body": "We're preparing the full list of the team's 100+ papers. If you're interested in a specific paper, get in touch.",
+      "contactLink": "info@crc.org"
+    },
+    "featuredLabel": "Featured",
+    "viewAtPublisher": "Read in journal →"
+  },
   "services": {
     "hub": {
       "eyebrow": "Services",

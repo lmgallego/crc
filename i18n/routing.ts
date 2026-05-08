@@ -35,7 +35,7 @@ export const routing = defineRouting({
       es: '/equipo/[slug]',
       en: '/team/[slug]',
     },
-    '/publicaciones': '/publicaciones',
+    '/publicaciones': { es: '/publicaciones', en: '/publications' },
     '/blog': '/blog',
     '/blog/[slug]': '/blog/[slug]',
     '/contacto': '/contacto',

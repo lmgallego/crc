@@ -9,6 +9,8 @@ import { MemberHero } from '@/components/blocks/team/member-hero';
 import { TeamCard } from '@/components/blocks/team/team-card';
 import { ContactCTA } from '@/components/blocks/home/contact-cta';
 import { Link } from '@/i18n/navigation';
+import { publicationsForMember } from '@/lib/data/publications';
+import { PublicationItem } from '@/components/blocks/publications/publication-item';
 
 type Locale = 'es' | 'en';
 
@@ -63,7 +65,7 @@ export default async function MemberPage({
       <MemberHero member={member} locale={loc} />
       <BiographySection member={member} locale={loc} />
       <CareerSection member={member} />
-      <PublicationsSection />
+      <PublicationsSection slug={slug} />
       <ContactCTA personalized={member.name} />
       <OtherMembersSection members={others} locale={loc} />
     </>
@@ -133,16 +135,27 @@ function CareerSection({ member }: { member: TeamMember }) {
   );
 }
 
-function PublicationsSection() {
+function PublicationsSection({ slug }: { slug: string }) {
   const t = useTranslations('team.profile');
+  const memberPubs = publicationsForMember(slug);
   return (
     <SplitSection
       eyebrow={t('publicationsEyebrow')}
       title={t('publicationsTitle')}
     >
-      <p className="text-sm md:text-base leading-relaxed text-foreground/80 max-w-prose">
-        {t('publicationsPlaceholder')}
-      </p>
+      {memberPubs.length > 0 ? (
+        <ul className="border-t border-border-subtle">
+          {memberPubs.map((p) => (
+            <li key={p.id}>
+              <PublicationItem pub={p} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-sm md:text-base leading-relaxed text-foreground/80 max-w-prose">
+          {t('publicationsPlaceholder')}
+        </p>
+      )}
       <Link
         href="/publicaciones"
         className="inline-block mt-4 font-mono text-[11px] uppercase tracking-[0.15em] text-accent-dark hover:underline underline-offset-4"
