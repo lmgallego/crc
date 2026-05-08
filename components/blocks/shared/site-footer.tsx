@@ -1,9 +1,23 @@
-import { useTranslations } from 'next-intl';
+import type { ComponentProps } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LogoCRC } from './logo-crc';
+import { SERVICES } from '@/lib/data/services';
+import type { ServiceSlug } from '@/lib/data/services';
+
+type Locale = 'es' | 'en';
+type Href = ComponentProps<typeof Link>['href'];
+
+const SERVICE_HREF: Record<ServiceSlug, Href> = {
+  investigacion: '/servicios/investigacion',
+  coaching: '/servicios/coaching',
+  'training-camps': '/servicios/training-camps',
+  formacion: '/servicios/formacion',
+};
 
 export function SiteFooter() {
   const t = useTranslations();
+  const locale: Locale = useLocale() === 'en' ? 'en' : 'es';
 
   return (
     <footer className="bg-foreground text-background/80">
@@ -44,10 +58,11 @@ export function SiteFooter() {
               {t('footer.servicesTitle')}
             </div>
             <ul className="space-y-2 text-xs text-background/70">
-              <li><Link href="/servicios/coaching">Coaching</Link></li>
-              <li><Link href="/servicios/investigacion">{t('services.research')}</Link></li>
-              <li><Link href="/servicios/training-camps">Training Camps</Link></li>
-              <li><Link href="/servicios/formacion">{t('services.education')}</Link></li>
+              {SERVICES.map((s) => (
+                <li key={s.slug}>
+                  <Link href={SERVICE_HREF[s.slug]}>{s.name[locale]}</Link>
+                </li>
+              ))}
             </ul>
           </div>
 
