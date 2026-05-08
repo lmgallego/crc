@@ -47,9 +47,11 @@ export function TeamCard({
         )}
         <div className="font-serif text-lg leading-[1.1] tracking-[-0.02em] mt-1">
           {member.name} {member.surname}
-          <span className="font-mono text-[10px] uppercase ml-1.5 text-muted">
-            {member.degree}
-          </span>
+          {member.degree ? (
+            <span className="font-mono text-[10px] uppercase ml-1.5 text-muted">
+              {member.degree}
+            </span>
+          ) : null}
         </div>
         <p className="text-xs text-foreground/70 leading-snug mt-1.5 line-clamp-2">
           {member.short[locale]}

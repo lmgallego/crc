@@ -26,7 +26,7 @@ export type TeamMember = {
   role: TeamRole;
   name: string;
   surname: string;
-  degree: 'PhD' | 'MSc' | 'BSc' | 'HND';
+  degree: 'PhD' | 'MSc' | 'BSc' | 'HND' | '';
   specialty: { es: string; en: string };
   short: { es: string; en: string };
   bioParagraphs: { es: string[]; en: string[] };
@@ -357,7 +357,44 @@ export const TEAM: TeamMember[] = [
     ],
     career: [],
   },
+  {
+    slug: 'luisma-gallego',
+    number: 11,
+    role: 'junior',
+    name: 'Luisma',
+    surname: 'Gallego',
+    degree: '',
+    specialty: {
+      es: 'IA aplicada · Docente Intervals.icu',
+      en: 'AI applied · Intervals.icu instructor',
+    },
+    short: {
+      es: 'Docente de IA aplicada al rendimiento en Intervals.icu. Python, ML y automatización de procesos con IA.',
+      en: 'AI applied to performance instructor at Intervals.icu. Python, ML and AI process automation.',
+    },
+    bioParagraphs: {
+      es: [
+        'Luisma Gallego tiene un Grado en Desarrollo de Aplicaciones Multiplataforma y posee la Certificación Profesional en Preparación Física, una combinación poco habitual que le permite operar simultáneamente en el lado técnico y en el lado deportivo del análisis del rendimiento. Su pasión por el ciclismo le llevó desde muy pronto a aplicar herramientas de programación al estudio del entrenamiento, encadenando experiencia tanto como practicante como en el desarrollo de soluciones técnicas para entrenadores y atletas.',
+        'Está especializado en Python aplicado al análisis de datos del ciclismo: ingesta y procesamiento de archivos de potencia, modelos de carga, análisis de durabilidad y construcción de pipelines de datos para entrenadores y plataformas. Es además experto en automatización de procesos con inteligencia artificial, ámbito en el que diseña flujos que conectan herramientas de análisis, generación de informes y comunicación con el atleta sin intervención manual.',
+        'Forma parte del staff técnico de Intervals.icu, una de las plataformas de referencia internacional para el análisis de entrenamiento ciclista. Es además docente de IA aplicada al rendimiento en Intervals.icu, formando a entrenadores en el uso avanzado de la plataforma combinada con herramientas de inteligencia artificial: cómo interpretar datos de potencia con asistencia de modelos, cómo automatizar la generación de planes y cómo construir flujos de trabajo en los que la IA opera como copiloto del entrenador.',
+        'Su formación específica en IA proviene del Talent Pool de NTT DATA en Ciencia de Datos y Machine Learning, donde profundizó en metodologías de la industria —procesamiento de datos a escala, validación experimental, despliegue de modelos— y trasladó este conocimiento al contexto deportivo. Cuenta además con certificaciones de Microsoft en Inteligencia Artificial empresarial, completando en 2025 los distintivos de Adaptación de la IA a la organización, Adopción de las prácticas y los principios de inteligencia artificial responsables, Creación de valor empresarial a partir de la inteligencia empresarial y Aprovechamiento de las herramientas y los recursos de inteligencia artificial para la empresa.',
+        'En el Cycling Research Center lidera el desarrollo de aplicaciones internas de análisis del rendimiento y la automatización de procesos con IA, complementando el trabajo de IA generativa de Xabier Zabala con un enfoque más cercano al machine learning clásico, la automatización y la construcción de herramientas a medida. Luisma combina rigor de ingeniería con conocimiento deportivo de primera mano, aspecto que le permite construir soluciones que entrenadores y atletas pueden integrar realmente en su día a día.',
+      ],
+      en: [],
+    },
+    highlights: [
+      { label: 'Formación', value: 'Grado en Desarrollo de Aplicaciones Multiplataforma' },
+      { label: 'Preparación Física', value: 'Certificación Profesional' },
+      { label: 'Intervals.icu', value: 'Staff técnico · Docente IA' },
+      { label: 'Talent Pool', value: 'NTT DATA — Data Science & ML' },
+      { label: 'Certificación IA', value: 'Microsoft — 4 distintivos 2025' },
+      { label: 'Rol CRC', value: 'Aplicaciones · Automatización IA' },
+    ],
+    career: [],
+  },
 ];
+
+export const JUNIOR_GROUP_ORDER = ['luisma-gallego', 'xabier-zabala'];
 
 export const FOUNDER = TEAM[0];
 export const TEAM_REST = TEAM.slice(1);
@@ -378,6 +415,14 @@ export function groupByRole(members: TeamMember[]) {
   for (const m of members) {
     if (m.role === 'director') continue;
     map.get(m.role)?.push(m);
+  }
+  // Force explicit ordering for the junior group.
+  const junior = map.get('junior');
+  if (junior) {
+    junior.sort(
+      (a, b) =>
+        JUNIOR_GROUP_ORDER.indexOf(a.slug) - JUNIOR_GROUP_ORDER.indexOf(b.slug),
+    );
   }
   return Array.from(map.entries())
     .filter(([, members]) => members.length > 0);
