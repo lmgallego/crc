@@ -41,17 +41,17 @@
       "title": "El paradigma del CRC",
       "cta": "Leer manifiesto →",
       "paradigms": {
-        "1.0": {
+        "p1": {
           "eyebrow": "Paradigma",
           "title": "Lo que dejamos atrás.",
           "body": "Jerarquía, intuición y secretismo. Decisiones tácitas, sin colaboración científica."
         },
-        "2.0": {
+        "p2": {
           "eyebrow": "Paradigma",
           "title": "El ciclista, protagonista.",
           "body": "Datos, equipo multidisciplinar y educación."
         },
-        "3.0": {
+        "p3": {
           "eyebrow": "Paradigma · Nosotros",
           "title": "La era aumentada por <em>IA</em>.",
           "body": "Analítica con gobernanza ética y derecho humano a la decisión."

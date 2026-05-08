@@ -4,10 +4,10 @@ import { Highlight } from '@/components/blocks/shared/highlight';
 import { cn } from '@/lib/utils';
 
 const PARADIGMS = [
-  { key: '1.0', tone: 'muted' as const },
-  { key: '2.0', tone: 'dark' as const },
-  { key: '3.0', tone: 'accent' as const },
-];
+  { key: 'p1', display: '1.0', tone: 'muted' as const },
+  { key: 'p2', display: '2.0', tone: 'dark' as const },
+  { key: 'p3', display: '3.0', tone: 'accent' as const },
+] as const;
 
 const TIMELINE_KEYS = ['t1', 't2', 't3', 't4', 't5'] as const;
 
@@ -26,7 +26,7 @@ export function PhilosophyTease() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border mt-4 md:mt-6 mb-12 md:mb-16 border border-border">
-          {PARADIGMS.map(({ key, tone }) => {
+          {PARADIGMS.map(({ key, display, tone }) => {
             const isMuted = tone === 'muted';
             const isDark = tone === 'dark';
             const isAccent = tone === 'accent';
@@ -48,7 +48,7 @@ export function PhilosophyTease() {
                     isAccent && 'text-accent-foreground/70',
                   )}
                 >
-                  {t(`paradigms.${key}.eyebrow` as 'paradigms.1.0.eyebrow')}
+                  {t(`paradigms.${key}.eyebrow`)}
                 </div>
                 <div
                   className={cn(
@@ -56,14 +56,10 @@ export function PhilosophyTease() {
                     isMuted && 'text-muted-light',
                   )}
                 >
-                  {key}
+                  {display}
                 </div>
-                <h3
-                  className={cn(
-                    'font-serif text-xl md:text-2xl leading-[1.15] tracking-[-0.02em]',
-                  )}
-                >
-                  {t.rich(`paradigms.${key}.title` as 'paradigms.1.0.title', {
+                <h3 className="font-serif text-xl md:text-2xl leading-[1.15] tracking-[-0.02em]">
+                  {t.rich(`paradigms.${key}.title`, {
                     em: (chunks) => <em>{chunks}</em>,
                   })}
                 </h3>
@@ -75,7 +71,7 @@ export function PhilosophyTease() {
                     isAccent && 'text-accent-foreground/85',
                   )}
                 >
-                  {t(`paradigms.${key}.body` as 'paradigms.1.0.body')}
+                  {t(`paradigms.${key}.body`)}
                 </p>
               </div>
             );
@@ -110,10 +106,10 @@ function Timeline() {
           <li key={k} className="pl-5 relative">
             <span className="absolute -left-[5px] top-1.5 size-2 rounded-full bg-foreground" />
             <div className="font-mono text-[10px] uppercase tracking-[0.15em] text-accent-dark">
-              {t(`${k}.label` as 't1.label')}
+              {t(`${k}.label`)}
             </div>
             <p className="text-sm leading-relaxed text-foreground/80 mt-1">
-              {t(`${k}.description` as 't1.description')}
+              {t(`${k}.description`)}
             </p>
           </li>
         ))}
@@ -135,10 +131,10 @@ function Timeline() {
               </div>
               <div className="mt-5 text-center">
                 <div className="font-mono text-[10px] uppercase tracking-[0.15em] text-accent-dark">
-                  {t(`${k}.label` as 't1.label')}
+                  {t(`${k}.label`)}
                 </div>
                 <p className="text-xs leading-snug text-foreground/75 mt-2 max-w-[180px] mx-auto">
-                  {t(`${k}.description` as 't1.description')}
+                  {t(`${k}.description`)}
                 </p>
               </div>
             </div>

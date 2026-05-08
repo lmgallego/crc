@@ -41,17 +41,17 @@
       "title": "The CRC paradigm",
       "cta": "Read manifesto →",
       "paradigms": {
-        "1.0": {
+        "p1": {
           "eyebrow": "Paradigm",
           "title": "What we leave behind.",
           "body": "Hierarchy, intuition and secrecy. Tacit decisions, with no scientific collaboration."
         },
-        "2.0": {
+        "p2": {
           "eyebrow": "Paradigm",
           "title": "The cyclist takes the lead.",
           "body": "Data, multidisciplinary team and education."
         },
-        "3.0": {
+        "p3": {
           "eyebrow": "Paradigm · Us",
           "title": "The era amplified by <em>AI</em>.",
           "body": "Analytics with ethical governance and human right to decide."
