@@ -56,7 +56,10 @@ const postSchema = {
 };
 
 export default config({
-  storage: { kind: 'local' },
+  storage: {
+    kind: 'github',
+    repo: { owner: 'lmgallego', name: 'crc' },
+  },
   ui: {
     brand: { name: 'Cycling Research Center' },
   },
