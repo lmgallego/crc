@@ -12,13 +12,15 @@
     "blog": "Blog",
     "contacto": "Contacto",
     "menuTitle": "Menú principal",
-    "menuDescription": "Navegación del sitio Cycling Research Center"
+    "menuDescription": "Navegación del sitio Cycling Research Center",
+    "openMenu": "Abrir menú"
   },
   "footer": {
     "tagline": "Ciencia aplicada al ciclismo. Bajo el paradigma Ciclismo 3.0: datos con ética por diseño.",
     "sectionsTitle": "Secciones",
     "servicesTitle": "Servicios",
-    "contactTitle": "Contacto"
+    "contactTitle": "Contacto",
+    "country": "España"
   },
   "services": {
     "research": "Investigación",
@@ -95,7 +97,8 @@
         "title": "Investigación científica aplicada al ciclismo.",
         "body": "Estudiamos lo que mueve al ciclismo y publicamos lo que descubrimos. Fisiología, biomecánica, antidopaje, psicología e inteligencia artificial.",
         "badge": "100+ PAPERS",
-        "cta": "Ver investigación"
+        "cta": "Ver investigación",
+        "tags": "Fisiología,Biomecánica,Antidopaje,Psicología"
       },
       "coaching": {
         "code": "Coaching",

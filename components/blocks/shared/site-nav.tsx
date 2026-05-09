@@ -73,7 +73,7 @@ export function SiteNav() {
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger
               className="md:hidden inline-flex items-center justify-center h-11 w-11 -mr-2"
-              aria-label="Abrir menú"
+              aria-label={t('openMenu')}
             >
               <Menu className="size-5" />
             </SheetTrigger>

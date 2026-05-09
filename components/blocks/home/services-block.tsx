@@ -4,8 +4,6 @@ import { Badge } from '@/components/ui/badge';
 import { Link } from '@/i18n/navigation';
 import { ArrowUpRight } from 'lucide-react';
 
-const RESEARCH_TAGS = ['Fisiología', 'Biomecánica', 'Antidopaje', 'Psicología'];
-
 const SECONDARY = [
   { slug: 'coaching', code: '02', href: '/servicios/coaching' },
   { slug: 'training-camps', code: '03', href: '/servicios/training-camps' },
@@ -60,7 +58,7 @@ export function ServicesBlock() {
                 {t('research.body')}
               </p>
               <div className="flex flex-wrap gap-1.5 mt-5">
-                {RESEARCH_TAGS.map((tag) => (
+                {t('research.tags').split(',').map((tag) => (
                   <Badge
                     key={tag}
                     className="bg-foreground/10 text-accent-foreground border-foreground/20"

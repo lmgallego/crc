@@ -12,13 +12,15 @@
     "blog": "Blog",
     "contacto": "Contact",
     "menuTitle": "Main menu",
-    "menuDescription": "Cycling Research Center site navigation"
+    "menuDescription": "Cycling Research Center site navigation",
+    "openMenu": "Open menu"
   },
   "footer": {
     "tagline": "Science applied to cycling. Under the Cycling 3.0 paradigm: data with ethics by design.",
     "sectionsTitle": "Sections",
     "servicesTitle": "Services",
-    "contactTitle": "Contact"
+    "contactTitle": "Contact",
+    "country": "Spain"
   },
   "services": {
     "research": "Research",
@@ -95,7 +97,8 @@
         "title": "Scientific research applied to cycling.",
         "body": "We study what moves cycling and publish what we discover. Physiology, biomechanics, anti-doping, psychology and artificial intelligence.",
         "badge": "100+ PAPERS",
-        "cta": "See research"
+        "cta": "See research",
+        "tags": "Physiology,Biomechanics,Anti-doping,Psychology"
       },
       "coaching": {
         "code": "Coaching",

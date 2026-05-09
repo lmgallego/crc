@@ -82,7 +82,7 @@ export function SiteFooter() {
         <div className="mt-10 pt-5 border-t border-background/15 flex flex-col md:flex-row justify-between gap-2 font-mono text-[10px] uppercase tracking-wider text-background/40">
           <span>© Cycling Research Center 2026</span>
           <span className="hidden md:inline">Univ. Granada · Barcelona · Alicante</span>
-          <span>España</span>
+          <span>{t('footer.country')}</span>
         </div>
       </div>
     </footer>

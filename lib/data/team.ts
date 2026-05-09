@@ -61,7 +61,12 @@ export const TEAM: TeamMember[] = [
         'Ha publicado más de 100 artículos científicos. Es editor responsable de la sección de Ciclismo de Frontiers (Journal of Cycling Science) y miembro de la junta directiva de la World Commission of Science Cycling. En 2012 publicó junto con el Dr. Greg Atkinson el paradigma Athlete 2.0 en el Journal of Science and Cycling. En 2025 publicó el nuevo paradigma Cycling 1.0, 2.0, 3.0.',
         'Catedrático de Universidad en la Universidad de Granada. Fue Director de Rendimiento del Movistar Team durante 10 años, además de colaborador frecuente con la Real Federación Española de Ciclismo, llegando a ser Director Técnico y Seleccionador Nacional MTB. En 2023 fue galardonado con la insignia del Comité Olímpico Español. Lleva 25 años trabajando con muchos deportistas internacionales, entrenando campeones del mundo, JJOO y Tour en distintas modalidades.',
       ],
-      en: [],
+      en: [
+        'Cycling Research Center began in the early 2000s as a near-utopian idea that finally came to life in 2024 thanks to Mikel and a group of people who joined him along the way — all with active scientific careers, all driven by a deep passion for cycling. From the age of 12, Mikel was hooked on cycling in every form, racing throughout his youth — primarily in MTB, where he competed at international level.',
+        'His curiosity about the inner workings of sport led him to a teaching degree in Physical Education and later to a Bachelor in Physical Education and Sports Sciences at the University of Granada. He defended a multidisciplinary doctoral thesis after a research stay with Dr. Iñigo Mujika at Athletic Club de Bilbao and a postdoc with Dr. Ernst Albin Hansen at Manchester Metropolitan University under Dr. Greg Atkinson. In 2018 he completed an additional research stay at MIT and Boston University.',
+        'He has authored more than 100 scientific articles. He is associate editor of the Cycling section of Frontiers (Journal of Cycling Science) and a board member of the World Commission of Science Cycling. In 2012, alongside Dr. Greg Atkinson, he published the Athlete 2.0 paradigm in the Journal of Science and Cycling. In 2025 he published the new Cycling 1.0, 2.0, 3.0 paradigm.',
+        'Full Professor at the University of Granada. He served as Performance Director of Movistar Team for 10 years and has been a long-time collaborator with the Royal Spanish Cycling Federation, where he held the roles of Technical Director and MTB National Coach. In 2023 he received the badge of the Spanish Olympic Committee. He brings 25 years of work with international athletes, coaching world, Olympic and Tour champions across multiple cycling disciplines.',
+      ],
     },
     highlights: [
       { label: 'Cátedra', value: 'Univ. Granada · Director CEIO' },
@@ -95,7 +100,11 @@ export const TEAM: TeamMember[] = [
         'A lo largo de su carrera ha trabajado con una gran variedad de ciclistas, desde principiantes hasta profesionales del World Tour, abarcando distintas disciplinas. Su trabajo se ha centrado en optimizar el rendimiento de los atletas mediante un enfoque integral que combina la ciencia del deporte y la planificación estratégica.',
         'Actualmente cuenta con una década de experiencia como entrenador de la selección española de BMX racing. Además sigue activo como entrenador personal, atendiendo principalmente a profesionales del World Tour. Su investigación se centra en aspectos de fisiología y rendimiento, así como en metodologías y estrategias de entrenamiento.',
       ],
-      en: [],
+      en: [
+        'He started cycling at a very early age, sparking a deep passion that led him to engage with the sport not only as a rider but also as a coach. He went on to study Physical Activity and Sport Sciences, deepening his expertise through a PhD and a postdoctoral fellowship both focused on cycling.',
+        'Throughout his career he has worked with cyclists at every level, from beginners to WorldTour professionals, across multiple disciplines. His work centres on optimising athlete performance through an integrated approach that combines sport science and strategic planning.',
+        'He currently has a decade of experience coaching the Spanish BMX Racing National Team. He remains active as a personal coach, working primarily with WorldTour professionals. His research focuses on physiology and performance, as well as training methodologies and strategies.',
+      ],
     },
     highlights: [
       { label: 'Rol', value: 'Director Adjunto CRC' },
@@ -127,7 +136,11 @@ export const TEAM: TeamMember[] = [
         'Desde 2009 ocupa diferentes puestos académicos en la Universidad de Granada, donde actualmente es Catedrático de Universidad. Su investigación se centra en la cognición humana, principalmente en la atención, percepción del tiempo, control cognitivo, integración multisensorial, ejercicio físico, sueño, así como una serie de actividades de la vida cotidiana como el ciclismo, el bádminton, los deportes de raqueta y el deporte en general.',
         'Es miembro del grupo de investigación HUM379, que ha producido más de 350 artículos JCR en revistas como Cerebral Cortex, Trends in Cognitive Sciences, Sports Medicine, Cognition o NeuroImage. Daniel ha publicado más de 130 artículos JCR. Es Director Académico Adjunto del Centro de Investigación, Mente, Cerebro y Comportamiento (CIMCYC-UGR).',
       ],
-      en: [],
+      en: [
+        'Daniel Sanabria holds a Psychology degree from UNED. After an initial stay at the University of Granada, he completed his PhD in Experimental Psychology at the University of Oxford (UK) in 2007. He then carried out a 2-year Marie Curie postdoctoral fellowship at the International School for Advanced Studies (Italy).',
+        'Since 2009 he has held several academic positions at the University of Granada, where he is currently Full Professor. His research centres on human cognition — primarily attention, time perception, cognitive control, multisensory integration, physical exercise and sleep — as well as everyday activities such as cycling, badminton, racket sports and sport in general.',
+        'He is a member of the HUM379 research group, which has produced over 350 JCR-indexed papers in journals such as Cerebral Cortex, Trends in Cognitive Sciences, Sports Medicine, Cognition and NeuroImage. Daniel has authored more than 130 JCR papers. He is Deputy Academic Director of the Mind, Brain and Behaviour Research Centre (CIMCYC-UGR).',
+      ],
     },
     highlights: [
       { label: 'Posición', value: 'Catedrático UGR' },
@@ -159,7 +172,10 @@ export const TEAM: TeamMember[] = [
         'Doctor por la Universidad de Granada en el ámbito de las Ciencias del Deporte, con una sólida trayectoria académica dedicada al estudio del rendimiento físico, la nutrición deportiva y la composición corporal en deportes de alta intensidad. Es Profesor Titular del Departamento de Educación Física y Deportiva en la Facultad de Ciencias del Deporte de la Universidad de Granada.',
         'Su carrera investigadora gira en gran medida en torno al ciclismo. Ha estudiado las características antropométricas y de composición corporal de los ciclistas profesionales, así como su evolución a lo largo del tiempo. Otro de sus campos de especialización es la nutrición deportiva, área en la que ha desarrollado investigaciones aplicadas a cómo la alimentación afecta el rendimiento, la recuperación y la salud de los deportistas.',
       ],
-      en: [],
+      en: [
+        'PhD from the University of Granada in Sport Sciences, with a strong academic track record dedicated to the study of physical performance, sports nutrition and body composition in high-intensity sports. He is Associate Professor in the Department of Physical Education and Sport at the Faculty of Sport Sciences of the University of Granada.',
+        'His research career is largely centred on cycling. He has studied the anthropometric and body composition profiles of professional cyclists and their evolution over time. Another core area is sports nutrition, where he has developed applied research on how nutrition affects athlete performance, recovery and health.',
+      ],
     },
     highlights: [
       { label: 'Posición', value: 'Profesor titular UGR' },
@@ -190,7 +206,10 @@ export const TEAM: TeamMember[] = [
         'Alejandro Javaloyes Torres (Cox, 1989) es Licenciado en Ciencias de la Actividad Física y el Deporte por la Universidad Miguel Hernández de Elche, donde también realizó el Máster en Rendimiento Deportivo y se Doctoró en el campo de la Fisiología y el Entrenamiento aplicado al ciclismo.',
         'Actualmente ejerce como profesor en el Departamento de Educación Física y Deportiva de la Universidad Miguel Hernández y es responsable del Laboratorio de Análisis del Rendimiento Físico. Cuenta con más de 50 publicaciones científicas en revistas indexadas centradas en el ámbito del ciclismo y el rendimiento deportivo. Ha trabajado durante más de 15 años como entrenador de equipos profesionales de ciclismo, con experiencia tanto a nivel europeo como en la World Tour. Actualmente es Director de Rendimiento del INEOS Grenadiers.',
       ],
-      en: [],
+      en: [
+        'Alejandro Javaloyes Torres (Cox, 1989) holds a degree in Physical Activity and Sport Sciences from Universidad Miguel Hernández de Elche, where he also completed a Master in Sport Performance and earned his PhD in Physiology and Training applied to cycling.',
+        'He currently teaches in the Department of Physical Education and Sport at Universidad Miguel Hernández and leads the Physical Performance Analysis Lab. He has authored more than 50 scientific publications in indexed journals focused on cycling and sport performance. He has worked for over 15 years as a coach for professional cycling teams, with experience at both European and WorldTour level. He is currently Performance Director at INEOS Grenadiers.',
+      ],
     },
     highlights: [
       { label: 'Posición', value: 'Profesor UMH Elche' },
@@ -221,7 +240,10 @@ export const TEAM: TeamMember[] = [
         'José Joaquín Muros (Granada, 6 de marzo de 1986) es Doctor en Nutrición Humana por la Universidad de Granada y Doctor en Ciencias del Deporte por la Universidad Politécnica de Madrid. Cursó sus estudios universitarios en la UGR, donde también obtuvo el grado de Profesor de Educación Física.',
         'Es miembro del grupo de investigación HUM1063 y antropometrista nivel 4 ISAK. Su pasión por el ciclismo le motivó a realizar un Doctorado en Ciencias del Deporte por la UPM, mediante una estancia de investigación en la Universidad de Zúrich, en el cual analizó los patrones de actividad física e ingesta nutricional de ciclistas profesionales del Movistar Team. Sus líneas de investigación se centran en la nutrición, la actividad física y la antropometría. Ha publicado más de 50 artículos en revistas científicas.',
       ],
-      en: [],
+      en: [
+        'José Joaquín Muros (Granada, 6 March 1986) holds a PhD in Human Nutrition from the University of Granada and a PhD in Sport Sciences from the Universidad Politécnica de Madrid. He completed his undergraduate studies at UGR, where he also obtained the qualification of Physical Education Teacher.',
+        'He is a member of the HUM1063 research group and an ISAK Level 4 anthropometrist. His passion for cycling drove him to pursue a PhD in Sport Sciences at UPM, with a research stay at the University of Zurich, where he analysed the physical activity and nutritional intake patterns of Movistar Team professional cyclists. His research lines focus on nutrition, physical activity and anthropometry. He has authored more than 50 articles in scientific journals.',
+      ],
     },
     highlights: [
       { label: 'Formación', value: 'Doble PhD (UGR + UPM)' },
@@ -252,7 +274,10 @@ export const TEAM: TeamMember[] = [
         'Juan José Pérez Díaz (Granada, 6 de abril de 1996) es Graduado en Ciencias de la Actividad Física y el Deporte por la Universidad de Granada. Concluida su licenciatura, fue contratado por la Diputación de Granada en 2018 y 2019 para diferentes proyectos de actividad física, deporte y eventos en bicicleta.',
         'Tras esto regresó a la UGR, donde obtuvo el Máster en Investigación e Innovación Curricular y Ciencias de la Actividad Física y donde es actualmente doctorando en el ámbito del ciclismo, donde estudia el esfuerzo máximo y todas las variables que en él influyen. Es Coach certificado por la Federación Andaluza de Ciclismo y Especialista en Fuerza y Acondicionamiento Físico (NSCA-CSCS). Ha trabajado con el Movistar Team a través de un convenio en el ámbito de la nutrición e impacto de las cargas en el rendimiento.',
       ],
-      en: [],
+      en: [
+        'Juan José Pérez Díaz (Granada, 6 April 1996) holds a degree in Physical Activity and Sport Sciences from the University of Granada. After completing his degree, he was hired by the Provincial Council of Granada in 2018 and 2019 for various physical activity, sport and cycling event projects.',
+        'He then returned to UGR, where he completed a Master in Curricular Research and Innovation in Physical Activity Sciences and is currently a PhD candidate working on cycling — specifically maximal effort and the variables that shape it. He is a certified Coach with the Andalusian Cycling Federation and a Certified Strength and Conditioning Specialist (NSCA-CSCS). He has worked with Movistar Team through a research agreement focused on nutrition and the impact of training loads on performance.',
+      ],
     },
     highlights: [
       { label: 'Formación', value: 'MSc UGR (PhD activo)' },
@@ -283,7 +308,10 @@ export const TEAM: TeamMember[] = [
         'Alejandro De Rozas Pacheco es Graduado en Ciencias de la Actividad Física y del Deporte por la Universidad Europea de Madrid en 2020 y obtuvo su Máster en Entrenamiento y Rendimiento Deportivo por la Universidad de Granada en 2021, donde colabora actualmente con el grupo de investigación HUM727: Entrenamiento Deportivo y Rendimiento Físico.',
         'Es certificado nivel 2 de antropometría por ISAK en 2022. Ha trabajado como entrenador, antropometrista y responsable de pruebas funcionales y rendimiento deportivo en Sportiness Wellness en Estepona desde 2018 hasta 2024. Es uno de los principales investigadores del Programa de Promoción de Talentos del Consejo Superior de Deportes (CSD). Ha colaborado con la Real Federación Española de Ciclismo y participa en investigaciones internacionales con el Cycling Research Center desde sus inicios. Su tesis doctoral tiene como línea principal la durabilidad en el ciclismo.',
       ],
-      en: [],
+      en: [
+        'Alejandro De Rozas Pacheco graduated in Physical Activity and Sport Sciences from Universidad Europea de Madrid in 2020 and earned his Master in Sport Training and Performance from the University of Granada in 2021, where he currently collaborates with the HUM727 research group: Sport Training and Physical Performance.',
+        'He became an ISAK Level 2 certified anthropometrist in 2022. He worked as coach, anthropometrist and head of functional testing and sport performance at Sportiness Wellness in Estepona from 2018 to 2024. He is one of the lead researchers of the Talent Promotion Programme of the Spanish High Council for Sports (CSD). He has collaborated with the Royal Spanish Cycling Federation and has been involved in international research with the Cycling Research Center since its inception. His doctoral thesis focuses on durability in cycling.',
+      ],
     },
     highlights: [
       { label: 'Formación', value: 'MSc UGR · PhD activo' },
@@ -315,7 +343,10 @@ export const TEAM: TeamMember[] = [
         'Xabier Zabala Buendía (Granada, 13 de junio de 2002) es Técnico Superior en Acondicionamiento Físico, y graduado en Ciencias de la Actividad Física y del Deporte por la Universidad de Granada, especializado en Rendimiento Deportivo y Salud.',
         'Su pasión por el ciclismo comienza desde los 6 años, llegando a ser ciclista en los equipos Sub23 Caja Rural Cycling Team y Lizarte, encadenando una larga lista de éxitos a nivel nacional e internacional. Es junior researcher en el Cycling Research Center, donde está impulsando la implantación de la IA generativa en distintos ámbitos relacionados con el ciclismo a nivel internacional. Combina la base biofísica del rendimiento con un enfoque innovador en inteligencia artificial generativa aplicada a la optimización del entrenamiento y análisis del rendimiento ciclista.',
       ],
-      en: [],
+      en: [
+        'Xabier Zabala Buendía (Granada, 13 June 2002) is a Higher Technician in Physical Conditioning and a graduate in Physical Activity and Sport Sciences from the University of Granada, specialised in Sport Performance and Health.',
+        'His passion for cycling began at age 6 and led him to ride for the U23 Caja Rural Cycling Team and Lizarte, accumulating a long list of national and international results. He is a junior researcher at the Cycling Research Center, where he is driving the adoption of generative AI across multiple cycling-related domains internationally. He combines the biophysical foundations of performance with an innovative focus on generative artificial intelligence applied to training optimisation and cycling performance analysis.',
+      ],
     },
     highlights: [
       { label: 'Trayectoria Deport.', value: 'Sub23 Caja Rural · Lizarte' },
@@ -346,7 +377,10 @@ export const TEAM: TeamMember[] = [
         'Ignacio Valdivia Linde (Granada, 19 de noviembre de 2003) obtuvo el Grado en Ciencias del Deporte por la Universidad de Granada en 2025. Su pasión por el ciclismo se vio reflejada en su afán por mejorar su rendimiento ciclista en la modalidad de XCO, ya entrenado por Mikel Zabala, llegando a competir como ciclista del Team Cycling Research a nivel nacional en División de Honor III desde 2023.',
         'En 2024 se incorporó como entrenador a la Federación Andaluza de Ciclismo en distintos proyectos relacionados con la formación, conferencias y eventos deportivos relacionados con el ciclismo. Tras finalizar su grado universitario, se incorpora como uno de los junior researchers del CRC, sumando esfuerzos por su nivel y compromiso. Combina su pasión y conocimiento por el ciclismo con sus tareas en el rol de la dirección deportiva en distintas modalidades del ciclismo de la Federación Andaluza.',
       ],
-      en: [],
+      en: [
+        'Ignacio Valdivia Linde (Granada, 19 November 2003) earned his BSc in Sport Sciences from the University of Granada in 2025. His passion for cycling translated into a relentless drive to improve his XCO performance — coached by Mikel Zabala — competing for Team Cycling Research at national level in Honour Division III since 2023.',
+        'In 2024 he joined the Andalusian Cycling Federation as a coach across multiple projects involving education, conferences and cycling events. After completing his degree, he joined the CRC as one of its junior researchers, adding to the team thanks to his level and commitment. He combines his passion and knowledge of cycling with sport direction duties across different cycling disciplines within the Andalusian Federation.',
+      ],
     },
     highlights: [
       { label: 'Formación', value: 'BSc CCD UGR (2025)' },
@@ -380,7 +414,13 @@ export const TEAM: TeamMember[] = [
         'Su formación específica en IA proviene del Talent Pool de NTT DATA en Ciencia de Datos y Machine Learning, donde profundizó en metodologías de la industria —procesamiento de datos a escala, validación experimental, despliegue de modelos— y trasladó este conocimiento al contexto deportivo. Cuenta además con certificaciones de Microsoft en Inteligencia Artificial empresarial, completando en 2025 los distintivos de Adaptación de la IA a la organización, Adopción de las prácticas y los principios de inteligencia artificial responsables, Creación de valor empresarial a partir de la inteligencia empresarial y Aprovechamiento de las herramientas y los recursos de inteligencia artificial para la empresa.',
         'En el Cycling Research Center lidera el desarrollo de aplicaciones internas de análisis del rendimiento y la automatización de procesos con IA, complementando el trabajo de IA generativa de Xabier Zabala con un enfoque más cercano al machine learning clásico, la automatización y la construcción de herramientas a medida. Luisma combina rigor de ingeniería con conocimiento deportivo de primera mano, aspecto que le permite construir soluciones que entrenadores y atletas pueden integrar realmente en su día a día.',
       ],
-      en: [],
+      en: [
+        'Luisma Gallego holds a degree in Multi-platform Application Development and a Professional Certification in Physical Conditioning — an unusual combination that lets him operate simultaneously on the technical and the sport side of performance analysis. His passion for cycling led him early on to apply programming tools to the study of training, building experience both as a rider and as a developer of technical solutions for coaches and athletes.',
+        'He specialises in Python applied to cycling data analysis: ingestion and processing of power files, training load models, durability analysis and the construction of data pipelines for coaches and platforms. He is also an expert in AI-driven process automation, designing flows that connect analysis tools, report generation and athlete communication without manual intervention.',
+        'He is part of the technical staff at Intervals.icu, one of the leading international platforms for cycling training analysis. He also teaches AI applied to performance at Intervals.icu, training coaches in the advanced use of the platform combined with AI tools: how to interpret power data with model assistance, how to automate plan generation and how to build workflows in which AI operates as the coach\'s copilot.',
+        'His specific AI training comes from the NTT DATA Talent Pool in Data Science and Machine Learning, where he went deep into industry methodologies — large-scale data processing, experimental validation, model deployment — and translated that knowledge into the sport context. He also holds Microsoft certifications in enterprise Artificial Intelligence, completing in 2025 the badges for Adapting AI to the organisation, Adopting responsible AI practices and principles, Creating business value from business intelligence and Leveraging AI tools and resources for the enterprise.',
+        'At the Cycling Research Center he leads the development of internal performance-analysis applications and AI-driven process automation, complementing Xabier Zabala\'s generative AI work with a focus closer to classic machine learning, automation and the construction of bespoke tools. Luisma combines engineering rigour with first-hand sport knowledge — which lets him build solutions coaches and athletes can actually integrate into their daily routine.',
+      ],
     },
     highlights: [
       { label: 'Formación', value: 'Grado en Desarrollo de Aplicaciones Multiplataforma' },
