@@ -52,3 +52,6 @@ test-results/
 
 # Local files temporales
 *.local
+
+# Claude Code local settings
+.claude/settings.local.json
