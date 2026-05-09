@@ -150,6 +150,38 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Reflections, findings and notes from the cycling research trenches.",
+    "subtitle": "Articles from the CRC team.",
+    "empty": "We'll publish our first articles soon.",
+    "noResults": "No article matches the active filters.",
+    "aboutAuthor": "About the author",
+    "viewProfile": "View profile",
+    "filters": {
+      "category": "Category",
+      "author": "Author",
+      "anyAuthor": "Any author",
+      "clear": "Clear"
+    },
+    "categories": {
+      "physiology": "Physiology",
+      "biomechanics": "Biomechanics",
+      "nutrition": "Nutrition",
+      "training": "Training",
+      "cycling30": "Cycling 3.0",
+      "doping": "Anti-doping",
+      "team": "Team"
+    },
+    "post": {
+      "publishedOn": "Published",
+      "by": "by",
+      "category": "Category",
+      "relatedPubs": "Related publications",
+      "relatedPosts": "Related posts",
+      "readingTime": "min read"
+    }
+  },
   "publications": {
     "eyebrow": "Publications",
     "title": "100+ articles. 25 years of research.",
