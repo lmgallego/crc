@@ -150,6 +150,81 @@
       "ctaSecondary": "info@crc.org"
     }
   },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk.",
+    "subtitle": "Coaching, training camps, research, education, press or collaboration. Tell us about your project and we'll get back to you in under 48 hours.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "organization": "Organisation",
+      "queryType": "Query type",
+      "message": "Message",
+      "consent": "I have read and accept the privacy policy.",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "success": "Message sent. We'll get back to you within 48 hours.",
+      "fallback": "Mailer not configured. Please write directly to info@crc.org.",
+      "errorGeneric": "Something went wrong sending the message.",
+      "errors": {
+        "required": "Required field",
+        "invalidEmail": "Invalid email",
+        "tooShort": "The message must be at least 30 characters",
+        "consentRequired": "You must accept the privacy policy"
+      }
+    },
+    "queryTypes": {
+      "coaching": "Coaching",
+      "trainingCamp": "Training Camp",
+      "research": "Research",
+      "education": "Education",
+      "press": "Press",
+      "collaboration": "Collaboration",
+      "other": "Other"
+    },
+    "directly": {
+      "title": "Directly",
+      "directLabel": "Main",
+      "pressLabel": "Press",
+      "researchLabel": "Research"
+    },
+    "findUs": {
+      "title": "Find us on"
+    },
+    "location": {
+      "title": "Location",
+      "university": "Univ. Granada · Faculty of Sport Sciences",
+      "address": "Carretera de Alfacar s/n, 18011 Granada, Spain",
+      "cities": "We also operate from Barcelona and Alicante."
+    },
+    "types": {
+      "title": "Most common queries",
+      "cta": "Request info →",
+      "t1Title": "Individual coaching",
+      "t1Body": "Tailored programmes for pro and advanced cyclists.",
+      "t2Title": "Pro team coaching",
+      "t2Body": "Performance directions and scientific staff for UCI teams.",
+      "t3Title": "Group training camps",
+      "t3Body": "Camps designed for clubs, federations and teams.",
+      "t4Title": "Research collaborations",
+      "t4Body": "Scientific projects with federations, brands and groups.",
+      "t5Title": "Education and mentoring",
+      "t5Body": "Mentoring programmes, federation courses and university modules.",
+      "t6Title": "Press and interviews",
+      "t6Body": "Media requests, talks and public appearances."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1Question": "How long do you take to reply?",
+      "q1Answer": "We reply to every enquiry within 48 working hours. For very specific requests we may ask for extra context before drafting a proposal.",
+      "q2Question": "Do you work with amateur cyclists?",
+      "q2Answer": "Yes, though our main focus is pro cyclists and teams. We work with advanced amateurs with clear goals and real commitment.",
+      "q3Question": "Is there availability for new pro athletes in 2026?",
+      "q3Answer": "Availability is limited and confirmed case by case after an initial conversation. Tell us about your project and we'll be honest about whether we can take it on.",
+      "q4Question": "Do you offer one-off sessions or only ongoing programmes?",
+      "q4Answer": "Both: ongoing coaching programmes and one-off consultancies or assessments on specific topics."
+    }
+  },
   "blog": {
     "eyebrow": "Blog",
     "title": "Reflections, findings and notes from the cycling research trenches.",
