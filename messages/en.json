@@ -162,7 +162,9 @@
       "category": "Category",
       "author": "Author",
       "anyAuthor": "Any author",
-      "clear": "Clear"
+      "clear": "Clear filters",
+      "openFilters": "Filters",
+      "closeFilters": "Close"
     },
     "categories": {
       "physiology": "Physiology",
