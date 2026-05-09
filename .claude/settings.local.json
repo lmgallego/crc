@@ -21,7 +21,12 @@
       "Bash(curl -s -o /dev/null -w \"ES /: %{http_code}\\\\n\" http://localhost:3002/)",
       "Bash(curl -s -o /dev/null -w \"ES /equipo: %{http_code}\\\\n\" http://localhost:3003/equipo)",
       "Bash(curl -s -o /dev/null -w \"EN /team: %{http_code}\\\\n\" http://localhost:3003/en/team)",
-      "Bash(curl -s -o /dev/null -w \"ES /: %{http_code}\\\\n\" http://localhost:3003/)"
+      "Bash(curl -s -o /dev/null -w \"ES /: %{http_code}\\\\n\" http://localhost:3003/)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\nLength: %{size_download}\\\\n\" http://localhost:3010/keystatic)",
+      "Bash(curl -s -I http://localhost:3010/keystatic)",
+      "Bash(curl -s http://localhost:3010/keystatic)",
+      "Bash(grep -oE '<body[^>]*>[\\\\s\\\\S]{0,800}')",
+      "Bash(PORT=3050 pnpm exec next dev --turbopack --port 3050)"
     ]
   }
 }
