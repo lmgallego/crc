@@ -1,4 +1,22 @@
 {
+  "metadata": {
+    "home": {
+      "title": "Cycling Research Center — Science applied to cycling",
+      "description": "Sports science research group specialised in cycling. Coaching, research, training camps and education under the Cycling 3.0 paradigm."
+    },
+    "philosophy": {
+      "title": "Philosophy · From Cycling 1.0 to 3.0 — CRC",
+      "description": "CRC manifesto: three paradigms (1.0, 2.0, 3.0) that define how we understand cycling today and the era amplified by artificial intelligence."
+    },
+    "team": {
+      "title": "Team · 11 researchers — CRC",
+      "description": "Researchers with doctoral training in sport sciences applied to cycling, split between the University of Granada and Universidad Miguel Hernández."
+    },
+    "services": {
+      "title": "Services — CRC",
+      "description": "Four services under the Cycling 3.0 paradigm: research, coaching, training camps and scientific education for coaches."
+    }
+  },
   "common": {
     "siteName": "Cycling Research Center",
     "siteShortName": "CRC",

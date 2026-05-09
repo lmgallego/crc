@@ -11,6 +11,7 @@ import { ContactCTA } from '@/components/blocks/home/contact-cta';
 import { Link } from '@/i18n/navigation';
 import { publicationsForMember } from '@/lib/data/publications';
 import { PublicationItem } from '@/components/blocks/publications/publication-item';
+import { generatePageMetadata } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
 
@@ -29,10 +30,13 @@ export async function generateMetadata({
   const member = findMember(slug);
   if (!member) return {};
   const loc: Locale = locale === 'en' ? 'en' : 'es';
-  return {
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/equipo/[slug]',
+    params: { slug },
     title: `${member.name} ${member.surname} — CRC`,
     description: member.short[loc],
-  };
+  });
 }
 
 export default async function MemberPage({

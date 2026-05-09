@@ -1,11 +1,28 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
+import { generatePageMetadata, type Locale as SEOLocale } from '@/lib/seo';
 import { PageHero } from '@/components/blocks/shared/page-hero';
 import { ServiceCard } from '@/components/blocks/services/service-card';
 import { ContactCTA } from '@/components/blocks/home/contact-cta';
 import { SERVICES } from '@/lib/data/services';
 
 type Locale = 'es' | 'en';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const loc: SEOLocale = locale === 'en' ? 'en' : 'es';
+  const t = await getTranslations({ locale, namespace: 'metadata.services' });
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/servicios',
+    title: t('title'),
+    description: t('description'),
+  });
+}
 
 export default async function ServicesHubPage({
   params,

@@ -11,6 +11,7 @@ import { PublicationsHero } from '@/components/blocks/publications/publications-
 import { PublicationsFilters } from '@/components/blocks/publications/publications-filters';
 import { PublicationItem } from '@/components/blocks/publications/publication-item';
 import { PublicationsEmpty } from '@/components/blocks/publications/publications-empty';
+import { generatePageMetadata, type Locale as SEOLocale } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
 
@@ -21,10 +22,13 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'publications' });
-  return {
+  const loc: SEOLocale = locale === 'en' ? 'en' : 'es';
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/publicaciones',
     title: `${t('title')} — CRC`,
     description: t('subtitle'),
-  };
+  });
 }
 
 export default async function PublicationsPage({

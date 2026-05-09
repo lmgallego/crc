@@ -1,9 +1,26 @@
 import { useTranslations, useLocale } from 'next-intl';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { generatePageMetadata, type Locale } from '@/lib/seo';
 import { PageHero } from '@/components/blocks/shared/page-hero';
 import { FeaturedFounderCard } from '@/components/blocks/team/featured-founder-card';
 import { TeamCard } from '@/components/blocks/team/team-card';
 import { FOUNDER, TEAM, groupByRole, roleI18nKey } from '@/lib/data/team';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const loc: Locale = locale === 'en' ? 'en' : 'es';
+  const t = await getTranslations({ locale, namespace: 'metadata.team' });
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/equipo',
+    title: t('title'),
+    description: t('description'),
+  });
+}
 
 export default async function EquipoPage({
   params,

@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { generatePageMetadata, type Locale } from '@/lib/seo';
 import { Highlight } from '@/components/blocks/shared/highlight';
 import { PageHeroManifesto } from '@/components/blocks/philosophy/page-hero-manifesto';
 import { ParadigmSection } from '@/components/blocks/philosophy/paradigm-section';
@@ -7,6 +8,22 @@ import { ParadigmCallout } from '@/components/blocks/philosophy/paradigm-callout
 import { PrinciplesGrid } from '@/components/blocks/philosophy/principles-grid';
 import { ManifestoQuote } from '@/components/blocks/philosophy/manifesto-quote';
 import { BridgeBlock } from '@/components/blocks/philosophy/bridge-block';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const loc: Locale = locale === 'en' ? 'en' : 'es';
+  const t = await getTranslations({ locale, namespace: 'metadata.philosophy' });
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/filosofia',
+    title: t('title'),
+    description: t('description'),
+  });
+}
 
 export default async function FilosofiaPage({
   params,

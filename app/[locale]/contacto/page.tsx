@@ -5,6 +5,7 @@ import { ContactForm } from '@/components/blocks/contact/contact-form';
 import { ContactSidebar } from '@/components/blocks/contact/contact-sidebar';
 import { ContactTypesGrid } from '@/components/blocks/contact/contact-types-grid';
 import { ContactFaq } from '@/components/blocks/contact/contact-faq';
+import { generatePageMetadata, type Locale } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -13,7 +14,13 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'contact' });
-  return { title: `${t('title')} — CRC`, description: t('subtitle') };
+  const loc: Locale = locale === 'en' ? 'en' : 'es';
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/contacto',
+    title: `${t('title')} — CRC`,
+    description: t('subtitle'),
+  });
 }
 
 export default async function ContactPage({

@@ -9,6 +9,7 @@ import { AuthorCard } from '@/components/blocks/blog/author-card';
 import { RelatedPosts } from '@/components/blocks/blog/related-posts';
 import { PUBLICATIONS } from '@/lib/data/publications';
 import { PublicationItem } from '@/components/blocks/publications/publication-item';
+import { generatePageMetadata } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
 
@@ -30,7 +31,13 @@ export async function generateMetadata({
   const loc: Locale = locale === 'en' ? 'en' : 'es';
   const post = await getPost(loc, slug);
   if (!post) return {};
-  return { title: `${post.title} — CRC`, description: post.excerpt };
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/blog/[slug]',
+    params: { slug },
+    title: `${post.title} — CRC`,
+    description: post.excerpt,
+  });
 }
 
 export default async function BlogPostPage({

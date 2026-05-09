@@ -5,6 +5,7 @@ import { BlogFilters } from '@/components/blocks/blog/blog-filters';
 import { BlogListItem } from '@/components/blocks/blog/blog-list-item';
 import { getPosts } from '@/lib/keystatic/reader';
 import { TEAM } from '@/lib/data/team';
+import { generatePageMetadata, type Locale as SEOLocale } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
 
@@ -15,7 +16,13 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
-  return { title: `${t('title')} — CRC`, description: t('subtitle') };
+  const loc: SEOLocale = locale === 'en' ? 'en' : 'es';
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: '/blog',
+    title: `${t('title')} — CRC`,
+    description: t('subtitle'),
+  });
 }
 
 export default async function BlogPage({

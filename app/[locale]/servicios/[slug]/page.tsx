@@ -8,6 +8,7 @@ import { Breadcrumb } from '@/components/blocks/shared/breadcrumb';
 import { ServiceHero } from '@/components/blocks/services/service-hero';
 import { ServiceSection } from '@/components/blocks/services/service-section';
 import { ContactCTA } from '@/components/blocks/home/contact-cta';
+import { generatePageMetadata } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
 
@@ -26,10 +27,18 @@ export async function generateMetadata({
   const service = findService(slug);
   if (!service) return {};
   const loc: Locale = locale === 'en' ? 'en' : 'es';
-  return {
+  const SERVICE_PATHKEY = {
+    coaching: '/servicios/coaching',
+    investigacion: '/servicios/investigacion',
+    'training-camps': '/servicios/training-camps',
+    formacion: '/servicios/formacion',
+  } as const;
+  return generatePageMetadata({
+    locale: loc,
+    pathKey: SERVICE_PATHKEY[slug as keyof typeof SERVICE_PATHKEY],
     title: `${service.name[loc]} — CRC`,
     description: service.shortDescription[loc],
-  };
+  });
 }
 
 export default async function ServicePage({
