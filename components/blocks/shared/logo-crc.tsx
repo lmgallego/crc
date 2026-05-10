@@ -4,7 +4,7 @@ type Size = 'sm' | 'md' | 'lg';
 
 const HEIGHT_CLASS: Record<Size, string> = {
   sm: 'h-6 md:h-7',
-  md: 'h-7 md:h-10',
+  md: 'h-[38px] md:h-[52px]',
   lg: 'h-9 md:h-12',
 };
 
