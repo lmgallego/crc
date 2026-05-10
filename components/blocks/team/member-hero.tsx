@@ -12,6 +12,7 @@ const ROLE_BADGE: Record<string, { es: string; en: string }> = {
   'senior-researcher': { es: 'SENIOR', en: 'SENIOR' },
   researcher: { es: 'RESEARCHER', en: 'RESEARCHER' },
   'phd-candidate': { es: 'PHD', en: 'PHD' },
+  'applied-research': { es: 'APPLIED AI', en: 'APPLIED AI' },
   junior: { es: 'JUNIOR', en: 'JUNIOR' },
 };
 

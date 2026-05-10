@@ -4,6 +4,7 @@ export type TeamRole =
   | 'senior-researcher'
   | 'researcher'
   | 'phd-candidate'
+  | 'applied-research'
   | 'junior';
 
 export type Highlight = {
@@ -401,47 +402,41 @@ export const TEAM: TeamMember[] = [
   {
     slug: 'luisma-gallego',
     number: 11,
-    role: 'junior',
+    role: 'applied-research',
     name: 'Luisma',
     surname: 'Gallego',
     degree: '',
     specialty: {
-      es: 'IA aplicada · Docente Intervals.icu',
-      en: 'AI applied · Intervals.icu instructor',
+      es: 'IA aplicada al rendimiento',
+      en: 'Applied AI for performance',
     },
     short: {
-      es: 'Docente de IA aplicada al rendimiento en Intervals.icu. Python, ML y automatización de procesos con IA.',
-      en: 'AI applied to performance instructor at Intervals.icu. Python, ML and AI process automation.',
+      es: 'Docente de IA aplicada al rendimiento en Intervals.icu. Python, ML y automatización de procesos en ciencias del deporte.',
+      en: 'Lecturer on AI applied to performance at Intervals.icu. Python, ML, and process automation in sport sciences.',
     },
     bioParagraphs: {
       es: [
-        'Luisma Gallego tiene un Grado en Desarrollo de Aplicaciones Multiplataforma y posee la Certificación Profesional en Preparación Física, una combinación poco habitual que le permite operar simultáneamente en el lado técnico y en el lado deportivo del análisis del rendimiento. Su pasión por el ciclismo le llevó desde muy pronto a aplicar herramientas de programación al estudio del entrenamiento, encadenando experiencia tanto como practicante como en el desarrollo de soluciones técnicas para entrenadores y atletas.',
-        'Está especializado en Python aplicado al análisis de datos del ciclismo: ingesta y procesamiento de archivos de potencia, modelos de carga, análisis de durabilidad y construcción de pipelines de datos para entrenadores y plataformas. Es además experto en automatización de procesos con inteligencia artificial, ámbito en el que diseña flujos que conectan herramientas de análisis, generación de informes y comunicación con el atleta sin intervención manual.',
-        'Forma parte del staff técnico de Intervals.icu, una de las plataformas de referencia internacional para el análisis de entrenamiento ciclista. Es además docente de IA aplicada al rendimiento en Intervals.icu, formando a entrenadores en el uso avanzado de la plataforma combinada con herramientas de inteligencia artificial: cómo interpretar datos de potencia con asistencia de modelos, cómo automatizar la generación de planes y cómo construir flujos de trabajo en los que la IA opera como copiloto del entrenador.',
-        'Su formación específica en IA proviene del Talent Pool de NTT DATA en Ciencia de Datos y Machine Learning, donde profundizó en metodologías de la industria —procesamiento de datos a escala, validación experimental, despliegue de modelos— y trasladó este conocimiento al contexto deportivo. Cuenta además con certificaciones de Microsoft en Inteligencia Artificial empresarial, completando en 2025 los distintivos de Adaptación de la IA a la organización, Adopción de las prácticas y los principios de inteligencia artificial responsables, Creación de valor empresarial a partir de la inteligencia empresarial y Aprovechamiento de las herramientas y los recursos de inteligencia artificial para la empresa.',
-        'En el Cycling Research Center lidera el desarrollo de aplicaciones internas de análisis del rendimiento y la automatización de procesos con IA, complementando el trabajo de IA generativa de Xabier Zabala con un enfoque más cercano al machine learning clásico, la automatización y la construcción de herramientas a medida. Luisma combina rigor de ingeniería con conocimiento deportivo de primera mano, aspecto que le permite construir soluciones que entrenadores y atletas pueden integrar realmente en su día a día.',
+        'Luisma Gallego forma parte del equipo de docencia de Intervals.icu, plataforma referente en análisis de datos para deportistas de resistencia. Su rol consiste en formar a entrenadores, deportistas y profesionales en el uso de herramientas de inteligencia artificial aplicada al entrenamiento ciclista.',
+        'Especializado en Python, machine learning y automatización de procesos, desarrolla integraciones que conectan sensores, datos de entrenamiento y modelos predictivos para apoyar la toma de decisiones en deporte de élite. Forma parte del Talent Pool de NTT DATA.',
+        'En el Cycling Research Center, su rol es construir el puente entre la investigación académica y la aplicación práctica de la IA: traducir hallazgos científicos en herramientas y workflows que entrenadores y atletas pueden usar día a día. Su trabajo se alinea con el paradigma "Ciclismo 3.0" del CRC, donde la IA es aliada del criterio humano, no su sustituta.',
       ],
       en: [
-        'Luisma Gallego holds a degree in Multi-platform Application Development and a Professional Certification in Physical Conditioning — an unusual combination that lets him operate simultaneously on the technical and the sport side of performance analysis. His passion for cycling led him early on to apply programming tools to the study of training, building experience both as a rider and as a developer of technical solutions for coaches and athletes.',
-        'He specialises in Python applied to cycling data analysis: ingestion and processing of power files, training load models, durability analysis and the construction of data pipelines for coaches and platforms. He is also an expert in AI-driven process automation, designing flows that connect analysis tools, report generation and athlete communication without manual intervention.',
-        'He is part of the technical staff at Intervals.icu, one of the leading international platforms for cycling training analysis. He also teaches AI applied to performance at Intervals.icu, training coaches in the advanced use of the platform combined with AI tools: how to interpret power data with model assistance, how to automate plan generation and how to build workflows in which AI operates as the coach\'s copilot.',
-        'His specific AI training comes from the NTT DATA Talent Pool in Data Science and Machine Learning, where he went deep into industry methodologies — large-scale data processing, experimental validation, model deployment — and translated that knowledge into the sport context. He also holds Microsoft certifications in enterprise Artificial Intelligence, completing in 2025 the badges for Adapting AI to the organisation, Adopting responsible AI practices and principles, Creating business value from business intelligence and Leveraging AI tools and resources for the enterprise.',
-        'At the Cycling Research Center he leads the development of internal performance-analysis applications and AI-driven process automation, complementing Xabier Zabala\'s generative AI work with a focus closer to classic machine learning, automation and the construction of bespoke tools. Luisma combines engineering rigour with first-hand sport knowledge — which lets him build solutions coaches and athletes can actually integrate into their daily routine.',
+        'Luisma Gallego is part of the teaching team at Intervals.icu, a leading platform for data analysis for endurance athletes. His role is to train coaches, athletes, and professionals in the use of AI tools applied to cycling training.',
+        'Specialized in Python, machine learning, and process automation, he develops integrations that connect sensors, training data, and predictive models to support decision-making in elite sport. He is a member of NTT DATA Talent Pool.',
+        'At the Cycling Research Center, his role is to build the bridge between academic research and the practical application of AI: translating scientific findings into tools and workflows that coaches and athletes can use day to day. His work aligns with the CRC\'s "Cycling 3.0" paradigm, where AI is an ally of human judgment, not a substitute.',
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'Grado en Desarrollo de Aplicaciones Multiplataforma' },
-      { label: 'Preparación Física', value: 'Certificación Profesional' },
-      { label: 'Intervals.icu', value: 'Staff técnico · Docente IA' },
-      { label: 'Talent Pool', value: 'NTT DATA — Data Science & ML' },
-      { label: 'Certificación IA', value: 'Microsoft — 4 distintivos 2025' },
-      { label: 'Rol CRC', value: 'Aplicaciones · Automatización IA' },
+      { label: 'Docencia', value: 'Intervals.icu' },
+      { label: 'Stack', value: 'Python · ML · Automatización' },
+      { label: 'Colaboración', value: 'NTT DATA Talent Pool' },
     ],
     career: [],
+    photo: '/team/luisma-gallego.webp',
   },
 ];
 
-export const JUNIOR_GROUP_ORDER = ['luisma-gallego', 'xabier-zabala'];
+export const JUNIOR_GROUP_ORDER = ['xabier-zabala'];
 
 export const FOUNDER = TEAM[0];
 export const TEAM_REST = TEAM.slice(1);
@@ -453,6 +448,7 @@ export const ROLE_ORDER: TeamRole[] = [
   'senior-researcher',
   'researcher',
   'phd-candidate',
+  'applied-research',
   'junior',
 ];
 
@@ -485,6 +481,7 @@ const ROLE_TO_KEY: Record<TeamRole, string> = {
   'senior-researcher': 'seniorResearcher',
   researcher: 'researcher',
   'phd-candidate': 'phdCandidate',
+  'applied-research': 'appliedResearch',
   junior: 'junior',
 };
 
