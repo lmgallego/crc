@@ -52,12 +52,12 @@ export function ContactCTA({ personalized }: { personalized?: string } = {}) {
             </div>
           </div>
           <div className="self-center md:self-end justify-self-center md:justify-self-end">
-            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-foreground">
+            <div className="relative w-36 h-36 md:w-48 md:h-48 rounded-full overflow-hidden bg-foreground">
               <Image
                 src="/cta/josh-nuttall.webp"
                 alt=""
                 fill
-                sizes="(max-width: 768px) 192px, 256px"
+                sizes="(max-width: 768px) 144px, 192px"
                 className="object-cover object-center"
                 aria-hidden="true"
               />
