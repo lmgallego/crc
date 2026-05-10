@@ -19,7 +19,6 @@ export function TeamCard({
   showRole?: boolean;
 }) {
   const t = useTranslations('team');
-  const dorsal = String(member.number).padStart(3, '0');
   const role = t(`roles.${roleI18nKey(member.role)}`);
 
   return (
@@ -33,13 +32,11 @@ export function TeamCard({
     >
       {variant === 'horizontal' ? (
         <PortraitSmall
-          dorsal={dorsal}
           photo={member.photo}
           name={`${member.name} ${member.surname}`}
         />
       ) : (
         <PortraitTall
-          dorsal={dorsal}
           photo={member.photo}
           name={`${member.name} ${member.surname}`}
         />
@@ -71,11 +68,9 @@ export function TeamCard({
 }
 
 function PortraitSmall({
-  dorsal,
   photo,
   name,
 }: {
-  dorsal: string;
   photo?: string;
   name: string;
 }) {
@@ -102,19 +97,14 @@ function PortraitSmall({
           className="object-cover"
         />
       ) : null}
-      <span className="absolute top-1 left-1.5 font-mono text-[8px] tracking-widest text-foreground/55 z-10">
-        {dorsal}
-      </span>
     </div>
   );
 }
 
 function PortraitTall({
-  dorsal,
   photo,
   name,
 }: {
-  dorsal: string;
   photo?: string;
   name: string;
 }) {
@@ -139,9 +129,6 @@ function PortraitTall({
           className="object-cover"
         />
       ) : null}
-      <span className="absolute top-2 left-2.5 font-mono text-[10px] tracking-widest text-foreground/55 z-10">
-        {dorsal}
-      </span>
     </div>
   );
 }

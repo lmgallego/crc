@@ -24,7 +24,6 @@ export function MemberHero({
 }) {
   const t = useTranslations('team');
   const tProfile = useTranslations('team.profile');
-  const dorsal = String(member.number).padStart(3, '0');
   const role = t(`roles.${roleI18nKey(member.role)}`);
   const roleBadge = ROLE_BADGE[member.role][locale];
 
@@ -34,7 +33,6 @@ export function MemberHero({
         <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 md:gap-12">
           <aside className="md:sticky md:top-24 md:self-start">
             <Portrait
-              dorsal={dorsal}
               badge={roleBadge}
               photo={member.photo}
               name={`${member.name} ${member.surname}`}
@@ -118,12 +116,10 @@ export function MemberHero({
 }
 
 function Portrait({
-  dorsal,
   badge,
   photo,
   name,
 }: {
-  dorsal: string;
   badge: string;
   photo?: string;
   name: string;
@@ -150,9 +146,6 @@ function Portrait({
           priority
         />
       ) : null}
-      <span className="absolute top-3 left-3 font-mono text-[10px] tracking-[0.2em] text-foreground/55 z-10">
-        {dorsal}
-      </span>
       <span className="absolute bottom-3 right-3 bg-accent text-accent-foreground px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] z-10">
         {badge}
       </span>

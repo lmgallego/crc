@@ -19,7 +19,6 @@ export function FeaturedFounderCard({
     <div className="bg-foreground text-background rounded-md overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-[minmax(280px,400px)_1fr]">
         <FounderPortrait
-          number={String(member.number).padStart(3, '0')}
           photo={member.photo}
           name={`${member.name} ${member.surname}`}
         />
@@ -78,11 +77,9 @@ export function FeaturedFounderCard({
 }
 
 function FounderPortrait({
-  number,
   photo,
   name,
 }: {
-  number: string;
   photo?: string;
   name: string;
 }) {
@@ -108,9 +105,6 @@ function FounderPortrait({
           priority
         />
       ) : null}
-      <span className="absolute top-4 left-4 font-mono text-[10px] tracking-[0.2em] text-background/60 z-10">
-        {number}
-      </span>
       <span className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-[0.2em] bg-accent text-accent-foreground px-2 py-1 z-10">
         DIRECTOR
       </span>
