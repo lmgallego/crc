@@ -3,6 +3,7 @@ import { roleI18nKey } from '@/lib/data/team';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 type Locale = 'es' | 'en';
 
@@ -31,9 +32,17 @@ export function TeamCard({
       )}
     >
       {variant === 'horizontal' ? (
-        <PortraitSmall dorsal={dorsal} />
+        <PortraitSmall
+          dorsal={dorsal}
+          photo={member.photo}
+          name={`${member.name} ${member.surname}`}
+        />
       ) : (
-        <PortraitTall dorsal={dorsal} />
+        <PortraitTall
+          dorsal={dorsal}
+          photo={member.photo}
+          name={`${member.name} ${member.surname}`}
+        />
       )}
       <div className={cn('flex-1 min-w-0', variant === 'default' && 'p-4')}>
         {showRole ? (
@@ -61,36 +70,76 @@ export function TeamCard({
   );
 }
 
-function PortraitSmall({ dorsal }: { dorsal: string }) {
+function PortraitSmall({
+  dorsal,
+  photo,
+  name,
+}: {
+  dorsal: string;
+  photo?: string;
+  name: string;
+}) {
   return (
     <div
       className="relative shrink-0 rounded-sm overflow-hidden"
-      style={{
-        width: 64,
-        height: 80,
-        background:
-          'linear-gradient(160deg, rgba(232,210,74,0.15) 0%, rgba(106,106,96,0.25) 100%)',
-      }}
-      aria-hidden
+      style={
+        photo
+          ? { width: 64, height: 80 }
+          : {
+              width: 64,
+              height: 80,
+              background:
+                'linear-gradient(160deg, rgba(232,210,74,0.15) 0%, rgba(106,106,96,0.25) 100%)',
+            }
+      }
     >
-      <span className="absolute top-1 left-1.5 font-mono text-[8px] tracking-widest text-foreground/55">
+      {photo ? (
+        <Image
+          src={photo}
+          alt={name}
+          fill
+          sizes="64px"
+          className="object-cover"
+        />
+      ) : null}
+      <span className="absolute top-1 left-1.5 font-mono text-[8px] tracking-widest text-foreground/55 z-10">
         {dorsal}
       </span>
     </div>
   );
 }
 
-function PortraitTall({ dorsal }: { dorsal: string }) {
+function PortraitTall({
+  dorsal,
+  photo,
+  name,
+}: {
+  dorsal: string;
+  photo?: string;
+  name: string;
+}) {
   return (
     <div
-      className="relative w-full aspect-[4/5]"
-      style={{
-        background:
-          'linear-gradient(160deg, rgba(232,210,74,0.15) 0%, rgba(106,106,96,0.25) 100%)',
-      }}
-      aria-hidden
+      className="relative w-full aspect-[4/5] overflow-hidden"
+      style={
+        photo
+          ? undefined
+          : {
+              background:
+                'linear-gradient(160deg, rgba(232,210,74,0.15) 0%, rgba(106,106,96,0.25) 100%)',
+            }
+      }
     >
-      <span className="absolute top-2 left-2.5 font-mono text-[10px] tracking-widest text-foreground/55">
+      {photo ? (
+        <Image
+          src={photo}
+          alt={name}
+          fill
+          sizes="(max-width: 768px) 100vw, 33vw"
+          className="object-cover"
+        />
+      ) : null}
+      <span className="absolute top-2 left-2.5 font-mono text-[10px] tracking-widest text-foreground/55 z-10">
         {dorsal}
       </span>
     </div>

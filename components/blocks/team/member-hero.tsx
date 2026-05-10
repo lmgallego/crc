@@ -2,6 +2,7 @@ import type { TeamMember } from '@/lib/data/team';
 import { roleI18nKey } from '@/lib/data/team';
 import { useTranslations } from 'next-intl';
 import { Mail } from 'lucide-react';
+import Image from 'next/image';
 
 type Locale = 'es' | 'en';
 
@@ -32,7 +33,12 @@ export function MemberHero({
       <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 md:gap-12">
           <aside className="md:sticky md:top-24 md:self-start">
-            <Portrait dorsal={dorsal} badge={roleBadge} />
+            <Portrait
+              dorsal={dorsal}
+              badge={roleBadge}
+              photo={member.photo}
+              name={`${member.name} ${member.surname}`}
+            />
 
             <ul className="mt-5 space-y-2 font-mono text-[10px] uppercase tracking-[0.15em]">
               {member.email ? (
@@ -111,20 +117,43 @@ export function MemberHero({
   );
 }
 
-function Portrait({ dorsal, badge }: { dorsal: string; badge: string }) {
+function Portrait({
+  dorsal,
+  badge,
+  photo,
+  name,
+}: {
+  dorsal: string;
+  badge: string;
+  photo?: string;
+  name: string;
+}) {
   return (
     <div
       className="relative aspect-[3/4] rounded-sm overflow-hidden"
-      style={{
-        background:
-          'linear-gradient(155deg, rgba(232,210,74,0.12) 0%, rgba(106,106,96,0.30) 60%, rgba(14,14,12,0.05) 100%)',
-      }}
-      aria-hidden
+      style={
+        photo
+          ? undefined
+          : {
+              background:
+                'linear-gradient(155deg, rgba(232,210,74,0.12) 0%, rgba(106,106,96,0.30) 60%, rgba(14,14,12,0.05) 100%)',
+            }
+      }
     >
-      <span className="absolute top-3 left-3 font-mono text-[10px] tracking-[0.2em] text-foreground/55">
+      {photo ? (
+        <Image
+          src={photo}
+          alt={name}
+          fill
+          sizes="(max-width: 768px) 100vw, 280px"
+          className="object-cover"
+          priority
+        />
+      ) : null}
+      <span className="absolute top-3 left-3 font-mono text-[10px] tracking-[0.2em] text-foreground/55 z-10">
         {dorsal}
       </span>
-      <span className="absolute bottom-3 right-3 bg-accent text-accent-foreground px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em]">
+      <span className="absolute bottom-3 right-3 bg-accent text-accent-foreground px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] z-10">
         {badge}
       </span>
     </div>

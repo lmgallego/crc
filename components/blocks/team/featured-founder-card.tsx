@@ -2,6 +2,7 @@ import type { TeamMember } from '@/lib/data/team';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 
 type Locale = 'es' | 'en';
 
@@ -17,7 +18,11 @@ export function FeaturedFounderCard({
   return (
     <div className="bg-foreground text-background rounded-md overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-[minmax(280px,400px)_1fr]">
-        <FounderPortrait number={String(member.number).padStart(3, '0')} />
+        <FounderPortrait
+          number={String(member.number).padStart(3, '0')}
+          photo={member.photo}
+          name={`${member.name} ${member.surname}`}
+        />
 
         <div className="p-6 md:p-10 flex flex-col gap-5">
           <div className="font-mono text-[10px] uppercase tracking-[0.15em] text-accent">
@@ -72,20 +77,41 @@ export function FeaturedFounderCard({
   );
 }
 
-function FounderPortrait({ number }: { number: string }) {
+function FounderPortrait({
+  number,
+  photo,
+  name,
+}: {
+  number: string;
+  photo?: string;
+  name: string;
+}) {
   return (
     <div
-      className="relative aspect-[4/5] md:aspect-auto min-h-[320px]"
-      style={{
-        background:
-          'linear-gradient(155deg, #2A2A26 0%, #0E0E0C 60%, #1A1A18 100%)',
-      }}
-      aria-hidden
+      className="relative aspect-[4/5] md:aspect-auto min-h-[320px] overflow-hidden"
+      style={
+        photo
+          ? undefined
+          : {
+              background:
+                'linear-gradient(155deg, #2A2A26 0%, #0E0E0C 60%, #1A1A18 100%)',
+            }
+      }
     >
-      <span className="absolute top-4 left-4 font-mono text-[10px] tracking-[0.2em] text-background/60">
+      {photo ? (
+        <Image
+          src={photo}
+          alt={name}
+          fill
+          sizes="(max-width: 768px) 100vw, 400px"
+          className="object-cover"
+          priority
+        />
+      ) : null}
+      <span className="absolute top-4 left-4 font-mono text-[10px] tracking-[0.2em] text-background/60 z-10">
         {number}
       </span>
-      <span className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-[0.2em] bg-accent text-accent-foreground px-2 py-1">
+      <span className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-[0.2em] bg-accent text-accent-foreground px-2 py-1 z-10">
         DIRECTOR
       </span>
     </div>

@@ -36,6 +36,7 @@ export type TeamMember = {
   orcid?: string;
   scholar?: string;
   researchgate?: string;
+  photo?: string;
 };
 
 export const TEAM: TeamMember[] = [
@@ -78,6 +79,7 @@ export const TEAM: TeamMember[] = [
     ],
     career: [],
     email: 'mikel@crc.org',
+    photo: '/team/mikel-zabala.webp',
   },
   {
     slug: 'manuel-mateo-march',
