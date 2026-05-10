@@ -114,6 +114,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Trayectoria', value: 'Ex-piloto BMX · Ciclista Máster 30' },
     ],
     career: [],
+    photo: '/team/manuel-mateo-march.webp',
   },
   {
     slug: 'daniel-sanabria',
@@ -148,6 +149,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Línea', value: 'Rendimiento físico · ciclismo' },
     ],
     career: [],
+    photo: '/team/daniel-sanabria.webp',
   },
   {
     slug: 'cristobal-sanchez-munoz',
@@ -182,6 +184,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Especialidad', value: 'ISAK Nivel II · Nutrición élite' },
     ],
     career: [],
+    photo: '/team/cristobal-sanchez-munoz.webp',
   },
   {
     slug: 'alejandro-javaloyes',
@@ -216,6 +219,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Publicaciones', value: '50+ artículos científicos' },
     ],
     career: [],
+    photo: '/team/alejandro-javaloyes.webp',
   },
   {
     slug: 'jose-joaquin-muros',
@@ -250,6 +254,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Docencia', value: 'Programa Tecnificación RFEC' },
     ],
     career: [],
+    photo: '/team/jose-joaquin-muros.webp',
   },
   {
     slug: 'juan-jose-perez-diaz',
@@ -284,6 +289,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Grupo', value: 'HUM1063' },
     ],
     career: [],
+    photo: '/team/juan-jose-perez-diaz.webp',
   },
   {
     slug: 'alejandro-de-rozas',
@@ -319,6 +325,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Publicaciones', value: '3 papers Q1 (2024-25)' },
     ],
     career: [],
+    photo: '/team/alejandro-de-rozas.webp',
   },
   {
     slug: 'xabier-zabala',
@@ -353,6 +360,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Rol CRC', value: 'Junior researcher' },
     ],
     career: [],
+    photo: '/team/xabier-zabala.webp',
   },
   {
     slug: 'ignacio-valdivia',
@@ -388,6 +396,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Grupo', value: 'HUM1063' },
     ],
     career: [],
+    photo: '/team/ignacio-valdivia.webp',
   },
   {
     slug: 'luisma-gallego',
