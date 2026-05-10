@@ -142,7 +142,7 @@ function Portrait({
           alt={name}
           fill
           sizes="(max-width: 768px) 100vw, 280px"
-          className="object-cover"
+          className="object-cover object-top"
           priority
         />
       ) : null}

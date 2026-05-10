@@ -101,7 +101,7 @@ function FounderPortrait({
           alt={name}
           fill
           sizes="(max-width: 768px) 100vw, 400px"
-          className="object-cover"
+          className="object-cover object-top"
           priority
         />
       ) : null}

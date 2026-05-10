@@ -94,7 +94,7 @@ function PortraitSmall({
           alt={name}
           fill
           sizes="64px"
-          className="object-cover"
+          className="object-cover object-top"
         />
       ) : null}
     </div>
@@ -126,7 +126,7 @@ function PortraitTall({
           alt={name}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
-          className="object-cover"
+          className="object-cover object-top"
         />
       ) : null}
     </div>
