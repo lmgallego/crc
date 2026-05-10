@@ -24,16 +24,8 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-5">
-            <div className="flex items-center gap-2.5 mb-3">
-              <LogoCRC size="sm" />
-              <div>
-                <div className="text-[11px] font-bold uppercase tracking-wide leading-none text-background">
-                  Cycling Research
-                </div>
-                <div className="text-[10px] text-background/60 uppercase tracking-wide mt-0.5">
-                  Center
-                </div>
-              </div>
+            <div className="mb-3">
+              <LogoCRC size="md" />
             </div>
             <p className="font-serif italic text-sm leading-relaxed text-background/65 max-w-sm">
               {t('footer.tagline')}

@@ -31,19 +31,8 @@ export function SiteNav() {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-5 md:px-7 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5 shrink-0">
-          <LogoCRC size="md" />
-          <div className="hidden sm:block">
-            <div className="text-[11px] font-bold uppercase tracking-wide leading-none">
-              Cycling Research
-            </div>
-            <div className="text-[10px] text-muted uppercase tracking-wide leading-tight mt-0.5">
-              Center
-            </div>
-          </div>
-          <span className="sm:hidden text-xs font-bold uppercase tracking-wide">
-            CRC
-          </span>
+        <Link href="/" className="flex items-center shrink-0" aria-label="Cycling Research Center">
+          <LogoCRC size="md" priority />
         </Link>
 
         <nav className="hidden md:flex gap-5 lg:gap-6 text-xs">
