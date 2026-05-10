@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { CRCMonogram } from '@/components/blocks/shared/crc-monogram';
 import { Link } from '@/i18n/navigation';
 
 export function ContactCTA({ personalized }: { personalized?: string } = {}) {
@@ -52,7 +52,16 @@ export function ContactCTA({ personalized }: { personalized?: string } = {}) {
             </div>
           </div>
           <div className="self-center md:self-end justify-self-center md:justify-self-end">
-            <CRCMonogram size="lg" />
+            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-foreground">
+              <Image
+                src="/cta/josh-nuttall.webp"
+                alt=""
+                fill
+                sizes="(max-width: 768px) 192px, 256px"
+                className="object-cover object-center"
+                aria-hidden="true"
+              />
+            </div>
           </div>
         </div>
       </div>
