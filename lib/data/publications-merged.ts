@@ -3,7 +3,10 @@ import path from 'node:path';
 import { PUBLICATIONS as SEEDS, type Publication, type PublicationTopic } from './publications';
 
 type OverlayEntry = Partial<
-  Pick<Publication, 'isFeatured' | 'topics' | 'quartile' | 'impactFactor' | 'citations'>
+  Pick<
+    Publication,
+    'isFeatured' | 'topics' | 'quartile' | 'impactFactor' | 'citations' | 'title'
+  >
 >;
 
 function loadCache(): Publication[] {
