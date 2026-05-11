@@ -9,6 +9,66 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { TEAM } from '../lib/data/team';
+import { FEATURES } from '../lib/config/features';
+import type { PublicationTopic } from '../lib/data/publications';
+
+const TOPIC_KEYWORDS: Record<PublicationTopic, string[]> = {
+  physiology: [
+    'vo2', 'lactate', 'physiolog', 'oxygen', 'hemoglobin', 'hypoxia',
+    'altitude', 'critical power', 'threshold', 'aerobic', 'anaerobic',
+    'spo2', 'erythropoietin', 'oxidative', 'antioxidant',
+    'anthropometric', 'body composition', 'somatotype',
+  ],
+  training: [
+    'training', 'periodization', 'load', 'workload', 'zone 2', 'durability',
+    'fatigue', 'recovery', 'taper', 'overreaching', 'detraining',
+    'high-intensity', 'hiit', 'endurance', 'pacing',
+  ],
+  nutrition: [
+    'nutrition', 'carbohydrate', 'supplementation', 'l-carnitine',
+    'alpha-lipoic', 'hydration', 'dietary', 'ergogenic', 'caffeine',
+    'sodium bicarbonate', 'bicarbonate', 'beetroot', 'eating disorder',
+    'food', 'diet',
+  ],
+  biomechanics: [
+    'biomechan', 'pedaling', 'pedalling', 'cadence', 'torque',
+    'kinematic', 'asymmetr', 'q-ring', 'chainring', 'crank',
+    'aerodynamic', 'drag area', 'bike fit', 'spine', 'hamstring',
+  ],
+  psychology: [
+    'psycholog', 'cognitive', 'mental', 'attention', 'attentional',
+    'perception', 'effort', 'rpe', 'subjective experience',
+    'self-paced', 'eeg', 'brain', 'tdcs', 'transcranial',
+    'mental fatigue', 'stimulation', 'neural', 'oscillatory',
+  ],
+  doping: [
+    'doping', 'antidoping', 'anti-doping', 'wada', 'ethics',
+    'tramadol', 'attitude', 'enhancement', 'tdcs', 'transcranial',
+  ],
+  ai: [
+    'artificial intelligence', 'machine learning', 'neural network',
+    'deep learning', 'algorithm',
+  ],
+  methodology: [
+    'review', 'meta-analysis', 'systematic', 'methodology',
+    'reliability', 'validity', 'normative values',
+    'record power profile', 'validation', 'reproducib',
+  ],
+};
+
+function inferTopics(title: string, journal: string): PublicationTopic[] {
+  const text = `${title} ${journal}`.toLowerCase();
+  const topics: PublicationTopic[] = [];
+  for (const [topic, keywords] of Object.entries(TOPIC_KEYWORDS) as [
+    PublicationTopic,
+    string[],
+  ][]) {
+    if (keywords.some((kw) => text.includes(kw))) {
+      topics.push(topic);
+    }
+  }
+  return topics.length > 0 ? topics : ['training'];
+}
 
 const ORCID_BASE = 'https://pub.orcid.org/v3.0';
 const HEADERS = {
@@ -91,7 +151,7 @@ function mapWork(work: any, ownerSlug: string): FetchedWork | null {
     journal,
     doi,
     url,
-    topics: [],
+    topics: FEATURES.orcidAutoTopics ? inferTopics(title, journal) : [],
     crcAuthors: [ownerSlug],
   };
 }
