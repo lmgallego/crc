@@ -319,7 +319,11 @@
       "contactLink": "info@crc.org"
     },
     "featuredLabel": "Featured",
-    "viewAtPublisher": "Read in journal →"
+    "viewAtPublisher": "Read in journal →",
+    "titleDynamic": "{total} articles. {years} years of research.",
+    "viewAllByMember": "See all {count} publications by {name} →",
+    "syncedFromOrcid": "Synced via ORCID · updated {date}",
+    "orcidProfileLink": "ORCID profile"
   },
   "services": {
     "hub": {
