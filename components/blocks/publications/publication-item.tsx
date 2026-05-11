@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import type { Publication, PublicationTopic } from '@/lib/data/publications';
 import { cn } from '@/lib/utils';
 import { Star, ArrowUpRight } from 'lucide-react';
+import { AuthorList } from './author-list';
 
 export function PublicationItem({ pub }: { pub: Publication }) {
   const tTopics = useTranslations('publications.topics');
@@ -60,9 +61,7 @@ export function PublicationItem({ pub }: { pub: Publication }) {
         {pub.title}
       </h3>
 
-      <p className="text-xs md:text-sm text-foreground/70 mt-1.5">
-        {pub.authors.join(', ')}
-      </p>
+      <AuthorList authors={pub.authors} crcAuthors={pub.crcAuthors} />
 
       <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
         <div className="flex flex-wrap gap-1.5">

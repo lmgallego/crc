@@ -1,5 +1,6 @@
 import type { TeamMember } from '@/lib/data/team';
 import { roleI18nKey } from '@/lib/data/team';
+import { FEATURES } from '@/lib/config/features';
 import { useTranslations } from 'next-intl';
 import { Mail } from 'lucide-react';
 import Image from 'next/image';
@@ -25,8 +26,10 @@ export function MemberHero({
 }) {
   const t = useTranslations('team');
   const tProfile = useTranslations('team.profile');
+  const tPub = useTranslations('publications');
   const role = t(`roles.${roleI18nKey(member.role)}`);
   const roleBadge = ROLE_BADGE[member.role][locale];
+  const orcidActive = FEATURES.orcidPublications && Boolean(member.orcidId);
 
   return (
     <section className="border-b border-border">
@@ -50,7 +53,21 @@ export function MemberHero({
                   </a>
                 </li>
               ) : null}
-              {member.orcid ? (
+              {orcidActive ? (
+                <li>
+                  <a
+                    href={`https://orcid.org/${member.orcidId}`}
+                    target="_blank"
+                    rel="noopener"
+                    className="hover:text-foreground text-muted block"
+                  >
+                    <span>{tPub('orcidProfileLink')}</span>
+                    <span className="block normal-case tracking-normal text-[10px] text-muted/80 mt-0.5">
+                      {member.orcidId}
+                    </span>
+                  </a>
+                </li>
+              ) : member.orcid ? (
                 <ContactLink href={member.orcid} label="ORCID" />
               ) : null}
               {member.scholar ? (

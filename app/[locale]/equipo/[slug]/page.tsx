@@ -10,6 +10,8 @@ import { TeamCard } from '@/components/blocks/team/team-card';
 import { ContactCTA } from '@/components/blocks/home/contact-cta';
 import { Link } from '@/i18n/navigation';
 import { publicationsForMember } from '@/lib/data/publications';
+import { getPublicationsByAuthor } from '@/lib/data/publications-merged';
+import { FEATURES } from '@/lib/config/features';
 import { PublicationItem } from '@/components/blocks/publications/publication-item';
 import { generatePageMetadata } from '@/lib/seo';
 
@@ -69,7 +71,7 @@ export default async function MemberPage({
       <MemberHero member={member} locale={loc} />
       <BiographySection member={member} locale={loc} />
       <CareerSection member={member} />
-      <PublicationsSection slug={slug} />
+      <PublicationsSection member={member} />
       <ContactCTA personalized={member.name} />
       <OtherMembersSection members={others} locale={loc} />
     </>
@@ -139,17 +141,23 @@ function CareerSection({ member }: { member: TeamMember }) {
   );
 }
 
-function PublicationsSection({ slug }: { slug: string }) {
+function PublicationsSection({ member }: { member: TeamMember }) {
   const t = useTranslations('team.profile');
-  const memberPubs = publicationsForMember(slug);
+  const tPub = useTranslations('publications');
+  const orcidActive = FEATURES.orcidPublications && Boolean(member.orcidId);
+  const allMemberPubs = orcidActive ? getPublicationsByAuthor(member.slug) : [];
+  const seedFallback = orcidActive ? [] : publicationsForMember(member.slug);
+  const publications = orcidActive ? allMemberPubs.slice(0, 5) : seedFallback;
+  const totalCount = orcidActive ? allMemberPubs.length : seedFallback.length;
+
   return (
     <SplitSection
       eyebrow={t('publicationsEyebrow')}
       title={t('publicationsTitle')}
     >
-      {memberPubs.length > 0 ? (
+      {publications.length > 0 ? (
         <ul className="border-t border-border-subtle">
-          {memberPubs.map((p) => (
+          {publications.map((p) => (
             <li key={p.id}>
               <PublicationItem pub={p} />
             </li>
@@ -160,12 +168,21 @@ function PublicationsSection({ slug }: { slug: string }) {
           {t('publicationsPlaceholder')}
         </p>
       )}
-      <Link
-        href="/publicaciones"
-        className="inline-block mt-4 font-mono text-[11px] uppercase tracking-[0.15em] text-accent-dark hover:underline underline-offset-4"
-      >
-        {t('viewAllPubs')}
-      </Link>
+      {publications.length > 0 ? (
+        <Link
+          href={{ pathname: '/publicaciones', query: { author: member.slug } }}
+          className="inline-block mt-4 font-mono text-[11px] uppercase tracking-[0.15em] text-accent-dark hover:underline underline-offset-4"
+        >
+          {tPub('viewAllByMember', { count: totalCount, name: member.name })}
+        </Link>
+      ) : (
+        <Link
+          href="/publicaciones"
+          className="inline-block mt-4 font-mono text-[11px] uppercase tracking-[0.15em] text-accent-dark hover:underline underline-offset-4"
+        >
+          {t('viewAllPubs')}
+        </Link>
+      )}
     </SplitSection>
   );
 }
