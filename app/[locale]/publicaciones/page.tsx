@@ -1,11 +1,19 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useLocale } from 'next-intl';
 import {
-  PUBLICATIONS,
+  PUBLICATIONS as SEED_PUBLICATIONS,
   filterPublications,
   groupPublicationsByYear,
+  type Publication,
   type PublicationTopic,
 } from '@/lib/data/publications';
+import {
+  getMergedPublications,
+  getPublicationStats,
+} from '@/lib/data/publications-merged';
+import { FEATURES } from '@/lib/config/features';
 import { TEAM } from '@/lib/data/team';
 import { PublicationsHero } from '@/components/blocks/publications/publications-hero';
 import { PublicationsFilters } from '@/components/blocks/publications/publications-filters';
@@ -31,6 +39,15 @@ export async function generateMetadata({
   });
 }
 
+function getCacheLastUpdate(): Date | null {
+  try {
+    const p = path.join(process.cwd(), 'lib/data/orcid-cache.json');
+    return fs.statSync(p).mtime;
+  } catch {
+    return null;
+  }
+}
+
 export default async function PublicationsPage({
   params,
   searchParams,
@@ -42,30 +59,48 @@ export default async function PublicationsPage({
   setRequestLocale(locale);
   const sp = await searchParams;
 
+  const publications: Publication[] = FEATURES.orcidPublications
+    ? getMergedPublications()
+    : SEED_PUBLICATIONS;
+  const stats = FEATURES.orcidPublications
+    ? getPublicationStats(publications)
+    : undefined;
+  const lastUpdate = FEATURES.orcidPublications ? getCacheLastUpdate() : null;
+
   const filters = {
     year: sp.year ? Number(sp.year) : undefined,
-    topics: typeof sp.topic === 'string'
-      ? (sp.topic.split(',').filter(Boolean) as PublicationTopic[])
-      : [],
-    authors: typeof sp.author === 'string' ? sp.author.split(',').filter(Boolean) : [],
+    topics:
+      typeof sp.topic === 'string'
+        ? (sp.topic.split(',').filter(Boolean) as PublicationTopic[])
+        : [],
+    authors:
+      typeof sp.author === 'string' ? sp.author.split(',').filter(Boolean) : [],
     q: typeof sp.q === 'string' ? sp.q : undefined,
   };
 
-  const filtered = filterPublications(PUBLICATIONS, filters);
+  const filtered = filterPublications(publications, filters);
   const grouped = groupPublicationsByYear(filtered);
-  const years = Array.from(new Set(PUBLICATIONS.map((p) => p.year))).sort(
+  const years = Array.from(new Set(publications.map((p) => p.year))).sort(
     (a, b) => b - a,
   );
+  const authorCounts = new Map<string, number>();
+  for (const p of publications) {
+    for (const slug of p.crcAuthors) {
+      authorCounts.set(slug, (authorCounts.get(slug) ?? 0) + 1);
+    }
+  }
   const authors = TEAM.map((m) => ({
     slug: m.slug,
     label: `${m.name} ${m.surname}`,
+    count: authorCounts.get(m.slug) ?? 0,
   }));
 
   return (
     <>
-      <PublicationsHero />
+      <PublicationsHero publications={publications} stats={stats} />
       <PublicationsFilters years={years} authors={authors} />
       <PublicationsList grouped={grouped} />
+      {lastUpdate ? <SyncFooter date={lastUpdate} locale={locale} /> : null}
     </>
   );
 }
@@ -73,7 +108,7 @@ export default async function PublicationsPage({
 function PublicationsList({
   grouped,
 }: {
-  grouped: [number, typeof PUBLICATIONS][];
+  grouped: [number, Publication[]][];
 }) {
   const _locale = useLocale() as Locale;
   if (grouped.length === 0) {
@@ -107,6 +142,30 @@ function PublicationsList({
         ))}
 
         {totalCount < 3 ? <PublicationsEmpty /> : null}
+      </div>
+    </section>
+  );
+}
+
+async function SyncFooter({
+  date,
+  locale,
+}: {
+  date: Date;
+  locale: string;
+}) {
+  const t = await getTranslations({ locale, namespace: 'publications' });
+  const formatted = new Intl.DateTimeFormat(locale === 'en' ? 'en-GB' : 'es-ES', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }).format(date);
+  return (
+    <section className="border-t border-border">
+      <div className="max-w-5xl mx-auto px-5 md:px-7 py-6">
+        <p className="font-mono text-[10px] uppercase tracking-[0.15em] text-muted">
+          {t('syncedFromOrcid', { date: formatted })}
+        </p>
       </div>
     </section>
   );
