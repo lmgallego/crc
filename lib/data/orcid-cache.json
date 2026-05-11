@@ -11,7 +11,9 @@
     "journal": "International Journal of Sport Nutrition and Exercise Metabolism",
     "doi": "10.1123/ijsnem.2025-0036",
     "url": "https://doi.org/10.1123/ijsnem.2025-0036",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "jose-joaquin-muros"
@@ -30,7 +32,10 @@
     "journal": "Sports Medicine",
     "doi": "10.1007/s40279-025-02377-1",
     "url": "https://doi.org/10.1007/s40279-025-02377-1",
-    "topics": [],
+    "topics": [
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "juan-jose-perez-diaz"
@@ -50,7 +55,10 @@
     "journal": "Scandinavian Journal of Medicine & Science in Sports",
     "doi": "10.1111/sms.70278",
     "url": "https://doi.org/10.1111/sms.70278",
-    "topics": [],
+    "topics": [
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
@@ -72,7 +80,11 @@
     "journal": "European Journal of Applied Physiology",
     "doi": "10.1007/s00421-025-05885-0",
     "url": "https://doi.org/10.1007/s00421-025-05885-0",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
@@ -94,7 +106,9 @@
     "journal": "International Journal of Sport Nutrition and Exercise Metabolism",
     "doi": "10.1123/ijsnem.2025-0157",
     "url": "https://doi.org/10.1123/ijsnem.2025-0157",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -114,7 +128,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-2702-4879",
     "url": "https://doi.org/10.1055/a-2702-4879",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz",
@@ -135,7 +151,9 @@
     "journal": "German Journal of Exercise and Sport Research",
     "doi": "10.1007/s12662-026-01095-8",
     "url": "https://doi.org/10.1007/s12662-026-01095-8",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -152,7 +170,10 @@
     "journal": "Sports Medicine",
     "doi": "10.1007/s40279-026-02400-z",
     "url": "https://doi.org/10.1007/s40279-026-02400-z",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -174,7 +195,10 @@
     "journal": "Behavioural Brain Research",
     "doi": "10.1016/j.bbr.2025.115874",
     "url": "https://doi.org/10.1016/j.bbr.2025.115874",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -193,7 +217,9 @@
     "journal": "",
     "doi": "10.64898/2026.01.12.699055",
     "url": "https://doi.org/10.64898/2026.01.12.699055",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -211,7 +237,9 @@
     "journal": "International Journal of Performance Analysis in Sport",
     "doi": "10.1080/24748668.2026.2638073",
     "url": "https://doi.org/10.1080/24748668.2026.2638073",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -229,7 +257,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-2771-5295",
     "url": "https://doi.org/10.1055/a-2771-5295",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -246,7 +276,9 @@
     "journal": "Behavioral Sciences",
     "doi": "10.3390/bs16050703",
     "url": "https://doi.org/10.3390/bs16050703",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -264,7 +296,9 @@
     "journal": "Journal of Sport and Health Research",
     "doi": "10.58727/jshr.118998",
     "url": "https://doi.org/10.58727/jshr.118998",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -282,7 +316,9 @@
     "journal": "Public Health Nutrition",
     "doi": "10.1017/s1368980025101742",
     "url": "https://doi.org/10.1017/s1368980025101742",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -302,7 +338,9 @@
     "journal": "Sensors",
     "doi": "10.3390/s25020295",
     "url": "https://doi.org/10.3390/s25020295",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "juan-jose-perez-diaz",
@@ -322,7 +360,9 @@
     "journal": "MethodsX",
     "doi": "10.1016/j.mex.2025.103515",
     "url": "https://doi.org/10.1016/j.mex.2025.103515",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -342,7 +382,10 @@
     "journal": "Sports",
     "doi": "10.3390/sports13110406",
     "url": "https://doi.org/10.3390/sports13110406",
-    "topics": [],
+    "topics": [
+      "training",
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -362,7 +405,10 @@
     "journal": "Scandinavian Journal of Medicine & Science in Sports",
     "doi": "10.1111/sms.70170",
     "url": "https://doi.org/10.1111/sms.70170",
-    "topics": [],
+    "topics": [
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -381,7 +427,9 @@
     "journal": "Scandinavian Journal of Medicine & Science in Sports",
     "doi": "10.1111/sms.70153",
     "url": "https://doi.org/10.1111/sms.70153",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -404,7 +452,10 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-2555-8961",
     "url": "https://doi.org/10.1055/a-2555-8961",
-    "topics": [],
+    "topics": [
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -422,7 +473,10 @@
     "journal": "Journal of Sports Sciences",
     "doi": "10.1080/02640414.2025.2493010",
     "url": "https://doi.org/10.1080/02640414.2025.2493010",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -441,7 +495,9 @@
     "journal": "Scandinavian Journal of Medicine & Science in Sports",
     "doi": "10.1111/sms.70057",
     "url": "https://doi.org/10.1111/sms.70057",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -469,7 +525,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2024-0088",
     "url": "https://doi.org/10.1123/ijspp.2024-0088",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -488,7 +547,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2025-0162",
     "url": "https://doi.org/10.1123/ijspp.2025-0162",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -517,7 +579,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2024-0303",
     "url": "https://doi.org/10.1123/ijspp.2024-0303",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -538,7 +603,10 @@
     "journal": "Nutrients",
     "doi": "10.3390/nu17132227",
     "url": "https://doi.org/10.3390/nu17132227",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "nutrition"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros",
@@ -559,7 +627,9 @@
     "journal": "Applied Sciences",
     "doi": "10.3390/app15136974",
     "url": "https://doi.org/10.3390/app15136974",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -577,7 +647,9 @@
     "journal": "Sensors",
     "doi": "10.3390/s25103193",
     "url": "https://doi.org/10.3390/s25103193",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -599,7 +671,9 @@
     "journal": "Applied Sciences",
     "doi": "10.3390/app15031481",
     "url": "https://doi.org/10.3390/app15031481",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -617,7 +691,9 @@
     "journal": "Children",
     "doi": "10.3390/children12111459",
     "url": "https://doi.org/10.3390/children12111459",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros",
       "juan-jose-perez-diaz"
@@ -636,7 +712,10 @@
     "journal": "Adolescent Research Review",
     "doi": "10.1007/s40894-025-00276-0",
     "url": "https://doi.org/10.1007/s40894-025-00276-0",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -655,7 +734,9 @@
     "journal": "Retos",
     "doi": "10.47197/retos.v71.114780",
     "url": "https://doi.org/10.47197/retos.v71.114780",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -675,7 +756,9 @@
     "journal": "Designs",
     "doi": "10.3390/designs8060131",
     "url": "https://doi.org/10.3390/designs8060131",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -693,7 +776,9 @@
     "journal": "Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology",
     "doi": "10.1177/17543371211062061",
     "url": "https://doi.org/10.1177/17543371211062061",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -714,7 +799,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2023-0224",
     "url": "https://doi.org/10.1123/ijspp.2023-0224",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -738,7 +826,11 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2023-0451",
     "url": "https://doi.org/10.1123/ijspp.2023-0451",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -760,7 +852,9 @@
     "journal": "Nature Human Behaviour",
     "doi": "10.1038/s41562-024-01950-4",
     "url": "https://doi.org/10.1038/s41562-024-01950-4",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -778,7 +872,11 @@
     "journal": "",
     "doi": "10.1101/2024.03.07.24303915",
     "url": "https://doi.org/10.1101/2024.03.07.24303915",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -798,7 +896,11 @@
     "journal": "European Journal of Applied Physiology",
     "doi": "10.1007/s00421-023-05385-z",
     "url": "https://doi.org/10.1007/s00421-023-05385-z",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "methodology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -823,7 +925,9 @@
     "journal": "Healthcare",
     "doi": "10.3390/healthcare12060684",
     "url": "https://doi.org/10.3390/healthcare12060684",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -846,7 +950,10 @@
     "journal": "Environmental Health",
     "doi": "10.1186/s12940-024-01134-7",
     "url": "https://doi.org/10.1186/s12940-024-01134-7",
-    "topics": [],
+    "topics": [
+      "nutrition",
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -862,7 +969,9 @@
     "journal": "Frontiers in Nutrition",
     "doi": "10.3389/fnut.2024.1510423",
     "url": "https://doi.org/10.3389/fnut.2024.1510423",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -880,7 +989,9 @@
     "journal": "Nutrients",
     "doi": "10.3390/nu16213582",
     "url": "https://doi.org/10.3390/nu16213582",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -897,7 +1008,10 @@
     "journal": "International Journal of Developmental Disabilities",
     "doi": "10.1080/20473869.2024.2385637",
     "url": "https://doi.org/10.1080/20473869.2024.2385637",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -912,7 +1026,9 @@
     "journal": "Children",
     "doi": "10.3390/children11030375",
     "url": "https://doi.org/10.3390/children11030375",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -929,7 +1045,9 @@
     "journal": "Public Health Nutrition",
     "doi": "10.1017/s136898002400003x",
     "url": "https://doi.org/10.1017/s136898002400003x",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -950,7 +1068,9 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2023-0042",
     "url": "https://doi.org/10.1123/ijspp.2023-0042",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march"
@@ -970,7 +1090,9 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2022.2132879",
     "url": "https://doi.org/10.1080/17461391.2022.2132879",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
@@ -991,7 +1113,9 @@
     "journal": "Sports Biomechanics",
     "doi": "10.1080/14763141.2020.1770323",
     "url": "https://doi.org/10.1080/14763141.2020.1770323",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march"
@@ -1017,7 +1141,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2022-0233",
     "url": "https://doi.org/10.1123/ijspp.2022-0233",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "biomechanics"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march"
@@ -1037,7 +1164,10 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2021.2012264",
     "url": "https://doi.org/10.1080/17461391.2021.2012264",
-    "topics": [],
+    "topics": [
+      "biomechanics",
+      "methodology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march"
@@ -1057,7 +1187,10 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2022.2047228",
     "url": "https://doi.org/10.1080/17461391.2022.2047228",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -1079,7 +1212,11 @@
     "journal": "",
     "doi": "10.1101/2023.07.31.550835",
     "url": "https://doi.org/10.1101/2023.07.31.550835",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1099,7 +1236,9 @@
     "journal": "",
     "doi": "10.1101/2023.04.17.536548",
     "url": "https://doi.org/10.1101/2023.04.17.536548",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1120,7 +1259,9 @@
     "journal": "Nature Human Behaviour",
     "doi": "10.1038/s41562-023-01554-4",
     "url": "https://doi.org/10.1038/s41562-023-01554-4",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1140,7 +1281,11 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph20021528",
     "url": "https://doi.org/10.3390/ijerph20021528",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology",
+      "ai"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1158,7 +1303,9 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2022-0317",
     "url": "https://doi.org/10.1123/ijspp.2022-0317",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1178,7 +1325,9 @@
     "journal": "Science and Sports",
     "doi": "10.1016/j.scispo.2023.02.001",
     "url": "https://doi.org/10.1016/j.scispo.2023.02.001",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1196,7 +1345,9 @@
     "journal": "Children",
     "doi": "10.3390/children10111769",
     "url": "https://doi.org/10.3390/children10111769",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1213,7 +1364,9 @@
     "journal": "Retos",
     "doi": "10.47197/retos.v50.99913",
     "url": "https://doi.org/10.47197/retos.v50.99913",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1233,7 +1386,9 @@
     "journal": "Current Psychology",
     "doi": "10.1007/s12144-021-01856-8",
     "url": "https://doi.org/10.1007/s12144-021-01856-8",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1254,7 +1409,9 @@
     "journal": "Food and Chemical Toxicology",
     "doi": "10.1016/j.fct.2023.113843",
     "url": "https://doi.org/10.1016/j.fct.2023.113843",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1271,7 +1428,9 @@
     "journal": "Journal of Public Health",
     "doi": "10.1093/pubmed/fdac120",
     "url": "https://doi.org/10.1093/pubmed/fdac120",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1292,7 +1451,9 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2021.1987528",
     "url": "https://doi.org/10.1080/17461391.2021.1987528",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march"
@@ -1314,7 +1475,10 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-1828-8499",
     "url": "https://doi.org/10.1055/a-1828-8499",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "methodology"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
@@ -1338,7 +1502,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-1847-5414",
     "url": "https://doi.org/10.1055/a-1847-5414",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1359,7 +1525,9 @@
     "journal": "Scandinavian Journal of Medicine & Science in Sports",
     "doi": "10.1111/sms.14201",
     "url": "https://doi.org/10.1111/sms.14201",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1381,7 +1549,9 @@
     "journal": "Applied Sciences",
     "doi": "10.3390/app122111020",
     "url": "https://doi.org/10.3390/app122111020",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1402,7 +1572,9 @@
     "journal": "Nutrients",
     "doi": "10.3390/nu14183695",
     "url": "https://doi.org/10.3390/nu14183695",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "jose-joaquin-muros"
@@ -1429,7 +1601,9 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2021.1966517",
     "url": "https://doi.org/10.1080/17461391.2021.1966517",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1449,7 +1623,11 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph19148375",
     "url": "https://doi.org/10.3390/ijerph19148375",
-    "topics": [],
+    "topics": [
+      "biomechanics",
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1467,7 +1645,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/a-1738-0252",
     "url": "https://doi.org/10.1055/a-1738-0252",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1486,7 +1666,9 @@
     "journal": "Computer Methods and Programs in Biomedicine",
     "doi": "10.1016/j.cmpb.2022.106696",
     "url": "https://doi.org/10.1016/j.cmpb.2022.106696",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -1500,7 +1682,10 @@
     "journal": "Medicine & Science in Sports & Exercise",
     "doi": "10.1249/mss.0000000000002890",
     "url": "https://doi.org/10.1249/mss.0000000000002890",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1513,7 +1698,10 @@
     "journal": "The Journal of Sports Medicine and Physical Fitness",
     "doi": "10.23736/s0022-4707.22.13280-9",
     "url": "https://doi.org/10.23736/s0022-4707.22.13280-9",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "jose-joaquin-muros"
@@ -1527,7 +1715,9 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2021-0256",
     "url": "https://doi.org/10.1123/ijspp.2021-0256",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1540,7 +1730,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2021-0372",
     "url": "https://doi.org/10.1123/ijspp.2021-0372",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "methodology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1561,7 +1754,9 @@
     "journal": "",
     "doi": "10.1101/2022.02.15.480508",
     "url": "https://doi.org/10.1101/2022.02.15.480508",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1579,7 +1774,9 @@
     "journal": "Science and Medicine in Football",
     "doi": "10.1080/24733938.2022.2053338",
     "url": "https://doi.org/10.1080/24733938.2022.2053338",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1597,7 +1794,9 @@
     "journal": "Journal of Sports Sciences",
     "doi": "10.1080/02640414.2023.2167257",
     "url": "https://doi.org/10.1080/02640414.2023.2167257",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1615,7 +1814,9 @@
     "journal": "Journal of Human Kinetics",
     "doi": "10.2478/hukin-2022-0065",
     "url": "https://doi.org/10.2478/hukin-2022-0065",
-    "topics": [],
+    "topics": [
+      "methodology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1635,7 +1836,9 @@
     "journal": "RICYDE: Revista Internacional de Ciencias del Deporte",
     "doi": "10.5232/ricyde2022.06703",
     "url": "https://doi.org/10.5232/ricyde2022.06703",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1654,7 +1857,9 @@
     "journal": "Journal of Sports Sciences",
     "doi": "10.1080/02640414.2022.2162755",
     "url": "https://doi.org/10.1080/02640414.2022.2162755",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1671,7 +1876,9 @@
     "journal": "RICYDE: Revista Internacional de Ciencias del Deporte",
     "doi": "10.5232/ricyde2022.07003",
     "url": "https://doi.org/10.5232/ricyde2022.07003",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1688,7 +1895,9 @@
     "journal": "Retos",
     "doi": "10.47197/retos.v44i0.91616",
     "url": "https://doi.org/10.47197/retos.v44i0.91616",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1709,7 +1918,11 @@
     "journal": "Journal of Sports Sciences",
     "doi": "10.1080/02640414.2021.1877440",
     "url": "https://doi.org/10.1080/02640414.2021.1877440",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "daniel-sanabria"
@@ -1729,7 +1942,10 @@
     "journal": "Sensors",
     "doi": "10.3390/s21165497",
     "url": "https://doi.org/10.3390/s21165497",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -1743,7 +1959,10 @@
     "journal": "Physiology International",
     "doi": "10.1556/2060.2021.00153",
     "url": "https://doi.org/10.1556/2060.2021.00153",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1763,7 +1982,9 @@
     "journal": "",
     "doi": "10.31236/osf.io/crm6q",
     "url": "https://doi.org/10.31236/osf.io/crm6q",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1776,7 +1997,9 @@
     "journal": "British Journal of Sports Medicine",
     "doi": "10.1136/bjsports-2020-103906",
     "url": "https://doi.org/10.1136/bjsports-2020-103906",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1789,7 +2012,9 @@
     "journal": "Isokinetics and Exercise Science",
     "doi": "10.3233/ies-202131",
     "url": "https://doi.org/10.3233/ies-202131",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -1809,7 +2034,9 @@
     "journal": "",
     "doi": "10.31236/osf.io/mrqe8",
     "url": "https://doi.org/10.31236/osf.io/mrqe8",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1822,7 +2049,9 @@
     "journal": "The Journal of Sports Medicine and Physical Fitness",
     "doi": "10.23736/s0022-4707.20.11178-2",
     "url": "https://doi.org/10.23736/s0022-4707.20.11178-2",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -1842,7 +2071,9 @@
     "journal": "Cortex",
     "doi": "10.1016/j.cortex.2021.07.002",
     "url": "https://doi.org/10.1016/j.cortex.2021.07.002",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1862,7 +2093,9 @@
     "journal": "bioRxiv",
     "doi": "10.1101/2021.02.26.431959",
     "url": "https://doi.org/10.1101/2021.02.26.431959",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1881,7 +2114,10 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2020.1781265",
     "url": "https://doi.org/10.1080/17461391.2020.1781265",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1897,7 +2133,10 @@
     "journal": "International Review of Sport and Exercise Psychology",
     "doi": "10.1080/1750984x.2020.1774915",
     "url": "https://doi.org/10.1080/1750984x.2020.1774915",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1915,7 +2154,11 @@
     "journal": "Journal of Cognition",
     "doi": "10.5334/joc.178",
     "url": "https://doi.org/10.5334/joc.178",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -1934,7 +2177,12 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph181910299",
     "url": "https://doi.org/10.3390/ijerph181910299",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -1952,7 +2200,9 @@
     "journal": "Children",
     "doi": "10.3390/children8100848",
     "url": "https://doi.org/10.3390/children8100848",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1971,7 +2221,9 @@
     "journal": "Scientific Reports",
     "doi": "10.1038/s41598-021-94660-0",
     "url": "https://doi.org/10.1038/s41598-021-94660-0",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -1986,7 +2238,9 @@
     "journal": "Retos",
     "doi": "10.47197/retos.v0i41.86166",
     "url": "https://doi.org/10.47197/retos.v0i41.86166",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2004,7 +2258,9 @@
     "journal": "Sportis. Scientific Journal of School Sport, Physical Education and Psychomotricity",
     "doi": "10.17979/sportis.2021.7.1.6530",
     "url": "https://doi.org/10.17979/sportis.2021.7.1.6530",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2017,7 +2273,9 @@
     "journal": "Isokinetics and Exercise Science",
     "doi": "10.3233/ies-202234",
     "url": "https://doi.org/10.3233/ies-202234",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "alejandro-javaloyes"
@@ -2040,7 +2298,9 @@
     "journal": "Scientific Data",
     "doi": "10.1038/s41597-020-00700-1",
     "url": "https://doi.org/10.1038/s41597-020-00700-1",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2058,7 +2318,10 @@
     "journal": "Physiology and Behavior",
     "doi": "10.1016/j.physbeh.2020.113033",
     "url": "https://doi.org/10.1016/j.physbeh.2020.113033",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2076,7 +2339,11 @@
     "journal": "Journal of Cognition",
     "doi": "10.5334/joc.126",
     "url": "https://doi.org/10.5334/joc.126",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2089,7 +2356,10 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph17020674",
     "url": "https://doi.org/10.3390/ijerph17020674",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -2103,7 +2373,10 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph17020508",
     "url": "https://doi.org/10.3390/ijerph17020508",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -2117,7 +2390,9 @@
     "journal": "Research in Sports Medicine",
     "doi": "10.1080/15438627.2020.1853540",
     "url": "https://doi.org/10.1080/15438627.2020.1853540",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -2130,7 +2405,9 @@
     "journal": "Journal of Eating Disorders",
     "doi": "10.1186/s40337-020-00350-z",
     "url": "https://doi.org/10.1186/s40337-020-00350-z",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2143,7 +2420,9 @@
     "journal": "International Journal of Environmental Research and Public Health",
     "doi": "10.3390/ijerph17155296",
     "url": "https://doi.org/10.3390/ijerph17155296",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2163,7 +2442,9 @@
     "journal": "Science & Sports",
     "doi": "10.1016/j.scispo.2018.08.002",
     "url": "https://doi.org/10.1016/j.scispo.2018.08.002",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
@@ -2186,7 +2467,9 @@
     "journal": "Sensors",
     "doi": "10.3390/s19153430",
     "url": "https://doi.org/10.3390/s19153430",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2203,7 +2486,11 @@
     "journal": "Frontiers in Physiology",
     "doi": "10.3389/fphys.2019.00483",
     "url": "https://doi.org/10.3389/fphys.2019.00483",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2220,7 +2507,9 @@
     "journal": "Psicologica",
     "doi": "10.2478/psicolj-2019-0005",
     "url": "https://doi.org/10.2478/psicolj-2019-0005",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2237,7 +2526,10 @@
     "journal": "Sports Medicine",
     "doi": "10.1007/s40279-019-01064-2",
     "url": "https://doi.org/10.1007/s40279-019-01064-2",
-    "topics": [],
+    "topics": [
+      "doping",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2254,7 +2546,10 @@
     "journal": "PLoS ONE",
     "doi": "10.1371/journal.pone.0219340",
     "url": "https://doi.org/10.1371/journal.pone.0219340",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2272,7 +2567,9 @@
     "journal": "Accident Analysis and Prevention",
     "doi": "10.1016/j.aap.2017.10.014",
     "url": "https://doi.org/10.1016/j.aap.2017.10.014",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2289,7 +2586,10 @@
     "journal": "PLoS ONE",
     "doi": "10.1371/journal.pone.0217825",
     "url": "https://doi.org/10.1371/journal.pone.0217825",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2309,7 +2609,10 @@
     "journal": "Psychophysiology",
     "doi": "10.1111/psyp.13326",
     "url": "https://doi.org/10.1111/psyp.13326",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2326,7 +2629,11 @@
     "journal": "Brain Stimulation",
     "doi": "10.1016/j.brs.2018.12.002",
     "url": "https://doi.org/10.1016/j.brs.2018.12.002",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping",
+      "methodology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2347,7 +2654,9 @@
     "journal": "PeerJ",
     "doi": "10.7717/peerj.7118",
     "url": "https://doi.org/10.7717/peerj.7118",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2367,7 +2676,10 @@
     "journal": "PLoS ONE",
     "doi": "10.1371/journal.pone.0210873",
     "url": "https://doi.org/10.1371/journal.pone.0210873",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2380,7 +2692,10 @@
     "journal": "European Journal of Sport Science",
     "doi": "10.1080/17461391.2018.1497088",
     "url": "https://doi.org/10.1080/17461391.2018.1497088",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "nutrition"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -2394,7 +2709,9 @@
     "journal": "Journal of Strength and Conditioning Research",
     "doi": "10.1519/jsc.0000000000003337",
     "url": "https://doi.org/10.1519/jsc.0000000000003337",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -2407,7 +2724,9 @@
     "journal": "Journal of the Endocrine Society",
     "doi": "10.1210/js.2019-00342",
     "url": "https://doi.org/10.1210/js.2019-00342",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2420,7 +2739,9 @@
     "journal": "Revista Internacional de Medicina y Ciencias de la Actividad Física y del Deporte",
     "doi": "10.15366/rimcafd2019.75.008",
     "url": "https://doi.org/10.15366/rimcafd2019.75.008",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2433,7 +2754,9 @@
     "journal": "Journal of Trace Elements in Medicine and Biology",
     "doi": "10.1016/j.jtemb.2019.02.009",
     "url": "https://doi.org/10.1016/j.jtemb.2019.02.009",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2453,7 +2776,10 @@
     "journal": "",
     "doi": "10.1101/341388",
     "url": "https://doi.org/10.1101/341388",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "mikel-zabala",
       "daniel-sanabria"
@@ -2467,7 +2793,9 @@
     "journal": "Journal of Science and Medicine in Sport",
     "doi": "10.1016/j.jsams.2018.08.010",
     "url": "https://doi.org/10.1016/j.jsams.2018.08.010",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "daniel-sanabria",
@@ -2487,7 +2815,9 @@
     "journal": "PM and R",
     "doi": "10.1016/j.pmrj.2017.07.068",
     "url": "https://doi.org/10.1016/j.pmrj.2017.07.068",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2505,7 +2835,9 @@
     "journal": "NeuroImage",
     "doi": "10.1016/j.neuroimage.2018.07.009",
     "url": "https://doi.org/10.1016/j.neuroimage.2018.07.009",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2523,7 +2855,9 @@
     "journal": "bioRxiv",
     "doi": "10.1101/268995",
     "url": "https://doi.org/10.1101/268995",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2541,7 +2875,9 @@
     "journal": "Journal of Sport and Health Science",
     "doi": "10.1016/j.jshs.2017.05.008",
     "url": "https://doi.org/10.1016/j.jshs.2017.05.008",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2560,7 +2896,9 @@
     "journal": "Frontiers in Human Neuroscience",
     "doi": "10.3389/fnhum.2018.00499",
     "url": "https://doi.org/10.3389/fnhum.2018.00499",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2583,7 +2921,10 @@
     "journal": "Journal of Science and Medicine in Sport",
     "doi": "10.1016/j.jsams.2017.10.032",
     "url": "https://doi.org/10.1016/j.jsams.2017.10.032",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2596,7 +2937,9 @@
     "journal": "The Journal of Sports Medicine and Physical Fitness",
     "doi": "10.23736/s0022-4707.17.07179-1",
     "url": "https://doi.org/10.23736/s0022-4707.17.07179-1",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -2615,7 +2958,10 @@
     "journal": "International Journal of Sports Physiology and Performance",
     "doi": "10.1123/ijspp.2018-0122",
     "url": "https://doi.org/10.1123/ijspp.2018-0122",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -2632,7 +2978,11 @@
     ],
     "journal": "Revista Espanola de Nutricion Humana y Dietetica",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85053764068&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training",
+      "nutrition"
+    ],
     "crcAuthors": [
       "alejandro-javaloyes"
     ]
@@ -2645,7 +2995,9 @@
     "journal": "PLOS ONE",
     "doi": "10.1371/journal.pone.0207860",
     "url": "https://doi.org/10.1371/journal.pone.0207860",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2658,7 +3010,9 @@
     "journal": "Nutrients",
     "doi": "10.3390/nu10101480",
     "url": "https://doi.org/10.3390/nu10101480",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2671,7 +3025,9 @@
     "journal": "Nutrients",
     "doi": "10.3390/nu10080966",
     "url": "https://doi.org/10.3390/nu10080966",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2684,7 +3040,9 @@
     "journal": "Nutrición Hospitalaria",
     "doi": "10.20960/nh.1511",
     "url": "https://doi.org/10.20960/nh.1511",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2697,7 +3055,9 @@
     "journal": "Anales de Psicología",
     "doi": "10.6018/analesps.34.2.299781",
     "url": "https://doi.org/10.6018/analesps.34.2.299781",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2710,7 +3070,9 @@
     "journal": "Sustainability",
     "doi": "10.3390/su10040938",
     "url": "https://doi.org/10.3390/su10040938",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2723,7 +3085,9 @@
     "journal": "Sustainability",
     "doi": "10.3390/su10030632",
     "url": "https://doi.org/10.3390/su10030632",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2736,7 +3100,9 @@
     "journal": "Health and Addictions/Salud y Drogas",
     "doi": "10.21134/haaj.v18i1.350",
     "url": "https://doi.org/10.21134/haaj.v18i1.350",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2749,7 +3115,9 @@
     "journal": "Journal of Human Sport and Exercise - 2018 - Spring Conferences of Sports Science",
     "doi": "10.14198/jhse.2018.13.proc2.36",
     "url": "https://doi.org/10.14198/jhse.2018.13.proc2.36",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2766,7 +3134,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/s-0043-110680",
     "url": "https://doi.org/10.1055/s-0043-110680",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -2785,7 +3155,9 @@
     "journal": "bioRxiv",
     "doi": "10.1101/156802",
     "url": "https://doi.org/10.1101/156802",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2804,7 +3176,10 @@
     "journal": "PeerJ",
     "doi": "10.7717/peerj.3831",
     "url": "https://doi.org/10.7717/peerj.3831",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2824,7 +3199,9 @@
     "journal": "bioRxiv",
     "doi": "10.1101/201749",
     "url": "https://doi.org/10.1101/201749",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2842,7 +3219,9 @@
     "journal": "International Journal of Sport Psychology",
     "doi": "10.7352/ijsp2017.48.435",
     "url": "https://doi.org/10.7352/ijsp2017.48.435",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -2855,7 +3234,9 @@
     "journal": "Journal of Public Health",
     "doi": "10.1007/s10389-017-0823-2",
     "url": "https://doi.org/10.1007/s10389-017-0823-2",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2868,7 +3249,9 @@
     "journal": "International Journal of Mental Health Promotion",
     "doi": "10.1080/14623730.2017.1345689",
     "url": "https://doi.org/10.1080/14623730.2017.1345689",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2881,7 +3264,9 @@
     "journal": "Jornal de Pediatria",
     "doi": "10.1016/j.jped.2016.10.005",
     "url": "https://doi.org/10.1016/j.jped.2016.10.005",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2894,7 +3279,9 @@
     "journal": "Journal of Agricultural and Food Chemistry",
     "doi": "10.1021/acs.jafc.7b01000",
     "url": "https://doi.org/10.1021/acs.jafc.7b01000",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2907,7 +3294,9 @@
     "journal": "European Journal of Pediatrics",
     "doi": "10.1007/s00431-017-2886-z",
     "url": "https://doi.org/10.1007/s00431-017-2886-z",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2920,7 +3309,9 @@
     "journal": "Revista médica de Chile",
     "doi": "10.4067/s0034-98872017000300006",
     "url": "https://doi.org/10.4067/s0034-98872017000300006",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2933,7 +3324,10 @@
     "journal": "Nutrition",
     "doi": "10.1016/j.nut.2016.11.002",
     "url": "https://doi.org/10.1016/j.nut.2016.11.002",
-    "topics": [],
+    "topics": [
+      "nutrition",
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2946,7 +3340,9 @@
       "José Joaquín Muros Molina"
     ],
     "journal": "Journal of Sport Psychology",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2965,7 +3361,9 @@
     ],
     "journal": "Archives of Budo",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85017133656&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -2983,7 +3381,10 @@
     "journal": "Sport Psychologist",
     "doi": "10.1123/tsp.2014-0168",
     "url": "https://doi.org/10.1123/tsp.2014-0168",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "daniel-sanabria"
@@ -3002,7 +3403,9 @@
     "journal": "Human Brain Mapping",
     "doi": "10.1002/hbm.23030",
     "url": "https://doi.org/10.1002/hbm.23030",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3023,7 +3426,10 @@
     "journal": "Medicine and Science in Sports and Exercise",
     "doi": "10.1249/mss.0000000000000857",
     "url": "https://doi.org/10.1249/mss.0000000000000857",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3041,7 +3447,9 @@
     "journal": "Biological Psychology",
     "doi": "10.1016/j.biopsycho.2015.11.013",
     "url": "https://doi.org/10.1016/j.biopsycho.2015.11.013",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3059,7 +3467,9 @@
     "journal": "Scientific Reports",
     "doi": "10.1038/srep27556",
     "url": "https://doi.org/10.1038/srep27556",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3072,7 +3482,9 @@
     "journal": "Nutrición Hospitalaria",
     "doi": "10.20960/nh.124",
     "url": "https://doi.org/10.20960/nh.124",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3085,7 +3497,9 @@
     "journal": "Nutrición Hospitalaria",
     "doi": "10.20960/nh.115",
     "url": "https://doi.org/10.20960/nh.115",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3098,7 +3512,9 @@
     "journal": "Nutrición Hospitalaria",
     "doi": "10.20960/nh.110",
     "url": "https://doi.org/10.20960/nh.110",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3121,7 +3537,9 @@
     "journal": "Ars Pharmaceutica (Internet)",
     "doi": "10.30827/ars.v57i1.4385",
     "url": "https://doi.org/10.30827/ars.v57i1.4385",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3140,7 +3558,9 @@
     ],
     "journal": "Nutricion Hospitalaria",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84981173098&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3154,7 +3574,9 @@
     ],
     "journal": "International Journal of Sport Psychology",
     "url": "http://www.ijsp-online.com/abstract/view/47/67",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3175,7 +3597,10 @@
     "journal": "Scandinavian Journal of Medicine &amp; Science in Sports",
     "doi": "10.1111/sms.12321",
     "url": "https://doi.org/10.1111/sms.12321",
-    "topics": [],
+    "topics": [
+      "training",
+      "psychology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "daniel-sanabria",
@@ -3195,7 +3620,9 @@
     "journal": "Science &amp; Sports",
     "doi": "10.1016/j.scispo.2014.05.002",
     "url": "https://doi.org/10.1016/j.scispo.2014.05.002",
-    "topics": [],
+    "topics": [
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3213,7 +3640,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-015-4223-y",
     "url": "https://doi.org/10.1007/s00221-015-4223-y",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3231,7 +3660,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-015-4303-z",
     "url": "https://doi.org/10.1007/s00221-015-4303-z",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3248,7 +3679,9 @@
     "journal": "Journal of Experimental Psychology: Human Perception and Performance",
     "doi": "10.1037/a0039167",
     "url": "https://doi.org/10.1037/a0039167",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3267,7 +3700,9 @@
     "journal": "Journal of Sport and Exercise Psychology",
     "doi": "10.1123/jsep.2015-0087",
     "url": "https://doi.org/10.1123/jsep.2015-0087",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3284,7 +3719,9 @@
     "journal": "Experimental Psychology",
     "doi": "10.1027/1618-3169/a000270",
     "url": "https://doi.org/10.1027/1618-3169/a000270",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3303,7 +3740,9 @@
     "journal": "PLoS ONE",
     "doi": "10.1371/journal.pone.0123898",
     "url": "https://doi.org/10.1371/journal.pone.0123898",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3320,7 +3759,10 @@
     "journal": "Scandinavian Journal of Medicine and Science in Sports",
     "doi": "10.1111/sms.12513",
     "url": "https://doi.org/10.1111/sms.12513",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "nutrition"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -3334,7 +3776,9 @@
     "journal": "British Journal of Nutrition",
     "doi": "10.1017/s0007114515003207",
     "url": "https://doi.org/10.1017/s0007114515003207",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3347,7 +3791,9 @@
     "journal": "Anales de Pediatría",
     "doi": "10.1016/j.anpedi.2014.11.017",
     "url": "https://doi.org/10.1016/j.anpedi.2014.11.017",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3360,7 +3806,10 @@
     "journal": "Journal of Physical Activity and Health",
     "doi": "10.1123/jpah.2014-0236",
     "url": "https://doi.org/10.1123/jpah.2014-0236",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3373,7 +3822,9 @@
     "journal": "Anales de Pediatría",
     "doi": "10.1016/j.anpedi.2014.07.013",
     "url": "https://doi.org/10.1016/j.anpedi.2014.07.013",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3386,7 +3837,9 @@
     "journal": "NUTRICION HOSPITALARIA",
     "doi": "10.3305/nh.2015.31.4.8285",
     "url": "https://doi.org/10.3305/nh.2015.31.4.8285",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3399,7 +3852,9 @@
     "journal": "NUTRICION HOSPITALARIA",
     "doi": "10.3305/nh.2015.31.3.8186",
     "url": "https://doi.org/10.3305/nh.2015.31.3.8186",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3416,7 +3871,10 @@
     "journal": "International Journal of Sport Psychology",
     "doi": "10.7352/ijsp.2014.45.157",
     "url": "https://doi.org/10.7352/ijsp.2014.45.157",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3433,7 +3891,10 @@
     "journal": "International Journal of Sport Psychology",
     "doi": "10.7352/ijsp2014.45.157",
     "url": "https://doi.org/10.7352/ijsp2014.45.157",
-    "topics": [],
+    "topics": [
+      "psychology",
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3451,7 +3912,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000330344200014&KeyUID=WOS:000330344200014",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3469,7 +3932,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84892852416&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3486,7 +3951,9 @@
     ],
     "journal": "Archivos de Medicina del Deporte",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84898746003&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3506,7 +3973,9 @@
     ],
     "journal": "Cultura, Ciencia y Deporte",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84906495570&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3523,7 +3992,9 @@
     "journal": "Accident Analysis and Prevention",
     "doi": "10.1016/j.aap.2014.02.020",
     "url": "https://doi.org/10.1016/j.aap.2014.02.020",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3539,7 +4010,10 @@
     ],
     "journal": "Cultura, Ciencia y Deporte",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84906504800&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3552,7 +4026,9 @@
     "journal": "Pediatría Atención Primaria",
     "doi": "10.4321/s1139-76322014000500004",
     "url": "https://doi.org/10.4321/s1139-76322014000500004",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3565,7 +4041,9 @@
     "journal": "Appetite",
     "doi": "10.1016/j.appet.2014.04.027",
     "url": "https://doi.org/10.1016/j.appet.2014.04.027",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3578,7 +4056,9 @@
     "journal": "NUTRICION HOSPITALARIA",
     "doi": "10.3305/nh.2014.30.2.7217",
     "url": "https://doi.org/10.3305/nh.2014.30.2.7217",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3595,7 +4075,9 @@
     ],
     "journal": "Pediatria de Atencion Primaria",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84924338177&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3612,7 +4094,9 @@
     "journal": "PloS one",
     "doi": "10.1371/journal.pone.0070999",
     "url": "https://doi.org/10.1371/journal.pone.0070999",
-    "topics": [],
+    "topics": [
+      "doping"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3631,7 +4115,9 @@
     "journal": "Plos One",
     "doi": "10.1371/journal.pone.0056935",
     "url": "https://doi.org/10.1371/journal.pone.0056935",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "daniel-sanabria"
@@ -3651,7 +4137,9 @@
     ],
     "journal": "Revista De Psicologia Del Deporte",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000315365100016&KeyUID=WOS:000315365100016",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz"
@@ -3669,7 +4157,9 @@
     "journal": "Plos One",
     "doi": "10.1371/journal.pone.0078584",
     "url": "https://doi.org/10.1371/journal.pone.0078584",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3688,7 +4178,9 @@
     "journal": "Journal of Strength and Conditioning Research",
     "doi": "10.1519/jsc.0b013e31827fd717",
     "url": "https://doi.org/10.1519/jsc.0b013e31827fd717",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3706,7 +4198,9 @@
     ],
     "journal": "Revista Internacional De Medicina Y Ciencias De La Actividad Fisica Y Del Deporte",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000324795500011&KeyUID=WOS:000324795500011",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3723,7 +4217,9 @@
     "journal": "Science and Sports",
     "doi": "10.1016/j.scispo.2012.11.004",
     "url": "https://doi.org/10.1016/j.scispo.2012.11.004",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3741,7 +4237,9 @@
     ],
     "journal": "Revista Internacional de Medicina y Ciencias de la Actividad Fisica y del Deporte",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84884554452&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz"
@@ -3758,7 +4256,10 @@
     "journal": "Biological Psychology",
     "doi": "10.1016/j.biopsycho.2012.11.012",
     "url": "https://doi.org/10.1016/j.biopsycho.2012.11.012",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3775,7 +4276,9 @@
     "journal": "Neuropsychologia",
     "doi": "10.1016/j.neuropsychologia.2012.10.005",
     "url": "https://doi.org/10.1016/j.neuropsychologia.2012.10.005",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3793,7 +4296,9 @@
     "journal": "International IEEE/EMBS Conference on Neural Engineering, NER",
     "doi": "10.1109/ner.2013.6696200",
     "url": "https://doi.org/10.1109/ner.2013.6696200",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3810,7 +4315,9 @@
     "journal": "Acta Psychologica",
     "doi": "10.1016/j.actpsy.2013.05.010",
     "url": "https://doi.org/10.1016/j.actpsy.2013.05.010",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3823,7 +4330,9 @@
     "journal": "Archives of Gerontology and Geriatrics",
     "doi": "10.1016/j.archger.2013.04.002",
     "url": "https://doi.org/10.1016/j.archger.2013.04.002",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3836,7 +4345,9 @@
     "journal": "Pediatric Exercise Science",
     "doi": "10.1123/pes.25.2.248",
     "url": "https://doi.org/10.1123/pes.25.2.248",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3850,7 +4361,9 @@
     ],
     "journal": "Archivos de Medicina del Deporte",
     "url": "https://archivosdemedicinadeldeporte.com/articulos/upload/or01_159.pdf",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -3867,7 +4380,9 @@
     ],
     "journal": "Revista Internacional De Medicina Y Ciencias De La Actividad Fisica Y Del Deporte",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000302318600004&KeyUID=WOS:000302318600004",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3884,7 +4399,9 @@
     "journal": "Science and Sports",
     "doi": "10.1016/j.scispo.2012.03.002",
     "url": "https://doi.org/10.1016/j.scispo.2012.03.002",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3903,7 +4420,9 @@
     "journal": "European Journal of Applied Physiology",
     "doi": "10.1007/s00421-011-1962-8",
     "url": "https://doi.org/10.1007/s00421-011-1962-8",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3921,7 +4440,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000307360600009&KeyUID=WOS:000307360600009",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3939,7 +4460,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84867603988&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -3957,7 +4480,9 @@
     "journal": "Attention, Perception, and Psychophysics",
     "doi": "10.3758/s13414-011-0249-9",
     "url": "https://doi.org/10.3758/s13414-011-0249-9",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3974,7 +4499,9 @@
     "journal": "Cognition",
     "doi": "10.1016/j.cognition.2012.02.005",
     "url": "https://doi.org/10.1016/j.cognition.2012.02.005",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -3992,7 +4519,9 @@
     "journal": "Frontiers in Psychology",
     "doi": "10.3389/fpsyg.2012.00308",
     "url": "https://doi.org/10.3389/fpsyg.2012.00308",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4003,7 +4532,9 @@
     "title": "Anthropometric variables and its usage to characterise elite youth athletes",
     "authors": [],
     "journal": "Handbook of anthropometry. Physical measures of human form in health and disease",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4023,7 +4554,10 @@
     "journal": "Nutricion Hospitalaria",
     "doi": "10.3305/nh.2012.27.3.5725",
     "url": "https://doi.org/10.3305/nh.2012.27.3.5725",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -4035,7 +4569,9 @@
     "title": "Feeding habits of young international elite motorcyclists",
     "authors": [],
     "journal": "International Journal of Medicine and Science of Physical Activity and Sport",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4053,7 +4589,9 @@
     ],
     "journal": "Revista Internacional de Medicina y Ciencias de la Actividad Fisica y del Deporte",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84863545242&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
       "jose-joaquin-muros"
@@ -4071,7 +4609,9 @@
     "journal": "Journal of Strength and Conditioning Research",
     "doi": "10.1519/jsc.0b013e3181f90847",
     "url": "https://doi.org/10.1519/jsc.0b013e3181f90847",
-    "topics": [],
+    "topics": [
+      "biomechanics"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -4091,7 +4631,9 @@
     "journal": "International Journal of Sports Medicine",
     "doi": "10.1055/s-0031-1279722",
     "url": "https://doi.org/10.1055/s-0031-1279722",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz"
@@ -4112,7 +4654,10 @@
     "journal": "Psychology of Sport and Exercise",
     "doi": "10.1016/j.psychsport.2011.04.002",
     "url": "https://doi.org/10.1016/j.psychsport.2011.04.002",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4130,7 +4675,10 @@
     "journal": "Journal of Sport and Exercise Psychology",
     "doi": "10.1123/jsep.33.5.649",
     "url": "https://doi.org/10.1123/jsep.33.5.649",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4150,7 +4698,9 @@
     "journal": "Journal of Experimental Psychology: Human Perception and Performance",
     "doi": "10.1037/a0023513",
     "url": "https://doi.org/10.1037/a0023513",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4167,7 +4717,9 @@
     "journal": "Journal of Experimental Psychology: Human Perception and Performance",
     "doi": "10.1037/a0019956",
     "url": "https://doi.org/10.1037/a0019956",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4178,7 +4730,9 @@
     "title": "La actividad física en adolescentes no muestra relación con el consumo máximo de oxígeno",
     "authors": [],
     "journal": "Archivos de Medicina del Deporte",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4197,7 +4751,10 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80051893272&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4216,7 +4773,9 @@
     "journal": "Nutricion Hospitalaria",
     "doi": "10.3305/nh.2011.26.5.5206",
     "url": "https://doi.org/10.3305/nh.2011.26.5.5206",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4234,7 +4793,9 @@
     "journal": "Attention, Perception, and Psychophysics",
     "doi": "10.3758/app.72.7.1756",
     "url": "https://doi.org/10.3758/app.72.7.1756",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4251,7 +4812,9 @@
     ],
     "journal": "Nutricion Hospitalaria",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-77952749353&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4275,7 +4838,9 @@
     "journal": "Journal of Sports Sciences",
     "doi": "10.1080/02640414.2010.484067",
     "url": "https://doi.org/10.1080/02640414.2010.484067",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4286,7 +4851,9 @@
     "title": "Conocimiento sobre frecuencia cardíaca y percepción de la intensidad del esfuerzo en alumnos universitarios de último curso de ciencias de la actividad física y del deporte",
     "authors": [],
     "journal": "Apunts. Educación Física y Deportes",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4300,7 +4867,9 @@
     ],
     "journal": "Apunts. Educación Física y Deportes",
     "url": "https://revista-apunts.com/efecto-de-dos-estilos-de-ensenanza-cognoscitivo-versus-tradicional-sobre-el-aprendizaje-de-conceptos-de-anatomia-muscular-en-alumnos-de-educacion-fisica-de-1-de-eso/",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4318,7 +4887,9 @@
     ],
     "journal": "Ars Pharmaceutica",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84857433234&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4334,7 +4905,9 @@
     ],
     "journal": "Ars Pharmaceutica",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84857391894&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4350,7 +4923,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000270683700012&KeyUID=WOS:000270683700012",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march"
     ]
@@ -4366,7 +4941,9 @@
     ],
     "journal": "Journal of Sports Science and Medicine",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70349308287&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz"
@@ -4384,7 +4961,9 @@
     "journal": "Chemical Senses",
     "doi": "10.1093/chemse/bjn055",
     "url": "https://doi.org/10.1093/chemse/bjn055",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4404,7 +4983,9 @@
     "journal": "Journal of Strength and Conditioning Research",
     "doi": "10.1519/jsc.0b013e318194208a",
     "url": "https://doi.org/10.1519/jsc.0b013e318194208a",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4422,7 +5003,9 @@
     "journal": "Cultura_Ciencia_Deporte",
     "doi": "10.12800/ccd.v4i12.144",
     "url": "https://doi.org/10.12800/ccd.v4i12.144",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4436,7 +5019,9 @@
     ],
     "journal": "Nutrición clínica y dietética hospitalaria",
     "url": "https://pesquisa.bvsalud.org/portal/resource/e/ibc-61113",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "jose-joaquin-muros"
     ]
@@ -4449,7 +5034,11 @@
     "journal": "Artificial Intelligence in Medicine",
     "doi": "10.1016/j.artmed.2008.06.004",
     "url": "https://doi.org/10.1016/j.artmed.2008.06.004",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "psychology",
+      "ai"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4469,7 +5058,9 @@
     ],
     "journal": "Journal of Strength and Conditioning Research",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-59649113840&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "nutrition"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4486,7 +5077,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-007-0919-y",
     "url": "https://doi.org/10.1007/s00221-007-0919-y",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4504,7 +5097,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-006-0798-7",
     "url": "https://doi.org/10.1007/s00221-006-0798-7",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4522,7 +5117,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-007-0900-9",
     "url": "https://doi.org/10.1007/s00221-007-0900-9",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4539,7 +5136,9 @@
     "journal": "Acta Psychologica",
     "doi": "10.1016/j.actpsy.2006.04.001",
     "url": "https://doi.org/10.1016/j.actpsy.2006.04.001",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4556,7 +5155,9 @@
     "journal": "Cognition",
     "doi": "10.1016/j.cognition.2006.01.003",
     "url": "https://doi.org/10.1016/j.cognition.2006.01.003",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4573,7 +5174,9 @@
     "journal": "Journal of Experimental Psychology: Human Perception and Performance",
     "doi": "10.1037/0096-1523.33.4.927",
     "url": "https://doi.org/10.1037/0096-1523.33.4.927",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4591,7 +5194,10 @@
     "journal": "Food Quality and Preference",
     "doi": "10.1016/j.foodqual.2007.04.001",
     "url": "https://doi.org/10.1016/j.foodqual.2007.04.001",
-    "topics": [],
+    "topics": [
+      "nutrition",
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4609,7 +5215,9 @@
     "journal": "Cortex",
     "doi": "10.1016/s0010-9452(08)70471-4",
     "url": "https://doi.org/10.1016/s0010-9452(08)70471-4",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4626,7 +5234,9 @@
     "journal": "British Journal of Sports Medicine",
     "doi": "10.1136/bjsm.2007.037119",
     "url": "https://doi.org/10.1136/bjsm.2007.037119",
-    "topics": [],
+    "topics": [
+      "physiology"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4643,7 +5253,9 @@
     "journal": "Chemical Senses",
     "doi": "10.1093/chemse/bjj057",
     "url": "https://doi.org/10.1093/chemse/bjj057",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4661,7 +5273,9 @@
     "journal": "Chemical Senses",
     "doi": "10.1093/chemse/bjj031",
     "url": "https://doi.org/10.1093/chemse/bjj031",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4679,7 +5293,9 @@
     "journal": "Brain Research",
     "doi": "10.1016/j.brainres.2005.11.010",
     "url": "https://doi.org/10.1016/j.brainres.2005.11.010",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4698,7 +5314,9 @@
     "journal": "Brain Research",
     "doi": "10.1016/j.brainres.2005.11.094",
     "url": "https://doi.org/10.1016/j.brainres.2005.11.094",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4716,7 +5334,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-006-0485-8",
     "url": "https://doi.org/10.1007/s00221-006-0485-8",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4735,7 +5355,9 @@
     "journal": "Acta Psychologica",
     "doi": "10.1016/j.actpsy.2005.10.001",
     "url": "https://doi.org/10.1016/j.actpsy.2005.10.001",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4751,7 +5373,10 @@
     ],
     "journal": "Nutricion Clinica y Dietetica Hospitalaria",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33745223918&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "physiology",
+      "nutrition"
+    ],
     "crcAuthors": [
       "cristobal-sanchez-munoz"
     ]
@@ -4768,7 +5393,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-005-2395-6",
     "url": "https://doi.org/10.1007/s00221-005-2395-6",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4786,7 +5413,9 @@
     "journal": "Acta Psychologica",
     "doi": "10.1016/j.actpsy.2004.10.015",
     "url": "https://doi.org/10.1016/j.actpsy.2004.10.015",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4804,7 +5433,9 @@
     "journal": "Neuroscience Letters",
     "doi": "10.1016/j.neulet.2004.11.069",
     "url": "https://doi.org/10.1016/j.neulet.2004.11.069",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4821,7 +5452,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-005-2327-5",
     "url": "https://doi.org/10.1007/s00221-005-2327-5",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4839,7 +5472,9 @@
     "journal": "Experimental Brain Research",
     "doi": "10.1007/s00221-004-1993-z",
     "url": "https://doi.org/10.1007/s00221-004-1993-z",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4855,7 +5490,9 @@
     ],
     "journal": "NeuroReport",
     "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-11244302811&partnerID=MN8TOARS",
-    "topics": [],
+    "topics": [
+      "training"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
@@ -4873,7 +5510,9 @@
     "journal": "Cognitive, Affective and Behavioral Neuroscience",
     "doi": "10.3758/cabn.4.2.218",
     "url": "https://doi.org/10.3758/cabn.4.2.218",
-    "topics": [],
+    "topics": [
+      "psychology"
+    ],
     "crcAuthors": [
       "daniel-sanabria"
     ]
