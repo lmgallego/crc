@@ -56,6 +56,20 @@ const TOPIC_KEYWORDS: Record<PublicationTopic, string[]> = {
   ],
 };
 
+function stripHtml(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function inferTopics(title: string, journal: string): PublicationTopic[] {
   const text = `${title} ${journal}`.toLowerCase();
   const topics: PublicationTopic[] = [];
@@ -135,12 +149,12 @@ function mapWork(work: any, ownerSlug: string): FetchedWork | null {
     : undefined;
   const yearVal = work['publication-date']?.year?.value;
   const year = yearVal ? parseInt(yearVal, 10) : NaN;
-  const title = work.title?.title?.value;
+  const title = stripHtml(work.title?.title?.value ?? '');
   if (!title || !Number.isFinite(year)) return null;
   const authors: string[] = (work.contributors?.contributor ?? [])
     .map((c: any) => c['credit-name']?.value)
     .filter(Boolean);
-  const journal = work['journal-title']?.value ?? '';
+  const journal = stripHtml(work['journal-title']?.value ?? '');
   const id = doi ?? `${slugifyTitle(title)}-${year}`;
   const url = doi ? `https://doi.org/${doi}` : work.url?.value;
   return {
