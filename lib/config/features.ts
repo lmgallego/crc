@@ -10,4 +10,7 @@ export const FEATURES = {
    * Si true: activo todo el sistema ORCID.
    */
   orcidPublications: true,
+
+  /** Si true, infiere topics por keywords del título/journal. Si false, topics queda []. */
+  orcidAutoTopics: true,
 } as const;
