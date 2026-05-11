@@ -320,6 +320,8 @@
     },
     "featuredLabel": "Featured",
     "viewAtPublisher": "Read in journal →",
+    "noResults": "No publications match these filters.",
+    "noResultsHint": "Try removing a filter.",
     "titleDynamic": "{total} articles. {years} years of research.",
     "viewAllByMember": "See all {count} publications by {name} →",
     "syncedFromOrcid": "Synced via ORCID · updated {date}",

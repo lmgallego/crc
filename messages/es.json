@@ -320,6 +320,8 @@
     },
     "featuredLabel": "Destacado",
     "viewAtPublisher": "Ver en revista →",
+    "noResults": "No hay publicaciones con estos filtros.",
+    "noResultsHint": "Probá quitar algún filtro.",
     "titleDynamic": "{total} artículos. {years} años de investigación.",
     "viewAllByMember": "Ver las {count} publicaciones de {name} →",
     "syncedFromOrcid": "Sincronizado vía ORCID · actualizado {date}",

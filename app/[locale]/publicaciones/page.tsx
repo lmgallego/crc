@@ -19,6 +19,7 @@ import { PublicationsHero } from '@/components/blocks/publications/publications-
 import { PublicationsFilters } from '@/components/blocks/publications/publications-filters';
 import { PublicationItem } from '@/components/blocks/publications/publication-item';
 import { PublicationsEmpty } from '@/components/blocks/publications/publications-empty';
+import { NoResults } from '@/components/blocks/publications/no-results';
 import { generatePageMetadata, type Locale as SEOLocale } from '@/lib/seo';
 
 type Locale = 'es' | 'en';
@@ -123,7 +124,7 @@ function PublicationsList({
     return (
       <section className="border-t border-border">
         <div className="max-w-5xl mx-auto px-5 md:px-7 py-12">
-          <PublicationsEmpty />
+          <NoResults />
         </div>
       </section>
     );
