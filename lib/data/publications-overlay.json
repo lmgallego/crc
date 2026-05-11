@@ -1,3 +1,6 @@
 {
-  "__comment": "Overlay manual sobre datos de ORCID. Claves = DOI. Valores = campos a sobreescribir (isFeatured, topics, quartile, impactFactor). Editar a mano. Spec 13."
+  "__comment": "Overlay manual sobre datos de ORCID. Claves = DOI (en minúsculas). Valores = campos a sobreescribir (isFeatured, topics, quartile, impactFactor, citations, title). Editar a mano. Specs 13 y 13.2.",
+  "10.3390/nu17132227": {
+    "title": "ʟ-Carnitine and Alpha-Lipoic Acid Fail to Improve Anaerobic and Aerobic Performance in Trained Cyclists Despite a Reduction in Blood Lactate Concentration"
+  }
 }
