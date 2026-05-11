@@ -98,7 +98,15 @@ export default async function PublicationsPage({
   return (
     <>
       <PublicationsHero publications={publications} stats={stats} />
-      <PublicationsFilters years={years} authors={authors} />
+      <PublicationsFilters
+        years={years}
+        authors={authors}
+        pubs={publications.map((p) => ({
+          topics: p.topics,
+          crcAuthors: p.crcAuthors,
+          year: p.year,
+        }))}
+      />
       <PublicationsList grouped={grouped} />
       {lastUpdate ? <SyncFooter date={lastUpdate} locale={locale} /> : null}
     </>

@@ -16,13 +16,20 @@ import { ALL_TOPICS, type PublicationTopic } from '@/lib/data/publications';
 import { cn } from '@/lib/utils';
 
 type CRCAuthor = { slug: string; label: string };
+type FilterablePub = {
+  topics: PublicationTopic[];
+  crcAuthors: string[];
+  year: number;
+};
 
 export function PublicationsFilters({
   years,
   authors,
+  pubs,
 }: {
   years: number[];
   authors: CRCAuthor[];
+  pubs: FilterablePub[];
 }) {
   const t = useTranslations('publications.filters');
   const tTopics = useTranslations('publications.topics');
@@ -47,6 +54,40 @@ export function PublicationsFilters({
     current.topics.length +
     current.authors.length +
     (current.q ? 1 : 0);
+
+  const topicCounts = useMemo(() => {
+    const counts: Partial<Record<PublicationTopic, number>> = {};
+    const yearNum = current.year ? Number(current.year) : undefined;
+    for (const p of pubs) {
+      if (yearNum && p.year !== yearNum) continue;
+      if (
+        current.authors.length > 0 &&
+        !current.authors.some((a) => p.crcAuthors.includes(a))
+      )
+        continue;
+      for (const topic of p.topics) {
+        counts[topic] = (counts[topic] ?? 0) + 1;
+      }
+    }
+    return counts;
+  }, [pubs, current.year, current.authors]);
+
+  const authorCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    const yearNum = current.year ? Number(current.year) : undefined;
+    for (const p of pubs) {
+      if (yearNum && p.year !== yearNum) continue;
+      if (
+        current.topics.length > 0 &&
+        !current.topics.some((t) => p.topics.includes(t))
+      )
+        continue;
+      for (const slug of p.crcAuthors) {
+        counts[slug] = (counts[slug] ?? 0) + 1;
+      }
+    }
+    return counts;
+  }, [pubs, current.year, current.topics]);
 
   const update = (next: typeof current) => {
     const params = new URLSearchParams();
@@ -110,19 +151,25 @@ export function PublicationsFilters({
         <div className="flex flex-wrap gap-1.5">
           {ALL_TOPICS.map((topic) => {
             const active = current.topics.includes(topic);
+            const count = topicCounts[topic] ?? 0;
+            const disabled = !active && count === 0;
             return (
               <button
                 key={topic}
                 type="button"
                 onClick={() => toggleTopic(topic)}
+                aria-disabled={disabled || undefined}
+                tabIndex={disabled ? -1 : undefined}
                 className={cn(
                   'inline-flex items-center min-h-[36px] px-2.5 rounded-full font-mono text-[10px] uppercase tracking-[0.15em] border transition-colors',
                   active
                     ? 'bg-foreground text-background border-foreground'
                     : 'bg-card border-border text-muted hover:text-foreground',
+                  disabled && 'opacity-40 pointer-events-none cursor-not-allowed',
                 )}
               >
                 {tTopics(topic)}
+                <span className="ml-2 opacity-60">({count})</span>
               </button>
             );
           })}
@@ -134,19 +181,25 @@ export function PublicationsFilters({
         <div className="flex flex-wrap gap-1.5">
           {authors.map((a) => {
             const active = current.authors.includes(a.slug);
+            const count = authorCounts[a.slug] ?? 0;
+            const disabled = !active && count === 0;
             return (
               <button
                 key={a.slug}
                 type="button"
                 onClick={() => toggleAuthor(a.slug)}
+                aria-disabled={disabled || undefined}
+                tabIndex={disabled ? -1 : undefined}
                 className={cn(
                   'inline-flex items-center min-h-[36px] px-2.5 rounded-full font-mono text-[10px] uppercase tracking-[0.15em] border transition-colors',
                   active
                     ? 'bg-foreground text-background border-foreground'
                     : 'bg-card border-border text-muted hover:text-foreground',
+                  disabled && 'opacity-40 pointer-events-none cursor-not-allowed',
                 )}
               >
                 {a.label}
+                <span className="ml-2 opacity-60">({count})</span>
               </button>
             );
           })}
