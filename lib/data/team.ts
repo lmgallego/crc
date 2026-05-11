@@ -35,6 +35,7 @@ export type TeamMember = {
   career: CareerItem[];
   email?: string;
   orcid?: string;
+  orcidId?: string;
   scholar?: string;
   researchgate?: string;
   photo?: string;
@@ -80,6 +81,7 @@ export const TEAM: TeamMember[] = [
     ],
     career: [],
     email: 'mikel@crc.org',
+    orcidId: '0000-0002-8700-0382',
     photo: '/team/mikel-zabala.webp',
   },
   {
@@ -115,6 +117,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Trayectoria', value: 'Ex-piloto BMX · Ciclista Máster 30' },
     ],
     career: [],
+    orcidId: '0000-0003-4418-8263',
     photo: '/team/manuel-mateo-march.webp',
   },
   {
@@ -150,6 +153,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Línea', value: 'Rendimiento físico · ciclismo' },
     ],
     career: [],
+    orcidId: '0000-0002-4164-7607',
     photo: '/team/daniel-sanabria.webp',
   },
   {
@@ -185,6 +189,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Especialidad', value: 'ISAK Nivel II · Nutrición élite' },
     ],
     career: [],
+    orcidId: '0000-0001-9183-6417',
     photo: '/team/cristobal-sanchez-munoz.webp',
   },
   {
@@ -220,6 +225,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Publicaciones', value: '50+ artículos científicos' },
     ],
     career: [],
+    orcidId: '0000-0003-2689-4244',
     photo: '/team/alejandro-javaloyes.webp',
   },
   {
@@ -255,6 +261,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Docencia', value: 'Programa Tecnificación RFEC' },
     ],
     career: [],
+    orcidId: '0000-0001-7573-0399',
     photo: '/team/jose-joaquin-muros.webp',
   },
   {
@@ -290,6 +297,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Grupo', value: 'HUM1063' },
     ],
     career: [],
+    orcidId: '0000-0002-2438-6329',
     photo: '/team/juan-jose-perez-diaz.webp',
   },
   {
@@ -326,6 +334,7 @@ export const TEAM: TeamMember[] = [
       { label: 'Publicaciones', value: '3 papers Q1 (2024-25)' },
     ],
     career: [],
+    orcidId: '0009-0007-8184-7965',
     photo: '/team/alejandro-de-rozas.webp',
   },
   {
