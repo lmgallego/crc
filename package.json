@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
     "keystatic": "echo 'Keystatic disponible en http://localhost:3000/keystatic cuando dev esté corriendo'",
-    "pull": "git pull origin main"
+    "pull": "git pull origin main",
+    "fetch:orcid:backup": "cp lib/data/orcid-cache.json lib/data/orcid-cache.backup.json 2>/dev/null || true",
+    "fetch:orcid": "pnpm fetch:orcid:backup && tsx scripts/fetch-orcid.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -55,6 +57,7 @@
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^4.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.2"
   }
 }

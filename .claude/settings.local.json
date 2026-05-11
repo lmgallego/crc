@@ -28,7 +28,17 @@
       "Bash(grep -oE '<body[^>]*>[\\\\s\\\\S]{0,800}')",
       "Bash(PORT=3050 pnpm exec next dev --turbopack --port 3050)",
       "Bash(pnpm add *)",
-      "Bash(pnpm exec *)"
+      "Bash(pnpm exec *)",
+      "Bash(node *)",
+      "Bash(git pull *)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(pnpm list *)",
+      "Bash(cp \"C:/Users/luism/Documents/Proyectos/crc-web-bootstrap/crc-web/docs/content/source.docx\" /tmp/source.txt)",
+      "Read(//tmp/**)",
+      "Bash(git push *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/equipo)",
+      "Bash(git checkout *)"
     ]
   }
 }

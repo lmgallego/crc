@@ -1,0 +1,3 @@
+{
+  "__comment": "Overlay manual sobre datos de ORCID. Claves = DOI. Valores = campos a sobreescribir (isFeatured, topics, quartile, impactFactor). Editar a mano. Spec 13."
+}
