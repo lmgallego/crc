@@ -40,7 +40,8 @@
       "Bash(curl -s http://localhost:3000/equipo)",
       "Bash(git checkout *)",
       "Bash(pnpm fetch:orcid)",
-      "Bash(grep *)"
+      "Bash(grep *)",
+      "Bash(Get-ChildItem *)"
     ]
   }
 }
