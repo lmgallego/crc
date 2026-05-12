@@ -115,12 +115,12 @@ export function MemberHero({
             {member.highlights.length > 0 ? (
               <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-5 border-t border-border pt-6">
                 {member.highlights.map((h) => (
-                  <div key={h.label}>
+                  <div key={h.label.es}>
                     <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-accent-dark">
-                      {h.label}
+                      {h.label[locale]}
                     </div>
                     <div className="text-xs md:text-sm text-foreground/85 mt-1 leading-snug">
-                      {h.value}
+                      {h.value[locale]}
                     </div>
                   </div>
                 ))}

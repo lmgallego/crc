@@ -8,7 +8,7 @@ type Locale = 'es' | 'en';
 
 export function FeaturedFounderCard({
   member,
-  locale: _locale,
+  locale,
 }: {
   member: TeamMember;
   locale: Locale;
@@ -39,12 +39,12 @@ export function FeaturedFounderCard({
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-4 mt-2">
             {member.highlights.map((h) => (
-              <div key={h.label}>
+              <div key={h.label.es}>
                 <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-accent">
-                  {h.label}
+                  {h.label[locale]}
                 </div>
                 <div className="text-xs md:text-sm text-background/85 mt-1 leading-snug">
-                  {h.value}
+                  {h.value[locale]}
                 </div>
               </div>
             ))}
