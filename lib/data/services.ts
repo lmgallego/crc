@@ -43,7 +43,7 @@ export type Service = {
   metric?: { label: string; value: string };
   objectives?: LocalizedStringArray;
   areas?: ServiceArea[];
-  modalities?: string[];
+  modalities?: LocalizedString[];
   locations?: LocationGroup[];
   included?: IncludedItem[];
   programs?: Program[];
@@ -189,7 +189,15 @@ export const SERVICES: Service[] = [
         'Athletes from other disciplines (motocross, etc.) needing specific preparation',
       ],
     },
-    modalities: ['Ruta', 'MTB', 'BMX', 'Triatlón', 'Pista', 'Ciclocross', 'Motocross'],
+    modalities: [
+      { es: 'Ruta', en: 'Road' },
+      { es: 'MTB', en: 'MTB' },
+      { es: 'BMX', en: 'BMX' },
+      { es: 'Triatlón', en: 'Triathlon' },
+      { es: 'Pista', en: 'Track' },
+      { es: 'Ciclocross', en: 'Cyclocross' },
+      { es: 'Motocross', en: 'Motocross' },
+    ],
     cta: { es: 'Solicitar coaching', en: 'Request coaching' },
     ctaSecondary: { es: 'Conocer al equipo', en: 'Meet the team' },
     metric: { label: '25+ AÑOS · WORLDTOUR', value: '' },

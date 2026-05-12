@@ -133,7 +133,7 @@ function SpecificSection({ service, locale }: { service: Service; locale: Locale
     return <AreasSection service={service} locale={locale} />;
   }
   if (service.modalities) {
-    return <ModalitiesSection service={service} />;
+    return <ModalitiesSection service={service} locale={locale} />;
   }
   if (service.locations || service.included) {
     return <CampsSection service={service} locale={locale} />;
@@ -167,7 +167,7 @@ function AreasSection({ service, locale }: { service: Service; locale: Locale })
   );
 }
 
-function ModalitiesSection({ service }: { service: Service }) {
+function ModalitiesSection({ service, locale }: { service: Service; locale: Locale }) {
   const t = useTranslations('services.sections');
   return (
     <ServiceSection
@@ -178,10 +178,10 @@ function ModalitiesSection({ service }: { service: Service }) {
       <div className="flex flex-wrap gap-2">
         {service.modalities!.map((m) => (
           <span
-            key={m}
+            key={m.es}
             className="inline-flex items-center rounded-full border border-border bg-card px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.15em] text-foreground/80"
           >
-            {m}
+            {m[locale]}
           </span>
         ))}
       </div>
