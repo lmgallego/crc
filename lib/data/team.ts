@@ -1,3 +1,5 @@
+import type { LocalizedString } from './services';
+
 export type TeamRole =
   | 'director'
   | 'deputy-director'
@@ -8,8 +10,8 @@ export type TeamRole =
   | 'junior';
 
 export type Highlight = {
-  label: string;
-  value: string;
+  label: LocalizedString;
+  value: LocalizedString;
 };
 
 export type CareerItem = {
@@ -74,12 +76,42 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Cátedra', value: 'Univ. Granada · Director CEIO' },
-      { label: 'Formación', value: 'PhD UGR + John Moores Liverpool · MSc IA MIT · MSc COE+UPM' },
-      { label: 'Movistar', value: 'Director Rendimiento (2013-2019) · Head Coach (2020)' },
-      { label: 'RFEC', value: 'Director Técnico · Seleccionador Sub-23 Carretera y MTB' },
-      { label: 'Publicaciones', value: '100+ papers · Editor Cycling Science (Human Kinetics)' },
-      { label: 'Reconocimientos', value: 'Insignia COE (2023)' },
+      {
+        label: { es: 'Cátedra', en: 'Chair' },
+        value: { es: 'Univ. Granada · Director CEIO', en: 'Univ. Granada · CEIO Director' },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'PhD UGR + John Moores Liverpool · MSc IA MIT · MSc COE+UPM',
+          en: 'PhD UGR + John Moores Liverpool · MSc AI MIT · MSc COE+UPM',
+        },
+      },
+      {
+        label: { es: 'Movistar', en: 'Movistar' },
+        value: {
+          es: 'Director Rendimiento (2013-2019) · Head Coach (2020)',
+          en: 'Performance Director (2013-2019) · Head Coach (2020)',
+        },
+      },
+      {
+        label: { es: 'RFEC', en: 'RFEC' },
+        value: {
+          es: 'Director Técnico · Seleccionador Sub-23 Carretera y MTB',
+          en: 'Technical Director · U23 Road & MTB National Team Manager',
+        },
+      },
+      {
+        label: { es: 'Publicaciones', en: 'Publications' },
+        value: {
+          es: '100+ papers · Editor Cycling Science (Human Kinetics)',
+          en: '100+ papers · Editor of Cycling Science (Human Kinetics)',
+        },
+      },
+      {
+        label: { es: 'Reconocimientos', en: 'Recognition' },
+        value: { es: 'Insignia COE (2023)', en: 'COE Badge of Honor (2023)' },
+      },
     ],
     career: [],
     email: 'mikel@crc.org',
@@ -114,11 +146,35 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Rol', value: 'Director Adjunto CRC' },
-      { label: 'Formación', value: 'PhD CCAFD · MSc Alto Rendimiento' },
-      { label: 'RFEC', value: 'Entrenador Selección Española BMX' },
-      { label: 'UCI', value: 'Director Ciclismo nivel UCI' },
-      { label: 'Trayectoria', value: 'Ex-piloto BMX · Ciclista Máster 30' },
+      {
+        label: { es: 'Rol', en: 'Role' },
+        value: { es: 'Director Adjunto CRC', en: 'CRC Deputy Director' },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'PhD CCAFD · MSc Alto Rendimiento',
+          en: 'PhD Sport Sciences · MSc High Performance Sport',
+        },
+      },
+      {
+        label: { es: 'RFEC', en: 'RFEC' },
+        value: {
+          es: 'Entrenador Selección Española BMX',
+          en: 'Spanish BMX National Team Coach',
+        },
+      },
+      {
+        label: { es: 'UCI', en: 'UCI' },
+        value: { es: 'Director Ciclismo nivel UCI', en: 'UCI-level Cycling Director' },
+      },
+      {
+        label: { es: 'Trayectoria', en: 'Career' },
+        value: {
+          es: 'Ex-piloto BMX · Ciclista Máster 30',
+          en: 'Former BMX rider · Master 30 cyclist',
+        },
+      },
     ],
     career: [],
     orcidId: '0000-0003-4418-8263',
@@ -150,11 +206,38 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'PhD Universidad de Oxford' },
-      { label: 'Posición', value: 'Catedrático UGR · Psicología Experimental' },
-      { label: 'Laboratorio', value: 'Dinámicas cognitivas y afectivas (CIMCYC)' },
-      { label: 'Proyectos', value: '6 MICINN · 1 J. Andalucía · 2 AMA (Tramadol)' },
-      { label: 'Línea', value: 'Rendimiento físico · ciclismo' },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: { es: 'PhD Universidad de Oxford', en: 'PhD University of Oxford' },
+      },
+      {
+        label: { es: 'Posición', en: 'Position' },
+        value: {
+          es: 'Catedrático UGR · Psicología Experimental',
+          en: 'Full Professor UGR · Experimental Psychology',
+        },
+      },
+      {
+        label: { es: 'Laboratorio', en: 'Lab' },
+        value: {
+          es: 'Dinámicas cognitivas y afectivas (CIMCYC)',
+          en: 'Cognitive and Affective Dynamics (CIMCYC)',
+        },
+      },
+      {
+        label: { es: 'Proyectos', en: 'Projects' },
+        value: {
+          es: '6 MICINN · 1 J. Andalucía · 2 AMA (Tramadol)',
+          en: '6 MICINN · 1 Andalusia Gov. · 2 WADA (Tramadol)',
+        },
+      },
+      {
+        label: { es: 'Línea', en: 'Research line' },
+        value: {
+          es: 'Rendimiento físico · ciclismo',
+          en: 'Physical performance · cycling',
+        },
+      },
     ],
     career: [],
     orcidId: '0000-0002-4164-7607',
@@ -188,11 +271,38 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Posición', value: 'Profesor Titular UGR' },
-      { label: 'Formación', value: 'PhD CCAFD · MSc Alto Rendimiento COE+UPM' },
-      { label: 'Grupos', value: 'Director HUM1063 · Co-Director CEIO' },
-      { label: 'RFEC', value: 'Director Técnico (2013-2024) · Seleccionador MTB (2007-2020)' },
-      { label: 'Especialidad', value: 'ISAK Nivel II · Nutrición élite' },
+      {
+        label: { es: 'Posición', en: 'Position' },
+        value: { es: 'Profesor Titular UGR', en: 'Associate Professor UGR' },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'PhD CCAFD · MSc Alto Rendimiento COE+UPM',
+          en: 'PhD Sport Sciences · MSc High Performance Sport COE+UPM',
+        },
+      },
+      {
+        label: { es: 'Grupos', en: 'Groups' },
+        value: {
+          es: 'Director HUM1063 · Co-Director CEIO',
+          en: 'HUM1063 Director · CEIO Co-Director',
+        },
+      },
+      {
+        label: { es: 'RFEC', en: 'RFEC' },
+        value: {
+          es: 'Director Técnico (2013-2024) · Seleccionador MTB (2007-2020)',
+          en: 'Technical Director (2013-2024) · MTB National Team Manager (2007-2020)',
+        },
+      },
+      {
+        label: { es: 'Especialidad', en: 'Specialty' },
+        value: {
+          es: 'ISAK Nivel II · Nutrición élite',
+          en: 'ISAK Level II · Elite nutrition',
+        },
+      },
     ],
     career: [],
     orcidId: '0000-0001-9183-6417',
@@ -224,11 +334,32 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Posición', value: 'Profesor Ayudante Doctor UMH Elche' },
-      { label: 'Trayectoria', value: 'Técnico Rendimiento RFEC (2017-2024)' },
-      { label: 'Formación', value: 'PhD CCAFD · MSc UMH' },
-      { label: 'Grupo', value: 'GIAFIS' },
-      { label: 'Publicaciones', value: '50+ artículos científicos' },
+      {
+        label: { es: 'Posición', en: 'Position' },
+        value: {
+          es: 'Profesor Ayudante Doctor UMH Elche',
+          en: 'Assistant Professor UMH Elche',
+        },
+      },
+      {
+        label: { es: 'Trayectoria', en: 'Career' },
+        value: {
+          es: 'Técnico Rendimiento RFEC (2017-2024)',
+          en: 'RFEC Performance Technician (2017-2024)',
+        },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: { es: 'PhD CCAFD · MSc UMH', en: 'PhD Sport Sciences · MSc UMH' },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'GIAFIS', en: 'GIAFIS' },
+      },
+      {
+        label: { es: 'Publicaciones', en: 'Publications' },
+        value: { es: '50+ artículos científicos', en: '50+ scientific papers' },
+      },
     ],
     career: [],
     orcidId: '0000-0003-2689-4244',
@@ -270,11 +401,38 @@ export const TEAM: TeamMember[] = [
       en: [],
     },
     highlights: [
-      { label: 'Posición', value: 'Profesor UGR · Facultad CC. del Deporte' },
-      { label: 'Formación', value: 'PhD Biomedicina UGR · MSc UPO · MSc UMU' },
-      { label: 'RFEC', value: 'Técnico Rendimiento BTT (2019-presente)' },
-      { label: 'Federativo', value: 'Director Deportivo Nivel III · Docente FAC' },
-      { label: 'Grupo', value: 'HUM1063' },
+      {
+        label: { es: 'Posición', en: 'Position' },
+        value: {
+          es: 'Profesor UGR · Facultad CC. del Deporte',
+          en: 'Lecturer UGR · Faculty of Sport Sciences',
+        },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'PhD Biomedicina UGR · MSc UPO · MSc UMU',
+          en: 'PhD Biomedicine UGR · MSc UPO · MSc UMU',
+        },
+      },
+      {
+        label: { es: 'RFEC', en: 'RFEC' },
+        value: {
+          es: 'Técnico Rendimiento BTT (2019-presente)',
+          en: 'MTB Performance Technician (2019-present)',
+        },
+      },
+      {
+        label: { es: 'Federativo', en: 'Federation' },
+        value: {
+          es: 'Director Deportivo Nivel III · Docente FAC',
+          en: 'Level III Sport Director · FAC Instructor',
+        },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'HUM1063', en: 'HUM1063' },
+      },
     ],
     career: [],
     orcidId: '0000-0001-8600-0930',
@@ -306,11 +464,35 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'Doble PhD (UGR/Loughborough + Jaén/Nottingham)' },
-      { label: 'Especialidad', value: 'Nutrición · ISAK Lvl II' },
-      { label: 'Grupo', value: 'HUM1063' },
-      { label: 'Cargos federativos', value: 'Dir. Deportivo Ciclismo III · Entrenador Natación III' },
-      { label: 'Docencia', value: 'Programa Tecnificación RFEC' },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'Doble PhD (UGR/Loughborough + Jaén/Nottingham)',
+          en: 'Dual PhD (UGR/Loughborough + Jaén/Nottingham)',
+        },
+      },
+      {
+        label: { es: 'Especialidad', en: 'Specialty' },
+        value: { es: 'Nutrición · ISAK Lvl II', en: 'Nutrition · ISAK Lvl II' },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'HUM1063', en: 'HUM1063' },
+      },
+      {
+        label: { es: 'Cargos federativos', en: 'Federation roles' },
+        value: {
+          es: 'Dir. Deportivo Ciclismo III · Entrenador Natación III',
+          en: 'Level III Cycling Sport Director · Level III Swimming Coach',
+        },
+      },
+      {
+        label: { es: 'Docencia', en: 'Teaching' },
+        value: {
+          es: 'Programa Tecnificación RFEC',
+          en: 'RFEC Tecnificación Programme',
+        },
+      },
     ],
     career: [],
     orcidId: '0000-0001-7573-0399',
@@ -342,11 +524,38 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'MSc UCAM (×2) · PhD activo UGR' },
-      { label: 'Certificación', value: 'NSCA-CSCS · Director Deportivo III RFEC' },
-      { label: 'Línea', value: 'Esfuerzo máximo en ciclismo' },
-      { label: 'Trayectoria', value: 'Valverde Team junior · Sel. Murciana' },
-      { label: 'Grupo', value: 'HUM1063' },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'MSc UCAM (×2) · PhD activo UGR',
+          en: 'MSc UCAM (×2) · Active PhD UGR',
+        },
+      },
+      {
+        label: { es: 'Certificación', en: 'Certification' },
+        value: {
+          es: 'NSCA-CSCS · Director Deportivo III RFEC',
+          en: 'NSCA-CSCS · Level III RFEC Sport Director',
+        },
+      },
+      {
+        label: { es: 'Línea', en: 'Research line' },
+        value: {
+          es: 'Esfuerzo máximo en ciclismo',
+          en: 'Maximal effort in cycling',
+        },
+      },
+      {
+        label: { es: 'Trayectoria', en: 'Career' },
+        value: {
+          es: 'Valverde Team junior · Sel. Murciana',
+          en: 'Valverde Team junior · Murcia Regional Team',
+        },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'HUM1063', en: 'HUM1063' },
+      },
     ],
     career: [],
     orcidId: '0000-0002-2438-6329',
@@ -378,12 +587,30 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'MSc UGR · PhD activo' },
-      { label: 'Línea Tesis', value: 'Durabilidad en ciclismo' },
-      { label: 'Grupo', value: 'HUM727' },
-      { label: 'Certificación', value: 'ISAK Nivel 2' },
-      { label: 'Colaboración', value: 'CSD · RFEC' },
-      { label: 'Publicaciones', value: '3 papers Q1 (2024-25)' },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: { es: 'MSc UGR · PhD activo', en: 'MSc UGR · Active PhD' },
+      },
+      {
+        label: { es: 'Línea Tesis', en: 'Thesis' },
+        value: { es: 'Durabilidad en ciclismo', en: 'Durability in cycling' },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'HUM727', en: 'HUM727' },
+      },
+      {
+        label: { es: 'Certificación', en: 'Certification' },
+        value: { es: 'ISAK Nivel 2', en: 'ISAK Level 2' },
+      },
+      {
+        label: { es: 'Colaboración', en: 'Collaboration' },
+        value: { es: 'CSD · RFEC', en: 'CSD · RFEC' },
+      },
+      {
+        label: { es: 'Publicaciones', en: 'Publications' },
+        value: { es: '3 papers Q1 (2024-25)', en: '3 Q1 papers (2024-25)' },
+      },
     ],
     career: [],
     orcidId: '0009-0007-8184-7965',
@@ -415,11 +642,38 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Trayectoria Deport.', value: 'Sub23 Caja Rural-Alea (2023-2025)' },
-      { label: 'Palmarés Junior', value: 'Campeón Navarra 2021 · Equipo Nacional' },
-      { label: 'Formación', value: 'TSAF · Estudiante Grado CAFD UGR' },
-      { label: 'Especialidad', value: 'IA generativa en ciclismo' },
-      { label: 'Rol CRC', value: 'Junior researcher' },
+      {
+        label: { es: 'Trayectoria Deport.', en: 'Sport career' },
+        value: {
+          es: 'Sub23 Caja Rural-Alea (2023-2025)',
+          en: 'U23 Caja Rural-Alea (2023-2025)',
+        },
+      },
+      {
+        label: { es: 'Palmarés Junior', en: 'Junior achievements' },
+        value: {
+          es: 'Campeón Navarra 2021 · Equipo Nacional',
+          en: 'Navarra Champion 2021 · National Team',
+        },
+      },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: {
+          es: 'TSAF · Estudiante Grado CAFD UGR',
+          en: 'TSAF · CAFD undergraduate UGR',
+        },
+      },
+      {
+        label: { es: 'Especialidad', en: 'Specialty' },
+        value: {
+          es: 'IA generativa en ciclismo',
+          en: 'Generative AI in cycling',
+        },
+      },
+      {
+        label: { es: 'Rol CRC', en: 'CRC role' },
+        value: { es: 'Junior researcher', en: 'Junior researcher' },
+      },
     ],
     career: [],
     photo: '/team/xabier-zabala.webp',
@@ -451,11 +705,35 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Formación', value: 'Grado CAFD UGR · PhD activo' },
-      { label: 'Palmarés XCO', value: '1º Cto. Andalucía Sub23 (2023) · 10º Copa España Sub23 (2022)' },
-      { label: 'Federación', value: 'Delegado Provincial FAC Granada' },
-      { label: 'Cargo', value: 'Director Deportivo Nivel III' },
-      { label: 'Grupo', value: 'HUM1063' },
+      {
+        label: { es: 'Formación', en: 'Education' },
+        value: { es: 'Grado CAFD UGR · PhD activo', en: 'CAFD degree UGR · Active PhD' },
+      },
+      {
+        label: { es: 'Palmarés XCO', en: 'XCO achievements' },
+        value: {
+          es: '1º Cto. Andalucía Sub23 (2023) · 10º Copa España Sub23 (2022)',
+          en: '1st Andalusia U23 Championship (2023) · 10th Spanish Cup U23 (2022)',
+        },
+      },
+      {
+        label: { es: 'Federación', en: 'Federation' },
+        value: {
+          es: 'Delegado Provincial FAC Granada',
+          en: 'FAC Granada Provincial Delegate',
+        },
+      },
+      {
+        label: { es: 'Cargo', en: 'Role' },
+        value: {
+          es: 'Director Deportivo Nivel III',
+          en: 'Level III Sport Director',
+        },
+      },
+      {
+        label: { es: 'Grupo', en: 'Group' },
+        value: { es: 'HUM1063', en: 'HUM1063' },
+      },
     ],
     career: [],
     photo: '/team/ignacio-valdivia.webp',
@@ -488,9 +766,24 @@ export const TEAM: TeamMember[] = [
       ],
     },
     highlights: [
-      { label: 'Docencia', value: 'Intervals.icu' },
-      { label: 'Stack', value: 'Python · ML · Automatización' },
-      { label: 'Colaboración', value: 'NTT DATA Talent Pool' },
+      {
+        label: { es: 'Docencia', en: 'Teaching' },
+        value: { es: 'Intervals.icu', en: 'Intervals.icu' },
+      },
+      {
+        label: { es: 'Stack', en: 'Stack' },
+        value: {
+          es: 'Python · ML · Automatización',
+          en: 'Python · ML · Automation',
+        },
+      },
+      {
+        label: { es: 'Colaboración', en: 'Collaboration' },
+        value: {
+          es: 'NTT DATA Talent Pool',
+          en: 'NTT DATA Talent Pool',
+        },
+      },
     ],
     career: [],
     photo: '/team/luisma-gallego.webp',
