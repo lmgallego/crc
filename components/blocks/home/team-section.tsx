@@ -2,7 +2,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { SectionHeader } from '@/components/blocks/shared/section-header';
 import { TeamCard } from '@/components/blocks/team/team-card';
 import { FeaturedFounderCard } from '@/components/blocks/team/featured-founder-card';
-import { FOUNDER, TEAM_REST } from '@/lib/data/team';
+import { FOUNDER, TEAM, TEAM_REST } from '@/lib/data/team';
 
 type Locale = 'es' | 'en';
 
@@ -16,7 +16,7 @@ export function TeamSection() {
         <SectionHeader
           number="03"
           eyebrow={t('eyebrow')}
-          title={t('title')}
+          title={t('title', { count: TEAM.length })}
           cta={t('cta')}
           ctaHref="/equipo"
         />

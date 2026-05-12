@@ -9,7 +9,7 @@
       "description": "Manifiesto del CRC: tres paradigmas (1.0, 2.0, 3.0) que definen cómo entendemos hoy el ciclismo y la era aumentada por inteligencia artificial."
     },
     "team": {
-      "title": "Equipo · 11 investigadores — CRC",
+      "title": "Equipo · {count} investigadores — CRC",
       "description": "Investigadores con formación doctoral en ciencias del deporte aplicadas al ciclismo, repartidos entre la Universidad de Granada y la Universidad Miguel Hernández."
     },
     "services": {
@@ -142,7 +142,7 @@
     },
     "team": {
       "eyebrow": "Equipo",
-      "title": "11 investigadores. Una misión.",
+      "title": "{count} investigadores. Una misión.",
       "cta": "Ver todos →",
       "founder": {
         "eyebrow": "— Fundador & Director del CRC",
@@ -354,8 +354,8 @@
   },
   "team": {
     "eyebrow": "Equipo",
-    "title": "11 personas, una misión.",
-    "subtitle": "Investigadores con formación doctoral en ciencias del deporte aplicadas al ciclismo. Repartidos entre la Universidad de Granada y la Universidad Miguel Hernández de Elche.",
+    "title": "{count} personas, una misión.",
+    "subtitle": "Investigación científica y experiencia profesional al servicio del rendimiento ciclista. Universidad de Granada y Universidad Miguel Hernández de Elche.",
     "roles": {
       "director": "Dirección",
       "deputyDirector": "Dirección adjunta",

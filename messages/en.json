@@ -9,7 +9,7 @@
       "description": "CRC manifesto: three paradigms (1.0, 2.0, 3.0) that define how we understand cycling today and the era amplified by artificial intelligence."
     },
     "team": {
-      "title": "Team · 11 researchers — CRC",
+      "title": "Team · {count} researchers — CRC",
       "description": "Researchers with doctoral training in sport sciences applied to cycling, split between the University of Granada and Universidad Miguel Hernández."
     },
     "services": {
@@ -142,7 +142,7 @@
     },
     "team": {
       "eyebrow": "Team",
-      "title": "11 researchers. One mission.",
+      "title": "{count} researchers. One mission.",
       "cta": "See all →",
       "founder": {
         "eyebrow": "— CRC Founder & Director",
@@ -354,8 +354,8 @@
   },
   "team": {
     "eyebrow": "Team",
-    "title": "11 people, one mission.",
-    "subtitle": "Researchers with doctoral training in sports sciences applied to cycling. Split between the University of Granada and Universidad Miguel Hernández de Elche.",
+    "title": "{count} people, one mission.",
+    "subtitle": "Scientific research and professional experience at the service of cycling performance. Universidad de Granada and Universidad Miguel Hernández de Elche.",
     "roles": {
       "director": "Direction",
       "deputyDirector": "Deputy direction",

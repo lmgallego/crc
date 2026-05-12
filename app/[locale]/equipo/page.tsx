@@ -17,7 +17,7 @@ export async function generateMetadata({
   return generatePageMetadata({
     locale: loc,
     pathKey: '/equipo',
-    title: t('title'),
+    title: t('title', { count: TEAM.length }),
     description: t('description'),
   });
 }
@@ -48,7 +48,7 @@ function Hero() {
   return (
     <PageHero
       eyebrow={t('eyebrow')}
-      title={t('title')}
+      title={t('title', { count: TEAM.length })}
       subtitle={t('subtitle')}
     />
   );
