@@ -38,6 +38,7 @@
     ],
     "crcAuthors": [
       "mikel-zabala",
+      "jose-antonio-salas",
       "juan-jose-perez-diaz"
     ]
   },
@@ -88,6 +89,7 @@
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
+      "jose-antonio-salas",
       "juan-jose-perez-diaz"
     ]
   },
@@ -134,7 +136,8 @@
     "crcAuthors": [
       "manuel-mateo-march",
       "cristobal-sanchez-munoz",
-      "alejandro-javaloyes"
+      "alejandro-javaloyes",
+      "jose-antonio-salas"
     ]
   },
   {
@@ -265,6 +268,67 @@
     ]
   },
   {
+    "id": "10.31219/osf.io/yptfq_v1",
+    "year": 2026,
+    "title": "How professional and amateur cyclists experience high intensity efforts",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Mikel Zabala",
+      "Daniel Sanabria",
+      "José-Antonio Salas-Montoro"
+    ],
+    "journal": "",
+    "doi": "10.31219/osf.io/yptfq_v1",
+    "url": "https://doi.org/10.31219/osf.io/yptfq_v1",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.31219/osf.io/yptfq_v2",
+    "year": 2026,
+    "title": "How professional and amateur cyclists experience high intensity efforts",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Mikel Zabala",
+      "Daniel Sanabria",
+      "José-Antonio Salas-Montoro"
+    ],
+    "journal": "",
+    "doi": "10.31219/osf.io/yptfq_v2",
+    "url": "https://doi.org/10.31219/osf.io/yptfq_v2",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.1016/j.psychsport.2025.102991",
+    "year": 2026,
+    "title": "Can't hold any more! A large survey on cycling subjective experience at the limit of effort",
+    "authors": [
+      "Juan-José Pérez-Díaz",
+      "Isabel Benítez",
+      "José-Antonio Salas-Montoro",
+      "Mikel Zabala",
+      "Daniel Sanabria"
+    ],
+    "journal": "Psychology of Sport and Exercise",
+    "doi": "10.1016/j.psychsport.2025.102991",
+    "url": "https://doi.org/10.1016/j.psychsport.2025.102991",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
     "id": "10.3390/bs16050703",
     "year": 2026,
     "title": "Effects of Different Physical Activity Approaches on Executive Functions in Primary School Children with ADHD: A Scoping Review with Methodological Reflections",
@@ -343,6 +407,7 @@
     ],
     "crcAuthors": [
       "mikel-zabala",
+      "jose-antonio-salas",
       "juan-jose-perez-diaz",
       "alejandro-de-rozas"
     ]
@@ -609,6 +674,7 @@
     ],
     "crcAuthors": [
       "cristobal-sanchez-munoz",
+      "jose-antonio-salas",
       "jose-joaquin-muros",
       "juan-jose-perez-diaz",
       "alejandro-de-rozas"
@@ -679,6 +745,26 @@
     ]
   },
   {
+    "id": "10.31234/osf.io/w8zey_v2",
+    "year": 2025,
+    "title": "Power output feedback improves cycling performance without affecting the perception of voluntariness in task failure",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Daniel Sanabria",
+      "José-Antonio Salas-Montoro",
+      "Mikel Zabala"
+    ],
+    "journal": "",
+    "doi": "10.31234/osf.io/w8zey_v2",
+    "url": "https://doi.org/10.31234/osf.io/w8zey_v2",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
     "id": "10.3390/children12111459",
     "year": 2025,
     "title": "Sex-Based Differences in Lifestyle Behaviours, Self-Esteem, and Academic Performance: A Structural Equation Model in High-Socioeconomic-Status School-Aged Youth from Southern Spain",
@@ -695,8 +781,73 @@
       "training"
     ],
     "crcAuthors": [
+      "jose-antonio-salas",
       "jose-joaquin-muros",
       "juan-jose-perez-diaz"
+    ]
+  },
+  {
+    "id": "10.31234/osf.io/w8zey_v1",
+    "year": 2025,
+    "title": "Power output feedback improves cycling performance without affecting the perception of voluntariness in task failure",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Daniel Sanabria",
+      "José-Antonio Salas-Montoro",
+      "Mikel Zabala"
+    ],
+    "journal": "",
+    "doi": "10.31234/osf.io/w8zey_v1",
+    "url": "https://doi.org/10.31234/osf.io/w8zey_v1",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.31219/osf.io/5b3uh_v1",
+    "year": 2025,
+    "title": "Temporal Dynamics of Subjective Experience and Performance During a Dual-Task in Trained Cyclists",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Darias Holgado",
+      "Clara Alameda",
+      "Chiara Avancini",
+      "Luis Ciria Perez",
+      "José-Antonio Salas-Montoro",
+      "Daniel Sanabria"
+    ],
+    "journal": "",
+    "doi": "10.31219/osf.io/5b3uh_v1",
+    "url": "https://doi.org/10.31219/osf.io/5b3uh_v1",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.31234/osf.io/j7nq4_v1",
+    "year": 2025,
+    "title": "Can’t Hold any More! A Large Survey on Cycling Subjective Experience at the Limit of Effort",
+    "authors": [
+      "Juan José Pérez-Díaz",
+      "Isabel Benítez",
+      "José-Antonio Salas-Montoro",
+      "Mikel Zabala",
+      "Daniel Sanabria"
+    ],
+    "journal": "",
+    "doi": "10.31234/osf.io/j7nq4_v1",
+    "url": "https://doi.org/10.31234/osf.io/j7nq4_v1",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
     ]
   },
   {
@@ -933,6 +1084,27 @@
     ]
   },
   {
+    "id": "10.3390/nu16213582",
+    "year": 2024,
+    "title": "Lifestyle Behaviours in Pre-Schoolers from Southern Spain—A Structural Equation Model According to Sex and Body Mass Index",
+    "authors": [
+      "Gracia Villodres",
+      "Rosario Padial-Ruz",
+      "José-Antonio Salas-Montoro",
+      "José Muros"
+    ],
+    "journal": "Nutrients",
+    "doi": "10.3390/nu16213582",
+    "url": "https://doi.org/10.3390/nu16213582",
+    "topics": [
+      "training"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas",
+      "jose-joaquin-muros"
+    ]
+  },
+  {
     "id": "10.1186/s12940-024-01134-7",
     "year": 2024,
     "title": "Dietary bisphenols exposure as an influencing factor of body mass index",
@@ -971,26 +1143,6 @@
     "url": "https://doi.org/10.3389/fnut.2024.1510423",
     "topics": [
       "nutrition"
-    ],
-    "crcAuthors": [
-      "jose-joaquin-muros"
-    ]
-  },
-  {
-    "id": "10.3390/nu16213582",
-    "year": 2024,
-    "title": "Lifestyle Behaviours in Pre-Schoolers from Southern Spain—A Structural Equation Model According to Sex and Body Mass Index",
-    "authors": [
-      "Gracia Villodres",
-      "Rosario Padial-Ruz",
-      "José-Antonio Salas-Montoro",
-      "José Muros"
-    ],
-    "journal": "Nutrients",
-    "doi": "10.3390/nu16213582",
-    "url": "https://doi.org/10.3390/nu16213582",
-    "topics": [
-      "training"
     ],
     "crcAuthors": [
       "jose-joaquin-muros"
@@ -1333,6 +1485,123 @@
     ]
   },
   {
+    "id": "10.28985/1223.jsc.06",
+    "year": 2023,
+    "title": "Noise or Progress: A Call for Understanding Cycling Training Terminology",
+    "authors": [
+      "Jose-Antonio Salas-Montoro",
+      "Juan-José Pérez-Díaz"
+    ],
+    "journal": "Journal of Science and Cycling",
+    "doi": "10.28985/1223.jsc.06",
+    "url": "https://doi.org/10.28985/1223.jsc.06",
+    "topics": [
+      "training"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.51224/srxiv.341",
+    "year": 2023,
+    "title": "Cognitive-physical task interaction during self-paced cycling",
+    "authors": [
+      "Chiara Avancini",
+      "Daniele Marinazzo",
+      "Daniel Sanabria",
+      "Juan José Pérez-Díaz",
+      "José-Antonio Salas-Montoro",
+      "José-Antonio Salas-Montoro",
+      "José-Antonio Salas-Montoro",
+      "Luis Fernando Ciria"
+    ],
+    "journal": "",
+    "doi": "10.51224/srxiv.341",
+    "url": "https://doi.org/10.51224/srxiv.341",
+    "topics": [
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "apnea-una-alternativa-a-la-hipoxia-para-mejorar-el-rendimien-2023",
+    "year": 2023,
+    "title": "Apnea: una alternativa a la hipoxia para mejorar el rendimiento en ciclismo",
+    "authors": [
+      "José-Antonio Salas-Montoro"
+    ],
+    "journal": "",
+    "url": "https://digibug.ugr.es/handle/10481/84687",
+    "topics": [
+      "training"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.6018/sportk.568331",
+    "year": 2023,
+    "title": "Impacto de las nuevas tecnologías en los niveles de actividad física y sedentarismo en el alumnado de Educación Secundaria Obligatoria: Diagnóstico y plan de acción",
+    "authors": [
+      "Juan-José Pérez-Díaz",
+      "José-Antonio Salas-Montoro",
+      "Laura Rodríguez-Gallego",
+      "Manuel Mateo-March"
+    ],
+    "journal": "SPORT TK-Revista EuroAmericana de Ciencias del Deporte",
+    "doi": "10.6018/sportk.568331",
+    "url": "https://doi.org/10.6018/sportk.568331",
+    "topics": [
+      "training"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "impact-of-new-technologies-on-physical-activity-levels-and-s-2023",
+    "year": 2023,
+    "title": "Impact of new technologies on physical activity levels and sedentary lifestyle in students in Compulsory Secondary Education: Diagnosis and action plan",
+    "authors": [
+      "Perez-Diaz, Juan-Jose",
+      "Salas-Montoro, Jose -Antonio",
+      "Rodriguez-Gallego, Laura",
+      "Mateo-March, Manuel"
+    ],
+    "journal": "Sport TK-Revista Euroamericana de Ciencias del Deporte",
+    "url": "https://publons.com/wos-op/publon/62657822/",
+    "topics": [
+      "training"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
+    "id": "10.21134/eurjhm.2023.51.7",
+    "year": 2023,
+    "title": "Physical and cognitive cycling performance wearing a training mask",
+    "authors": [
+      "Salas-Montoro, Jose -Antonio",
+      "Ramirez-Lechuga, Jorge",
+      "Zabala, Mikel"
+    ],
+    "journal": "European Journal of Human Movement",
+    "doi": "10.21134/eurjhm.2023.51.7",
+    "url": "https://doi.org/10.21134/eurjhm.2023.51.7",
+    "topics": [
+      "training",
+      "psychology"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
+    ]
+  },
+  {
     "id": "10.3390/children10111769",
     "year": 2023,
     "title": "Lifestyle Behaviours, Self-Esteem and Academic Performance in Primary Education Students—A Structural Equation Model According to Sex and School Type",
@@ -1482,7 +1751,8 @@
     "crcAuthors": [
       "mikel-zabala",
       "manuel-mateo-march",
-      "alejandro-javaloyes"
+      "alejandro-javaloyes",
+      "jose-antonio-salas"
     ]
   },
   {
@@ -1553,7 +1823,8 @@
       "training"
     ],
     "crcAuthors": [
-      "manuel-mateo-march"
+      "manuel-mateo-march",
+      "jose-antonio-salas"
     ]
   },
   {
@@ -1649,7 +1920,8 @@
       "physiology"
     ],
     "crcAuthors": [
-      "manuel-mateo-march"
+      "manuel-mateo-march",
+      "jose-antonio-salas"
     ]
   },
   {
@@ -1900,6 +2172,36 @@
     ],
     "crcAuthors": [
       "alejandro-javaloyes"
+    ]
+  },
+  {
+    "id": "10.3390/nu14214523",
+    "year": 2022,
+    "title": "Anti-Doping Knowledge of Students Undertaking Bachelor’s Degrees in Sports Sciences in Spain",
+    "authors": [
+      "Millán Aguilar-Navarro",
+      "José-Antonio Salas-Montoro",
+      "José Pino-Ortega",
+      "Juan José Salinero",
+      "Fernando González-Mohíno",
+      "Virginia Alcaraz-Rodríguez",
+      "Diego Moreno-Pérez",
+      "Nadia Lanza",
+      "Beatriz Lara",
+      "Víctor Moreno-Pérez",
+      "Blanca Romero-Moraleda",
+      "Alberto Pérez-López",
+      "Carlos García-Martí",
+      "Juan Del Coso"
+    ],
+    "journal": "Nutrients",
+    "doi": "10.3390/nu14214523",
+    "url": "https://doi.org/10.3390/nu14214523",
+    "topics": [
+      "doping"
+    ],
+    "crcAuthors": [
+      "jose-antonio-salas"
     ]
   },
   {
