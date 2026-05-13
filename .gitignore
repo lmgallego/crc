@@ -61,3 +61,6 @@ lib/data/orcid-cache.backup.json
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Claude Code local settings
+.claude/settings.local.json
