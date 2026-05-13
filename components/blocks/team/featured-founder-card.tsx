@@ -5,15 +5,23 @@ import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 
 type Locale = 'es' | 'en';
+type Variant = 'founder' | 'cofounder';
 
 export function FeaturedFounderCard({
   member,
   locale,
+  variant = 'founder',
 }: {
   member: TeamMember;
   locale: Locale;
+  variant?: Variant;
 }) {
-  const t = useTranslations('home.team.founder');
+  const t = useTranslations(
+    variant === 'cofounder' ? 'home.team.cofounder' : 'home.team.founder',
+  );
+  const badgeText = variant === 'cofounder'
+    ? (locale === 'en' ? 'CO-FOUNDER' : 'COFUNDADOR')
+    : 'DIRECTOR';
 
   return (
     <div className="bg-foreground text-background rounded-md overflow-hidden">
@@ -21,6 +29,7 @@ export function FeaturedFounderCard({
         <FounderPortrait
           photo={member.photo}
           name={`${member.name} ${member.surname}`}
+          badgeText={badgeText}
         />
 
         <div className="p-6 md:p-10 flex flex-col gap-5">
@@ -79,9 +88,11 @@ export function FeaturedFounderCard({
 function FounderPortrait({
   photo,
   name,
+  badgeText,
 }: {
   photo?: string;
   name: string;
+  badgeText: string;
 }) {
   return (
     <div
@@ -106,7 +117,7 @@ function FounderPortrait({
         />
       ) : null}
       <span className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-[0.2em] bg-accent text-accent-foreground px-2 py-1 z-10">
-        DIRECTOR
+        {badgeText}
       </span>
     </div>
   );
