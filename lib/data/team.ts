@@ -2,6 +2,7 @@ import type { LocalizedString } from './services';
 
 export type TeamRole =
   | 'director'
+  | 'cofounder'
   | 'deputy-director'
   | 'senior-researcher'
   | 'researcher'
@@ -121,7 +122,7 @@ export const TEAM: TeamMember[] = [
   {
     slug: 'manuel-mateo-march',
     number: 2,
-    role: 'deputy-director',
+    role: 'cofounder',
     name: 'Manuel',
     surname: 'Mateo-March',
     degree: 'PhD',
@@ -793,6 +794,7 @@ export const TEAM: TeamMember[] = [
 export const JUNIOR_GROUP_ORDER = ['xabier-zabala'];
 
 export const FOUNDER = TEAM[0];
+export const COFOUNDER = TEAM.find((m) => m.slug === 'manuel-mateo-march')!;
 export const TEAM_REST = TEAM.slice(1);
 
 export const FOUNDER_HIGHLIGHTS = TEAM[0].highlights;
@@ -831,6 +833,7 @@ export function findMember(slug: string) {
 
 const ROLE_TO_KEY: Record<TeamRole, string> = {
   director: 'director',
+  cofounder: 'cofounder',
   'deputy-director': 'deputyDirector',
   'senior-researcher': 'seniorResearcher',
   researcher: 'researcher',
