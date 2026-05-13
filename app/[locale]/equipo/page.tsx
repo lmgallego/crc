@@ -4,7 +4,7 @@ import { generatePageMetadata, type Locale } from '@/lib/seo';
 import { PageHero } from '@/components/blocks/shared/page-hero';
 import { FeaturedFounderCard } from '@/components/blocks/team/featured-founder-card';
 import { TeamCard } from '@/components/blocks/team/team-card';
-import { FOUNDER, TEAM, groupByRole, roleI18nKey } from '@/lib/data/team';
+import { COFOUNDER, FOUNDER, TEAM, groupByRole, roleI18nKey } from '@/lib/data/team';
 
 export async function generateMetadata({
   params,
@@ -34,8 +34,8 @@ export default async function EquipoPage({
     <>
       <Hero />
       <section className="border-b border-border bg-background">
-        <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-14">
-          <FounderBlock />
+        <div className="max-w-7xl mx-auto px-5 md:px-7 py-10 md:py-14 space-y-6 md:space-y-8">
+          <FoundersBlock />
         </div>
       </section>
       <Groups />
@@ -54,9 +54,14 @@ function Hero() {
   );
 }
 
-function FounderBlock() {
+function FoundersBlock() {
   const locale = useLocale() === 'en' ? 'en' : 'es';
-  return <FeaturedFounderCard member={FOUNDER} locale={locale} />;
+  return (
+    <>
+      <FeaturedFounderCard member={FOUNDER} locale={locale} variant="founder" />
+      <FeaturedFounderCard member={COFOUNDER} locale={locale} variant="cofounder" />
+    </>
+  );
 }
 
 function Groups() {
