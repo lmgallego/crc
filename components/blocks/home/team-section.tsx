@@ -2,13 +2,15 @@ import { useTranslations, useLocale } from 'next-intl';
 import { SectionHeader } from '@/components/blocks/shared/section-header';
 import { TeamCard } from '@/components/blocks/team/team-card';
 import { FeaturedFounderCard } from '@/components/blocks/team/featured-founder-card';
-import { FOUNDER, TEAM, TEAM_REST } from '@/lib/data/team';
+import { COFOUNDER, FOUNDER, TEAM } from '@/lib/data/team';
 
 type Locale = 'es' | 'en';
 
 export function TeamSection() {
   const t = useTranslations('home.team');
   const locale: Locale = useLocale() === 'en' ? 'en' : 'es';
+  const founderSlugs = [FOUNDER.slug, COFOUNDER.slug];
+  const others = TEAM.filter((m) => !founderSlugs.includes(m.slug));
 
   return (
     <section className="border-t border-border">
@@ -21,12 +23,13 @@ export function TeamSection() {
           ctaHref="/equipo"
         />
 
-        <div className="mt-4 md:mt-6">
-          <FeaturedFounderCard member={FOUNDER} locale={locale} />
+        <div className="mt-4 md:mt-6 space-y-6 md:space-y-8">
+          <FeaturedFounderCard member={FOUNDER} locale={locale} variant="founder" />
+          <FeaturedFounderCard member={COFOUNDER} locale={locale} variant="cofounder" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 mt-10 md:mt-12">
-          {TEAM_REST.map((m) => (
+          {others.map((m) => (
             <TeamCard key={m.slug} member={m} locale={locale} />
           ))}
         </div>
