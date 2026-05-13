@@ -150,6 +150,12 @@
         "ctaPrimary": "Ver perfil completo",
         "ctaSecondary": "Sus publicaciones"
       },
+      "cofounder": {
+        "eyebrow": "— Cofundador y Dirección Adjunta del CRC",
+        "quote": "Doctor en Ciencias de la Actividad Física y del Deporte y director asociado de <em>Journal of Science and Cycling</em>. Entrenador de la Selección Española de BMX y director deportivo de nivel UCI.",
+        "ctaPrimary": "Ver perfil completo",
+        "ctaSecondary": "Sus publicaciones"
+      },
       "closingQuote": "«Provenimos de la competición real, con más de 25 años de experiencia al más alto nivel y éxitos cosechados, siempre cerca de los mejores ciclistas. <em>¿Eres tú el siguiente?</em>»"
     },
     "publications": {
@@ -358,6 +364,7 @@
     "subtitle": "Investigación científica y experiencia profesional al servicio del rendimiento ciclista. Universidad de Granada y Universidad Miguel Hernández de Elche.",
     "roles": {
       "director": "Dirección",
+      "cofounder": "Cofundador y dirección adjunta",
       "deputyDirector": "Dirección adjunta",
       "seniorResearcher": "Senior Researchers",
       "researcher": "Investigadores",

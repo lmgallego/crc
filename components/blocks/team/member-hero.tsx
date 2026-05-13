@@ -9,6 +9,7 @@ type Locale = 'es' | 'en';
 
 const ROLE_BADGE: Record<string, { es: string; en: string }> = {
   director: { es: 'DIRECTOR', en: 'DIRECTOR' },
+  cofounder: { es: 'COFUNDADOR', en: 'CO-FOUNDER' },
   'deputy-director': { es: 'DIR. ADJUNTO', en: 'DEPUTY' },
   'senior-researcher': { es: 'SENIOR', en: 'SENIOR' },
   researcher: { es: 'RESEARCHER', en: 'RESEARCHER' },

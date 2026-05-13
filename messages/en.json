@@ -150,6 +150,12 @@
         "ctaPrimary": "See full profile",
         "ctaSecondary": "His publications"
       },
+      "cofounder": {
+        "eyebrow": "— CRC Co-Founder & Deputy Director",
+        "quote": "PhD in Sport Sciences and Associate Editor of <em>Journal of Science and Cycling</em>. Coach of the Spanish BMX National Team and UCI-level Cycling Director.",
+        "ctaPrimary": "See full profile",
+        "ctaSecondary": "His publications"
+      },
       "closingQuote": "\"We come from real competition, with over 25 years of experience at the highest level and proven success, always close to the best cyclists. <em>Are you the next one?</em>\""
     },
     "publications": {
@@ -358,6 +364,7 @@
     "subtitle": "Scientific research and professional experience at the service of cycling performance. Universidad de Granada and Universidad Miguel Hernández de Elche.",
     "roles": {
       "director": "Direction",
+      "cofounder": "Co-founder and deputy direction",
       "deputyDirector": "Deputy direction",
       "seniorResearcher": "Senior Researchers",
       "researcher": "Researchers",
