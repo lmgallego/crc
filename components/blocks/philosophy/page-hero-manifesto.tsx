@@ -11,7 +11,12 @@ export function PageHeroManifesto() {
         <p className="section-number mb-5">— {t('eyebrow')}</p>
         <h1 className="font-serif text-[48px] md:text-7xl lg:text-[76px] leading-[1.05] tracking-[-0.025em]">
           {t.rich('title', {
-            highlight: (chunks) => <Highlight>{chunks}</Highlight>,
+            highlight: (chunks) => (
+              <>
+                <br />
+                <Highlight>{chunks}</Highlight>
+              </>
+            ),
           })}
         </h1>
         <p className="font-serif italic text-base md:text-xl text-foreground/75 mt-6 leading-relaxed">
