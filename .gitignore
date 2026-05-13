@@ -58,3 +58,6 @@ test-results/
 
 # Backup automático del cache ORCID — se regenera, no versionar
 lib/data/orcid-cache.backup.json
+
+# Claude Code local settings
+.claude/settings.local.json
