@@ -692,43 +692,46 @@ export const TEAM: TeamMember[] = [
       en: 'XCO & sport direction',
     },
     short: {
-      es: 'Ciclista nacional XCO División de Honor III. Federación Andaluza de Ciclismo.',
-      en: 'National XCO rider, Honour Division III. Andalusian Cycling Federation.',
+      es: 'Doctorando en Ciencias del Deporte (UGR), Entrenador de ciclistas en edad de formación, Técnico de la Federación Andaluza de Ciclismo y Ex-Ciclista XCO Nacional.',
+      en: 'PhD candidate in Sport Sciences (UGR), youth cyclist coach, Andalusian Cycling Federation technician and former national XCO cyclist.',
     },
     bioParagraphs: {
       es: [
-        'Ignacio Valdivia es Graduado en Ciencias de la Actividad Física y del Deporte por la Universidad de Granada y doctorando en Ciencias del Deporte por la misma universidad. Cursa actualmente el Máster en Alimentación para la Actividad Física y el Deporte por la UOC. Es miembro del grupo de investigación HUM1063 "Rendimiento Deportivo y Ciclismo".',
-        'Es Delegado Provincial de la Federación Andaluza de Ciclismo en Granada, Técnico de la FAC en Granada y Jaén, Técnico de la Selección Andaluza de Ciclismo y Director Deportivo Nivel III de ciclismo. Entrena a ciclistas en edad de formación (Cadete, Junior y Sub-23). Como ciclista de XCO de nivel nacional ha logrado, entre otros resultados, 1º en el Campeonato de Andalucía XCO Sub23 (2023), 10º en la Copa de España XCO Sub23 (2022) y 11º en el Campeonato de España XCO Junior (2021).',
+        'Ignacio Valdivia es Graduado en Ciencias de la Actividad Física y del Deporte por la Universidad de Granada y doctorando en Ciencias del Deporte por la misma universidad. Cursa actualmente el Máster en Alimentación para la Actividad Física y el Deporte en la UOC. Es miembro del grupo de investigación HUM1063 "Rendimiento Deportivo y Ciclismo".',
+        'Es Delegado Provincial de la Federación Andaluza de Ciclismo en Granada, técnico administrativo de la FAC en Granada y Jaén, y técnico de campo/apoyo en concentraciones y competiciones nacionales con la Selección Andaluza de Ciclismo desde 2023. Es Director Deportivo Nivel III por la RFEC y entrenador de ciclistas en edad de formación (Cadete, Junior y Sub-23). Como ciclista de XCO de nivel nacional, ha sido Campeón de Andalucía XCO Sub23 (2023) y ha logrado top 10 en Copa y Campeonato de España XCO.',
       ],
       en: [
         'Ignacio Valdivia holds a degree in Physical Activity and Sport Sciences from the University of Granada and is a PhD candidate in Sport Sciences at the same university. He is currently completing a Master in Nutrition for Physical Activity and Sport at UOC. He is a member of the HUM1063 "Sport Performance and Cycling" research group.',
-        'He is Provincial Delegate of the Andalusian Cycling Federation in Granada, technician for the FAC in Granada and Jaén, technician for the Andalusian Cycling National Team and a Level III Sport Director in cycling. He coaches development-age cyclists (Cadet, Junior and Under-23). As a national-level XCO rider his results include 1st place at the Andalusian XCO Championship U23 (2023), 10th at the Spanish XCO Cup U23 (2022) and 11th at the Spanish XCO Championship Junior (2021).',
+        'He is Provincial Delegate of the Andalusian Cycling Federation in Granada, administrative technician for the FAC in Granada and Jaén, and field/support technician at national-level training camps and competitions with the Andalusian Cycling Team since 2023. He is a Level III Sport Director (RFEC) and coaches development-age cyclists (Cadet, Junior and Under-23). As a national-level XCO rider, he has been Andalusian XCO Champion U23 (2023) and achieved top 10 finishes at the Spanish XCO Cup and Championship.',
       ],
     },
     highlights: [
       {
         label: { es: 'Formación', en: 'Education' },
-        value: { es: 'Grado CAFD UGR · PhD activo', en: 'CAFD degree UGR · Active PhD' },
-      },
-      {
-        label: { es: 'Palmarés XCO', en: 'XCO achievements' },
         value: {
-          es: '1º Cto. Andalucía Sub23 (2023) · 10º Copa España Sub23 (2022)',
-          en: '1st Andalusia U23 Championship (2023) · 10th Spanish Cup U23 (2022)',
-        },
-      },
-      {
-        label: { es: 'Federación', en: 'Federation' },
-        value: {
-          es: 'Delegado Provincial FAC Granada',
-          en: 'FAC Granada Provincial Delegate',
+          es: 'Grado CAFD UGR · MSc UOC',
+          en: 'BSc Sport Sciences UGR · MSc UOC',
         },
       },
       {
         label: { es: 'Cargo', en: 'Role' },
         value: {
-          es: 'Director Deportivo Nivel III',
-          en: 'Level III Sport Director',
+          es: 'Entrenador en categorías de formación',
+          en: 'Youth-level coach',
+        },
+      },
+      {
+        label: { es: 'Palmarés XCO', en: 'XCO achievements' },
+        value: {
+          es: 'Campeón de Andalucía XCO · Top 10 Copa y Cto. España',
+          en: 'Andalusian XCO Champion · Top 10 Spanish Cup & Championship',
+        },
+      },
+      {
+        label: { es: 'Federación', en: 'Federation' },
+        value: {
+          es: 'Delegado Provincial FAC Granada · Técnico de campo',
+          en: 'FAC Granada Provincial Delegate · Field technician',
         },
       },
       {
