@@ -574,23 +574,26 @@ export const TEAM: TeamMember[] = [
       en: 'Durability in cycling',
     },
     short: {
-      es: 'Investigador del CSD. Doctorando en durabilidad en ciclismo. ISAK Nivel 2.',
-      en: 'CSD researcher. PhD candidate on durability in cycling. ISAK Level 2.',
+      es: 'Entrenador. Doctorando en durabilidad en ciclismo. ISAK Nivel 1.',
+      en: 'Coach. PhD candidate in cycling durability. ISAK Level 1.',
     },
     bioParagraphs: {
       es: [
-        'Alejandro De Rozas Pacheco es Graduado en Ciencias de la Actividad Física y del Deporte por la Universidad Europea de Madrid en 2020 y obtuvo su Máster en Entrenamiento y Rendimiento Deportivo por la Universidad de Granada en 2021, donde colabora actualmente con el grupo de investigación HUM727: Entrenamiento Deportivo y Rendimiento Físico.',
-        'Es certificado nivel 2 de antropometría por ISAK en 2022. Ha trabajado como entrenador, antropometrista y responsable de pruebas funcionales y rendimiento deportivo en Sportiness Wellness en Estepona desde 2018 hasta 2024. Es uno de los principales investigadores del Programa de Promoción de Talentos del Consejo Superior de Deportes (CSD). Ha colaborado con la Real Federación Española de Ciclismo y participa en investigaciones internacionales con el Cycling Research Center desde sus inicios. Su tesis doctoral tiene como línea principal la durabilidad en el ciclismo.',
+        'Alejandro De Rozas Galán es Graduado en Ciencias de la Actividad Física y del Deporte por la Universidad Politécnica de Madrid (INEF) en 2020. Es certificado nivel 1 de antropometría por ISAK en 2022. Ha cursado el Máster en Investigación en Actividad Física y Deporte (Universidad de Granada, 2023) y el Máster en Alto Rendimiento en Deportes Cíclicos (Universidad de Murcia, 2025).',
+        'Ex-ciclista Sub23 (2018-2021). Ha trabajado como técnico de pruebas de esfuerzo en el Laboratorio de Fisiología del Ejercicio del INEF, y como investigador y preparador físico en la Unidad de Control del Rendimiento del Centro de Medicina del Deporte (CSD). Actualmente desarrolla su tesis doctoral en la Universidad de Granada, con la durabilidad en ciclismo como línea principal, en el grupo de investigación HUM1063 "Rendimiento Deportivo y Ciclismo" (RDYC).',
       ],
       en: [
-        'Alejandro De Rozas Pacheco graduated in Physical Activity and Sport Sciences from Universidad Europea de Madrid in 2020 and earned his Master in Sport Training and Performance from the University of Granada in 2021, where he currently collaborates with the HUM727 research group: Sport Training and Physical Performance.',
-        'He became an ISAK Level 2 certified anthropometrist in 2022. He worked as coach, anthropometrist and head of functional testing and sport performance at Sportiness Wellness in Estepona from 2018 to 2024. He is one of the lead researchers of the Talent Promotion Programme of the Spanish High Council for Sports (CSD). He has collaborated with the Royal Spanish Cycling Federation and has been involved in international research with the Cycling Research Center since its inception. His doctoral thesis focuses on durability in cycling.',
+        'Alejandro De Rozas Galán graduated in Physical Activity and Sport Sciences from the Polytechnic University of Madrid (INEF) in 2020. He became an ISAK Level 1 certified anthropometrist in 2022. He completed a Master in Sport and Physical Activity Research (University of Granada, 2023) and a Master in High Performance in Cyclic Sports (University of Murcia, 2025).',
+        'Former U23 cyclist (2018-2021). He has worked as exercise testing technician at the Exercise Physiology Laboratory (INEF), and as researcher and strength & conditioning coach at the Performance Control Unit of the Sport Medicine Center (CSD). He is currently developing his doctoral thesis at the University of Granada, with durability in cycling as the main research line, within the HUM1063 "Sport Performance and Cycling" (RDYC) research group.',
       ],
     },
     highlights: [
       {
         label: { es: 'Formación', en: 'Education' },
-        value: { es: 'MSc UGR · PhD activo', en: 'MSc UGR · Active PhD' },
+        value: {
+          es: 'Grado INEF (UPM) · MSc UGR · MSc UCAM',
+          en: 'BSc INEF (UPM) · MSc UGR · MSc UCAM',
+        },
       },
       {
         label: { es: 'Línea Tesis', en: 'Thesis' },
@@ -598,19 +601,19 @@ export const TEAM: TeamMember[] = [
       },
       {
         label: { es: 'Grupo', en: 'Group' },
-        value: { es: 'HUM727', en: 'HUM727' },
+        value: { es: 'HUM1063', en: 'HUM1063' },
       },
       {
         label: { es: 'Certificación', en: 'Certification' },
-        value: { es: 'ISAK Nivel 2', en: 'ISAK Level 2' },
+        value: { es: 'ISAK Nivel 1', en: 'ISAK Level 1' },
       },
       {
         label: { es: 'Colaboración', en: 'Collaboration' },
-        value: { es: 'CSD · RFEC', en: 'CSD · RFEC' },
+        value: { es: 'CSD', en: 'CSD' },
       },
       {
         label: { es: 'Publicaciones', en: 'Publications' },
-        value: { es: '3 papers Q1 (2024-25)', en: '3 Q1 papers (2024-25)' },
+        value: { es: '2 papers Q1 (2024-25)', en: '2 Q1 papers (2024-25)' },
       },
     ],
     career: [],
