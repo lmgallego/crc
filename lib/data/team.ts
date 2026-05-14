@@ -193,8 +193,8 @@ export const TEAM: TeamMember[] = [
       en: 'Cognitive neuroscience',
     },
     short: {
-      es: 'Doctor por la Universidad de Oxford y Catedrático de Psicología Experimental en la Universidad de Granada. Dirige el laboratorio Dinámicas cognitivas y afectivas en el CIMCYC. Investiga los mecanismos psicológicos y cerebrales vinculados al rendimiento físico, con énfasis en ciclismo.',
-      en: 'PhD from the University of Oxford and Full Professor of Experimental Psychology at the University of Granada. Director of the Cognitive and Affective Dynamics laboratory at CIMCYC. He researches the psychological and brain mechanisms linked to physical performance, with a focus on cycling.',
+      es: 'Doctor por la Universidad de Oxford y Catedrático de Psicología Experimental en la Universidad de Granada. Dirige el laboratorio Cognitive & Affect Dynamics, del Centro de Investigación Mente Cerebro y Comportamiento, Universidad de Granada. Investiga los mecanismos psicológicos, cognitivos y cerebrales vinculados al rendimiento físico, con énfasis en ciclismo.',
+      en: 'PhD from the University of Oxford and Full Professor of Experimental Psychology at the University of Granada. Director of the Cognitive & Affect Dynamics laboratory at CIMCYC, University of Granada. He investigates the psychological, cognitive and brain mechanisms linked to physical performance, with a focus on cycling.',
     },
     bioParagraphs: {
       es: [
@@ -221,8 +221,8 @@ export const TEAM: TeamMember[] = [
       {
         label: { es: 'Laboratorio', en: 'Lab' },
         value: {
-          es: 'Dinámicas cognitivas y afectivas (CIMCYC)',
-          en: 'Cognitive and Affective Dynamics (CIMCYC)',
+          es: 'Cognitive & Affect Dynamics (CIMCYC-UGR)',
+          en: 'Cognitive & Affect Dynamics (CIMCYC-UGR)',
         },
       },
       {
@@ -235,8 +235,8 @@ export const TEAM: TeamMember[] = [
       {
         label: { es: 'Línea', en: 'Research line' },
         value: {
-          es: 'Rendimiento físico · ciclismo',
-          en: 'Physical performance · cycling',
+          es: 'Psicología, cognición, cerebro y rendimiento físico - ciclismo',
+          en: 'Psychological, cognitive and brain mechanisms of physical performance - cycling',
         },
       },
     ],
