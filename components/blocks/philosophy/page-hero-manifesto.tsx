@@ -9,9 +9,14 @@ export function PageHeroManifesto() {
     <section className="border-b border-border">
       <div className="max-w-[820px] mx-auto px-5 md:px-7 py-14 md:py-24 text-center">
         <p className="section-number mb-5">— {t('eyebrow')}</p>
-        <h1 className="font-serif text-[48px] md:text-7xl lg:text-[76px] leading-[0.95] tracking-[-0.025em]">
+        <h1 className="font-serif text-[48px] md:text-7xl lg:text-[76px] leading-[1.15] tracking-[-0.025em]">
           {t.rich('title', {
-            highlight: (chunks) => <Highlight>{chunks}</Highlight>,
+            highlight: (chunks) => (
+              <>
+                <br />
+                <Highlight>{chunks}</Highlight>
+              </>
+            ),
           })}
         </h1>
         <p className="font-serif italic text-base md:text-xl text-foreground/75 mt-6 leading-relaxed">
