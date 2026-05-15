@@ -307,7 +307,8 @@
       "openFilters": "Filtros",
       "closeFilters": "Cerrar",
       "filtersTitle": "Filtros",
-      "filtersDescription": "Filtra publicaciones por año, tema o autor"
+      "filtersDescription": "Filtra publicaciones por año, tema o autor",
+      "advancedToggle": "Filtros avanzados"
     },
     "topics": {
       "physiology": "Fisiología",

@@ -3,7 +3,7 @@
 import { useState, useTransition, useMemo } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { SlidersHorizontal, X } from 'lucide-react';
+import { SlidersHorizontal, X, ChevronDown } from 'lucide-react';
 import {
   Sheet,
   SheetContent,
@@ -38,6 +38,7 @@ export function PublicationsFilters({
   const searchParams = useSearchParams();
   const [, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
+  const [advancedOpen, setAdvancedOpen] = useState(false);
 
   const current = useMemo(() => {
     return {
@@ -117,7 +118,7 @@ export function PublicationsFilters({
   const setQ = (q: string) => update({ ...current, q });
   const clear = () => update({ year: '', topics: [], authors: [], q: '' });
 
-  const Controls = (
+  const BasicControls = (
     <div className="space-y-6">
       <div>
         <label className="data-label block mb-2">{t('search')}</label>
@@ -145,7 +146,11 @@ export function PublicationsFilters({
           ))}
         </select>
       </div>
+    </div>
+  );
 
+  const AdvancedControls = (
+    <div className="space-y-6">
       <div>
         <label className="data-label block mb-2">{t('topic')}</label>
         <div className="flex flex-wrap gap-1.5">
@@ -206,12 +211,22 @@ export function PublicationsFilters({
         </div>
       </div>
 
-      {activeCount > 0 ? (
-        <Button variant="outline" size="sm" onClick={clear}>
-          <X className="size-3" />
-          {t('clear')}
-        </Button>
-      ) : null}
+    </div>
+  );
+
+  const ClearButton =
+    activeCount > 0 ? (
+      <Button variant="outline" size="sm" onClick={clear}>
+        <X className="size-3" />
+        {t('clear')}
+      </Button>
+    ) : null;
+
+  const MobileControls = (
+    <div className="space-y-6">
+      {BasicControls}
+      {AdvancedControls}
+      {ClearButton}
     </div>
   );
 
@@ -237,7 +252,7 @@ export function PublicationsFilters({
               <SheetDescription className="sr-only">
                 {t('filtersDescription')}
               </SheetDescription>
-              <div className="mt-6">{Controls}</div>
+              <div className="mt-6">{MobileControls}</div>
             </SheetContent>
           </Sheet>
           {activeCount > 0 ? (
@@ -251,8 +266,33 @@ export function PublicationsFilters({
           ) : null}
         </div>
 
-        {/* Desktop: inline controls */}
-        <div className="hidden md:block">{Controls}</div>
+        {/* Desktop: basic always visible, advanced collapsed by default */}
+        <div className="hidden md:block space-y-6">
+          {BasicControls}
+          <div>
+            <button
+              type="button"
+              onClick={() => setAdvancedOpen((v) => !v)}
+              aria-expanded={advancedOpen}
+              aria-controls="publications-advanced-filters"
+              className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-accent-dark hover:text-foreground"
+            >
+              <ChevronDown
+                className={cn(
+                  'size-3 transition-transform',
+                  advancedOpen && 'rotate-180',
+                )}
+              />
+              {t('advancedToggle')}
+            </button>
+            {advancedOpen ? (
+              <div id="publications-advanced-filters" className="mt-5">
+                {AdvancedControls}
+              </div>
+            ) : null}
+          </div>
+          {ClearButton}
+        </div>
       </div>
     </section>
   );
